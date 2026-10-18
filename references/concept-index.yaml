@@ -1,0 +1,277 @@
+version: "1.0"
+updated: "2026-10-15"
+entrypoint: "00-跨书任务入口图谱.md"
+knowledge_base: "01-跨书综合知识库.md"
+loading_rule: "先task_route和SC卡；仅deep_read_when命中时读单书笔记"
+confidence_policy: "多书共识不修复单书精确来源风险；低置信、版本或图表风险向上游传播"
+nodes:
+  - node_id: N00
+    label: 任务不变量
+    aliases: [事实优先, 公共意义, 责任边界, 可理解传播]
+    layer: L0
+    summary_card: [SC02, SC09, SC10]
+    source_refs: [B03, B04, B05]
+    drill_down: [B03, B04, B05]
+    deep_read_when: [高风险发布, 事实与伦理冲突]
+    confidence: high
+    version: v1
+  - node_id: N01
+    label: 新闻本源与事实变动
+    aliases: [事实本源, 变动是新闻之母]
+    layer: L1
+    summary_card: [SC01, SC02]
+    source_refs: [B03:PDF-p51]
+    drill_down: [B03]
+    deep_read_when: [判断是否为新闻, 来源与事实冲突]
+    confidence: high
+    version: v1
+  - node_id: N02
+    label: 新闻价值与公共利益
+    aliases: [选题判断, newsworthiness, 公共重要性]
+    layer: L2
+    summary_card: [SC01]
+    source_refs: [B03:PDF-p350, B04:PDF-p40-50, B02:PDF-p31-42]
+    drill_down: [B03, B04, B02, B05, B06]
+    deep_read_when: [价值维度冲突, 猎奇与公共利益冲突]
+    confidence: high
+    version: v1
+  - node_id: N03
+    label: 传播系统与受众
+    aliases: [信源讯息媒介受众反馈, 主动受众, 噪音]
+    layer: L1
+    summary_card: [SC10]
+    source_refs: [B08:ch1-4, B03:PDF-p301]
+    drill_down: [B08, B03]
+    deep_read_when: [框架误读, 跨群体传播, 长期效果]
+    confidence: high
+    version: v1
+  - node_id: N04
+    label: 来源分级与claim ledger
+    aliases: [证据链, 交叉核验, 来源可信度]
+    layer: L2
+    summary_card: [SC02]
+    source_refs: [B04:PDF-p107-200, B01:PDF-p44-73, B05:PDF-p72-113, B07:PDF-p250-269]
+    drill_down: [B04, B01, B02, B05, B06, B07]
+    deep_read_when: [主张冲突, 数字/引语/因果核验, 匿名来源]
+    confidence: high
+    version: v1
+  - node_id: N05
+    label: 采访问题树与现场记录
+    aliases: [开放提问, 观察记录, 采访后整理]
+    layer: L2-L3
+    summary_card: [SC03]
+    source_refs: [B06, B01:PDF-p214-323, B02:PDF-p22-80, B07:PDF-p100-113]
+    drill_down: [B06, B01, B02, B07]
+    deep_read_when: [权力不对等, 创伤/匿名, 场景重建]
+    confidence: medium
+    version: v1
+  - node_id: N06
+    label: 主题角度框架
+    aliases: [中心问题, 报道入口, framing, 把关]
+    layer: L2-L3
+    summary_card: [SC04]
+    source_refs: [B05:PDF-p72-149, B02:PDF-p43-124, B04:PDF-p227-264, B08:ch8-12]
+    drill_down: [B05, B02, B06, B04, B08]
+    deep_read_when: [材料过多, 主题先行, 责任归因争议]
+    confidence: high
+    version: v1
+  - node_id: P01
+    label: 生产闭环
+    aliases: [线索到发布, 八大环节, newsroom workflow]
+    layer: L3
+    summary_card: [SC11]
+    source_refs: [B01, B02, B05, B06]
+    drill_down: [B01, B02, B05, B06]
+    deep_read_when: [需要阶段交付物, 代理协作]
+    confidence: medium
+    version: v1
+  - node_id: P02
+    label: 结构选择器
+    aliases: [倒金字塔, 场景结构, 时间线, 主题线]
+    layer: L3-L4
+    summary_card: [SC05]
+    source_refs: [B01:PDF-p126-323, B02:PDF-p150-490, B05:PDF-p170-261, B07:PDF-p20-69, B10:EPUB-结构]
+    drill_down: [B01, B02, B05, B06, B07, B10]
+    deep_read_when: [体裁边界, 结构案例, B10结构精确定位]
+    confidence: medium
+    version: v1
+  - node_id: P03
+    label: 专业解释闭环
+    aliases: [现象机制影响, 经济报道解释, 术语翻译]
+    layer: L4
+    summary_card: [SC07]
+    source_refs: [B07:PDF-p142-187, B10:EPUB-具体化, B09:PDF-p23-150, B05:PDF-p183-261]
+    drill_down: [B07, B10, B09, B05, B02]
+    deep_read_when: [因果证据不足, 数据/术语限制]
+    confidence: high
+    version: v1
+  - node_id: P04
+    label: 事实化叙事
+    aliases: [场景细节, 功能性引语, 非虚构边界]
+    layer: L4
+    summary_card: [SC06]
+    source_refs: [B07:PDF-p52-221, B10:EPUB-叙事, B04:PDF-p107-200, B01:PDF-p214-323]
+    drill_down: [B07, B10, B04, B01, B05]
+    deep_read_when: [细节不可证, 场景/心理补写风险]
+    confidence: high
+    version: v1
+  - node_id: P05
+    label: 语言与编辑闸门
+    aliases: [准确清楚简洁通俗, 三轮审校, 发布前审校]
+    layer: L4-L5
+    summary_card: [SC08]
+    source_refs: [B09:PDF-p6-210, B07:PDF-p222-299, B01:PDF-p337-399, B11:PDF-p1-16]
+    drill_down: [B09, B11, B01, B02, B05, B07, B10]
+    deep_read_when: [精确词项, 长句歧义, B11版本/称谓]
+    confidence: high
+    version: v1
+  - node_id: M01
+    label: 议程与框架
+    aliases: [agenda setting, framing, 显著性, 责任归因]
+    layer: L2
+    summary_card: [SC04, SC10]
+    source_refs: [B08:ch8-12, B04:PDF-p227-310]
+    drill_down: [B08, B04]
+    deep_read_when: [受众解释分裂, 框架偷换]
+    confidence: high
+    version: v1
+  - node_id: M02
+    label: 受众媒介适配
+    aliases: [渠道适配, 传播效果, 反馈回路]
+    layer: L3-L5
+    summary_card: [SC10]
+    source_refs: [B08:ch1-12, B03:PDF-p301, B02:网络发布]
+    drill_down: [B08, B03, B02]
+    deep_read_when: [平台噪音, 数字鸿沟, 长期效果]
+    confidence: high
+    version: v1
+  - node_id: G01
+    label: 真实性与持续核验
+    aliases: [verification, 透明纠错, 事实可审计]
+    layer: L0
+    summary_card: [SC02]
+    source_refs: [B04:PDF-p107-200, B03:PDF-p51]
+    drill_down: [B04, B03, B01, B05]
+    deep_read_when: [高影响claim, 证据冲突]
+    confidence: high
+    version: v1
+  - node_id: G02
+    label: 独立公平回应权
+    aliases: [公众忠诚, 全面均衡, 不制造假平衡]
+    layer: L5
+    summary_card: [SC09]
+    source_refs: [B04:PDF-p149-310, B03:PDF-p201-212]
+    drill_down: [B04, B03]
+    deep_read_when: [调查, 权力不对称, 回应缺失]
+    confidence: high
+    version: v1
+  - node_id: G03
+    label: 隐私创伤与伤害控制
+    aliases: [最小必要识别, 二次伤害, 未成年人保护]
+    layer: L5
+    summary_card: [SC09]
+    source_refs: [B04, B06, B07]
+    drill_down: [B04, B06, B07, B01]
+    deep_read_when: [身份披露, 创伤叙事, 匿名可反推]
+    confidence: medium
+    version: v1
+  - node_id: G04
+    label: B11机构语言规范
+    aliases: [禁用词, 慎用词, 新华社规范]
+    layer: L5
+    summary_card: [SC08, SC09]
+    source_refs: [B11:PDF-p1-16]
+    drill_down: [B11]
+    deep_read_when: [具体词项, 引号/所谓, 港澳台/国际称谓, 版本更新]
+    confidence: high
+    version: "2019-07; needs_recheck"
+  - node_id: G05
+    label: 版本与更正责任
+    aliases: [发布后纠错, 更新日志, 反馈]
+    layer: L5-L6
+    summary_card: [SC10]
+    source_refs: [B04, B08, B02]
+    drill_down: [B04, B08, B02]
+    deep_read_when: [已发布错误, 滚动稿更新]
+    confidence: high
+    version: v1
+  - node_id: D01
+    label: 失实诊断
+    aliases: [evidence failure, 证据不足]
+    layer: L7
+    summary_card: [SC12]
+    source_refs: [B01, B02, B05, B06]
+    drill_down: [B01, B05, B06]
+    deep_read_when: [数字/人名/引语争议, 来源不独立]
+    confidence: high
+    version: v1
+  - node_id: D02
+    label: 失焦诊断
+    aliases: [theme failure, 主题先行, 角度过大]
+    layer: L7
+    summary_card: [SC12]
+    source_refs: [B05, B07, B10]
+    drill_down: [B05, B07, B10]
+    deep_read_when: [删不动, 支线漂移, 猎奇小切口]
+    confidence: high
+    version: v1
+  - node_id: D03
+    label: 失序诊断
+    aliases: [structure failure, 导语主体失配]
+    layer: L7
+    summary_card: [SC12]
+    source_refs: [B01, B02, B07]
+    drill_down: [B01, B02, B07, B10]
+    deep_read_when: [读者找不到重点, 转场造成错误因果]
+    confidence: high
+    version: v1
+  - node_id: D04
+    label: 失当诊断
+    aliases: [language/ethics failure, 规范越界, 误读]
+    layer: L7
+    summary_card: [SC12]
+    source_refs: [B09, B11, B07, B04]
+    drill_down: [B09, B11, B07, B04]
+    deep_read_when: [句法歧义, 伤害风险, 称谓争议]
+    confidence: high
+    version: v1
+cards:
+  - {id: SC01, label: 选题与公共利益, layer: L2, source_refs: [B03,B04,B01,B02,B05,B06], deep_read_when: [价值冲突, 事实未确认]}
+  - {id: SC02, label: 证据链与核验, layer: L2, source_refs: [B04,B01,B02,B05,B06,B07], deep_read_when: [争议主张, 数字因果引语]}
+  - {id: SC03, label: 采访与现场, layer: L2-L3, source_refs: [B06,B01,B02,B05,B07], deep_read_when: [权力不对等, 场景边界]}
+  - {id: SC04, label: 主题角度与框架, layer: L2-L3, source_refs: [B05,B02,B06,B04,B08], deep_read_when: [主题先行, 责任归因]}
+  - {id: SC05, label: 结构选择器, layer: L3-L4, source_refs: [B01,B02,B05,B06,B07,B10], deep_read_when: [体裁/结构案例]}
+  - {id: SC06, label: 事实化叙事, layer: L4, source_refs: [B07,B10,B01,B04,B05], deep_read_when: [细节不可证]}
+  - {id: SC07, label: 专业解释, layer: L4, source_refs: [B07,B10,B09,B05,B02], deep_read_when: [机制/因果/数据限制]}
+  - {id: SC08, label: 语言与编辑, layer: L4-L5, source_refs: [B09,B07,B10,B01,B02,B05,B11], deep_read_when: [精确规范词项]}
+  - {id: SC09, label: 伦理公平法律与伤害, layer: L5, source_refs: [B04,B03,B08,B11,B01,B02,B05,B06,B07,B10], deep_read_when: [高风险发布]}
+  - {id: SC10, label: 发布受众效果与版本, layer: L5-L6, source_refs: [B08,B03,B04,B01,B02,B05,B06,B07,B10], deep_read_when: [媒介/效果/更正]}
+  - {id: SC11, label: 任务模板矩阵, layer: L6, source_refs: [B01,B02,B05,B06,B07], deep_read_when: [复杂任务编排]}
+  - {id: SC12, label: 失败诊断与升级, layer: L7, source_refs: [B01,B02,B05,B06,B07,B09,B11], deep_read_when: [退修/误读/争议]}
+routes:
+  - {id: R01, trigger: 突发热搜, cards: [SC01,SC02,SC05,SC08]}
+  - {id: R02, trigger: 调查监督, cards: [SC01,SC03,SC02,SC04,SC09]}
+  - {id: R03, trigger: 经济政策解释, cards: [SC01,SC02,SC04,SC07,SC08]}
+  - {id: R04, trigger: 人物特稿, cards: [SC01,SC03,SC02,SC04,SC05,SC06]}
+  - {id: R05, trigger: 争议解释, cards: [SC02,SC04,SC09,SC07,SC10]}
+  - {id: R06, trigger: 会议政策发布, cards: [SC02,SC04,SC05,SC07,SC08]}
+  - {id: R07, trigger: 网络滚动, cards: [SC02,SC05,SC08,SC10]}
+  - {id: R08, trigger: 高风险称谓审校, cards: [SC02,SC09,SC08,SC10]}
+  - {id: R09, trigger: 稿件退修误读, cards: [SC12,SC02,SC04,SC05,SC08]}
+  - {id: R10, trigger: 跨书复杂协作, cards: [SC11,SC02,SC04,SC05,SC09,SC10]}
+risks:
+  - id: B01_OCR_uncertainty
+    affects: [精确人名, 数字, 表格, 页码]
+    action: 降级断言并回读B01原笔记/原PDF
+  - id: B03_OCR_uncertainty
+    affects: [专名, 数字, 表格]
+    action: 保留方法级综合，精确细节回源
+  - id: B06_EPUB_structure_uncertainty
+    affects: [章节/页码定位]
+    action: 使用逻辑章节并标注needs_recheck
+  - id: B08_missing_figures
+    affects: [图表数值]
+    action: 禁止补数值，仅保留定性理论
+  - id: B11_version_scope
+    affects: [机构术语规则]
+    action: "2019-07新华社规范；使用前核对当前版本"

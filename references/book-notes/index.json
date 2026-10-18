@@ -1,0 +1,93 @@
+{
+  "resource": "BOOK_NOTES",
+  "items": [
+    {
+      "id": "B01",
+      "source_path": "/Users/transit/Documents/ChatGPT/徐言的作业/学习成果/笔记/B01-新闻报道与写作门彻.md",
+      "bundled_path": "references/book-notes/B01.md",
+      "sha256": "f4b20ea073a97d3fac9636a80568a1bcf2b0671f8924790ebf3f44fb8d8e7508",
+      "bytes": 604121,
+      "title": "B01-新闻报道与写作门彻"
+    },
+    {
+      "id": "B02",
+      "source_path": "/Users/transit/Documents/ChatGPT/徐言的作业/学习成果/笔记/B02-新闻写作教程.md",
+      "bundled_path": "references/book-notes/B02.md",
+      "sha256": "1726eee58c5191618ec6751ff35c59373f867bd9e1b9d0ee298cc740dba81d7f",
+      "bytes": 310028,
+      "title": "B02-新闻写作教程"
+    },
+    {
+      "id": "B03",
+      "source_path": "/Users/transit/Documents/ChatGPT/徐言的作业/学习成果/笔记/B03-新闻学概论.md",
+      "bundled_path": "references/book-notes/B03.md",
+      "sha256": "bf2f7b364d73536d3f6f58850a9afcfc5307209140061a18faf4490191bd6270",
+      "bytes": 335286,
+      "title": "B03-新闻学概论"
+    },
+    {
+      "id": "B04",
+      "source_path": "/Users/transit/Documents/ChatGPT/徐言的作业/学习成果/笔记/B04-新闻的十大基本原则第三版.md",
+      "bundled_path": "references/book-notes/B04.md",
+      "sha256": "22f434c72d8a79a39e533d5b9aaa24d40d7f0ea93fbcd0cb314b69e634d26ccb",
+      "bytes": 61831,
+      "title": "B04-新闻的十大基本原则第三版"
+    },
+    {
+      "id": "B05",
+      "source_path": "/Users/transit/Documents/ChatGPT/徐言的作业/学习成果/笔记/B05-新闻写作方法论.md",
+      "bundled_path": "references/book-notes/B05.md",
+      "sha256": "07ea666d1249e48248098942e22daa923bd80a718dd14d21ab6450b658aca15c",
+      "bytes": 109499,
+      "title": "B05-新闻写作方法论"
+    },
+    {
+      "id": "B06",
+      "source_path": "/Users/transit/Documents/ChatGPT/徐言的作业/学习成果/笔记/B06-中国新闻采访写作学.md",
+      "bundled_path": "references/book-notes/B06.md",
+      "sha256": "6d13c28ea28918d37b0fa2be9a6f4bbbb5b1fe8d55269c9efff2066366e82fb8",
+      "bytes": 725596,
+      "title": "B06-中国新闻采访写作学"
+    },
+    {
+      "id": "B07",
+      "source_path": "/Users/transit/Documents/ChatGPT/徐言的作业/学习成果/笔记/B07-非虚构写作指南写作法宝.md",
+      "bundled_path": "references/book-notes/B07.md",
+      "sha256": "4e021578fc0e2149e5b80c27d7ad00144111861d3400fbbb8f5373e541ba6cf8",
+      "bytes": 256524,
+      "title": "B07-非虚构写作指南写作法宝"
+    },
+    {
+      "id": "B08",
+      "source_path": "/Users/transit/Documents/ChatGPT/徐言的作业/学习成果/笔记/B08-传播学教程第2版.md",
+      "bundled_path": "references/book-notes/B08.md",
+      "sha256": "6be65f77e4aaf420fcca718b233be4e18d0602eeaa2655bd3253ecea27489342",
+      "bytes": 46612,
+      "title": "B08-传播学教程第2版"
+    },
+    {
+      "id": "B09",
+      "source_path": "/Users/transit/Documents/ChatGPT/徐言的作业/学习成果/笔记/B09-语法修辞讲话.md",
+      "bundled_path": "references/book-notes/B09.md",
+      "sha256": "992e9b4dd04585377d72dcf3cc993e2772ebfeb94415f9834b5916ae5916ca9d",
+      "bytes": 140062,
+      "title": "B09-语法修辞讲话"
+    },
+    {
+      "id": "B10",
+      "source_path": "/Users/transit/Documents/ChatGPT/徐言的作业/学习成果/笔记/B10-华尔街日报是如何讲故事的.md",
+      "bundled_path": "references/book-notes/B10.md",
+      "sha256": "98aadc9fae39c0864adedd97494cf3f8c19b021321d9e9225b3895afefc2467e",
+      "bytes": 13494,
+      "title": "B10-华尔街日报是如何讲故事的"
+    },
+    {
+      "id": "B11",
+      "source_path": "/Users/transit/Documents/ChatGPT/徐言的作业/学习成果/笔记/B11-新华社新闻报道中的禁用词和慎用词.md",
+      "bundled_path": "references/book-notes/B11.md",
+      "sha256": "4663c6f9b2d8a6c57aa2946b0388423516038bde046669084c5130f40f97117b",
+      "bytes": 36721,
+      "title": "B11-新华社新闻报道中的禁用词和慎用词"
+    }
+  ]
+}
