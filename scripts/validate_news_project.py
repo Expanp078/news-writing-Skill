@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate alpha1.0 project structure and iteration gates, not article quality."""
+"""Validate alpha1.1 project structure and iteration gates, not article quality."""
 
 from __future__ import annotations
 
@@ -9,7 +9,7 @@ from pathlib import Path
 
 
 def parse_args() -> argparse.Namespace:
-    p = argparse.ArgumentParser(description="Validate a news-writing alpha1.0 project")
+    p = argparse.ArgumentParser(description="Validate a news-writing alpha1.1 project")
     p.add_argument("path", type=Path)
     return p.parse_args()
 

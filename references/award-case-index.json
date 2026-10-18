@@ -1,5 +1,5 @@
 {
-  "schema_version": "alpha1.0",
+  "schema_version": "alpha1.1",
   "source_manifest_batch": "award-exemplars-2016-2024-textual-v1",
   "total": 180,
   "entries": [
@@ -12,12 +12,12 @@
       "award_category": "消息",
       "award_category_raw": "文字消息",
       "learning_route": "HARD_NEWS",
-      "source_path": "历届新闻奖/2016年（第26届）/001-文字消息-629户人的藏乡走出359名大学生.md",
-      "source_sha256": "51a90fc7a81db39714d8629c80832b2c5d334a844bd1658c27259d745ccb0d87",
-      "material_bundle": "references/award-case-materials/2016年（第26届）--001-文字消息-629户人的藏乡走出359名大学生.md",
       "report_bundle": "references/award-case-reports/0001-AWD-001-v1.md",
       "report_sha256": "7c576aba6eab242e35c9a2b5021b4d49fc5143396566fd790724fbf858e7b622",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2016年（第26届）/001-文字消息-629户人的藏乡走出359名大学生.md",
+      "historical_source_sha256": "51a90fc7a81db39714d8629c80832b2c5d334a844bd1658c27259d745ccb0d87",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-002",
@@ -28,12 +28,12 @@
       "award_category": "评论",
       "award_category_raw": "文字评论",
       "learning_route": "COMMENTARY",
-      "source_path": "历届新闻奖/2016年（第26届）/002-文字评论-漠视生命是最可怕的沉沦.md",
-      "source_sha256": "4cf4db6c871c4c451d9eb81d8bd57321b0e2ac89fc71ff261ea61bc67f84fb8c",
-      "material_bundle": "references/award-case-materials/2016年（第26届）--002-文字评论-漠视生命是最可怕的沉沦.md",
       "report_bundle": "references/award-case-reports/0002-AWD-002-v1.md",
       "report_sha256": "87122635c982ac379ea8d0e75603e21cfd19e66c41c86e009a71ee4207575335",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2016年（第26届）/002-文字评论-漠视生命是最可怕的沉沦.md",
+      "historical_source_sha256": "4cf4db6c871c4c451d9eb81d8bd57321b0e2ac89fc71ff261ea61bc67f84fb8c",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-003",
@@ -44,12 +44,12 @@
       "award_category": "评论",
       "award_category_raw": "文字评论",
       "learning_route": "COMMENTARY",
-      "source_path": "历届新闻奖/2016年（第26届）/003-文字评论-中国故事， 更精彩的书写还在后面.md",
-      "source_sha256": "5edb0a0c4c09ebc859b9c36cd7c518ce7408316160266cb7c88ef6e6eb2c3d3c",
-      "material_bundle": "references/award-case-materials/2016年（第26届）--003-文字评论-中国故事， 更精彩的书写还在后面.md",
       "report_bundle": "references/award-case-reports/0003-AWD-003-v1.md",
       "report_sha256": "4102f7643bcbc984692c69afd0f25d15a9ca39daad3d1324b68fe9fb808b8c87",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2016年（第26届）/003-文字评论-中国故事， 更精彩的书写还在后面.md",
+      "historical_source_sha256": "5edb0a0c4c09ebc859b9c36cd7c518ce7408316160266cb7c88ef6e6eb2c3d3c",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-004",
@@ -60,12 +60,12 @@
       "award_category": "通讯/深度/典型",
       "award_category_raw": "深度报道",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2016年（第26届）/004-深度报道-五问中国经济.md",
-      "source_sha256": "7c71b35fa243da93253da60e12a33fb76fe0c386a12163afc51f2a85cf4f2b90",
-      "material_bundle": "references/award-case-materials/2016年（第26届）--004-深度报道-五问中国经济.md",
       "report_bundle": "references/award-case-reports/0004-AWD-004-v1.md",
       "report_sha256": "7aca1f963cb8b566cf0b15f1ff2108da916864bc7a736a95b3bcee454b8b33c8",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2016年（第26届）/004-深度报道-五问中国经济.md",
+      "historical_source_sha256": "7c71b35fa243da93253da60e12a33fb76fe0c386a12163afc51f2a85cf4f2b90",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-005",
@@ -76,12 +76,12 @@
       "award_category": "通讯/深度/典型",
       "award_category_raw": "文字通讯",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2016年（第26届）/005-文字通讯-马氏“兄弟”跨越二十年的诚信.md",
-      "source_sha256": "983c40187a66efc6502c6ccfbb638440cf3861b30189dea853a20307b50a67cc",
-      "material_bundle": "references/award-case-materials/2016年（第26届）--005-文字通讯-马氏“兄弟”跨越二十年的诚信.md",
       "report_bundle": "references/award-case-reports/0005-AWD-005-v1.md",
       "report_sha256": "d3f7216874b2f9554001f0dae5a400141f4c1c646d617e3ced70b233dfdb44c8",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2016年（第26届）/005-文字通讯-马氏“兄弟”跨越二十年的诚信.md",
+      "historical_source_sha256": "983c40187a66efc6502c6ccfbb638440cf3861b30189dea853a20307b50a67cc",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-006",
@@ -92,12 +92,12 @@
       "award_category": "系列报道",
       "award_category_raw": "文字系列",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2016年（第26届）/006-文字系列-“为什么2元钱的‘救命药’没有人做？”.md",
-      "source_sha256": "fd03c5b0169fbb5f2c1799d96bf72a62b143800b6106ce9a9978ae1e15b1107d",
-      "material_bundle": "references/award-case-materials/2016年（第26届）--006-文字系列-“为什么2元钱的‘救命药’没有人做？”.md",
       "report_bundle": "references/award-case-reports/0006-AWD-006-v1.md",
       "report_sha256": "1a99169720835eab211b32f49daf04edc992760531e9d563fcade1739d4450cf",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2016年（第26届）/006-文字系列-“为什么2元钱的‘救命药’没有人做？”.md",
+      "historical_source_sha256": "fd03c5b0169fbb5f2c1799d96bf72a62b143800b6106ce9a9978ae1e15b1107d",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-007",
@@ -108,12 +108,12 @@
       "award_category": "系列报道",
       "award_category_raw": "文字连续",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2016年（第26届）/007-文字连续-义乌最美民工张明伟：“东家”比我更需要这笔钱.md",
-      "source_sha256": "938a123f8371231e2ee1dcf0d3b65016b4d67f02f9f8abbcd4240845867d6212",
-      "material_bundle": "references/award-case-materials/2016年（第26届）--007-文字连续-义乌最美民工张明伟：“东家”比我更需要这笔钱.md",
       "report_bundle": "references/award-case-reports/0007-AWD-007-v1.md",
       "report_sha256": "56d3ea52fa5b12922cf8a85853721ae37f3a36295261aee928de54ebad821338",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2016年（第26届）/007-文字连续-义乌最美民工张明伟：“东家”比我更需要这笔钱.md",
+      "historical_source_sha256": "938a123f8371231e2ee1dcf0d3b65016b4d67f02f9f8abbcd4240845867d6212",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-008",
@@ -124,12 +124,12 @@
       "award_category": "副刊/报告文学",
       "award_category_raw": "报纸副刊",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2016年（第26届）/009-报纸副刊-一位财政部长的两份遗嘱.md",
-      "source_sha256": "f7ebbac00d5f0691064f128c171a918ddd2bef27a7002168afba03bc662c79de",
-      "material_bundle": "references/award-case-materials/2016年（第26届）--009-报纸副刊-一位财政部长的两份遗嘱.md",
       "report_bundle": "references/award-case-reports/0008-AWD-008-v1.md",
       "report_sha256": "96cc270d947205eca9879625f761e112ba38d1f829951d76dd4df85ad62cf735",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2016年（第26届）/009-报纸副刊-一位财政部长的两份遗嘱.md",
+      "historical_source_sha256": "f7ebbac00d5f0691064f128c171a918ddd2bef27a7002168afba03bc662c79de",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-009",
@@ -140,12 +140,12 @@
       "award_category": "系列报道",
       "award_category_raw": "电视系列",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2016年（第26届）/016-电视系列-大国工匠.md",
-      "source_sha256": "1ef5da551cb4622202e2a05b78cc04c25500b217bdb066e8cddca4bcdd85a966",
-      "material_bundle": "references/award-case-materials/2016年（第26届）--016-电视系列-大国工匠.md",
       "report_bundle": "references/award-case-reports/0009-AWD-009-v1.md",
       "report_sha256": "5e83f1abe2231a2c11a37aae75d33ee43bd0fff2e47fb8de4cab44ca779234f2",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2016年（第26届）/016-电视系列-大国工匠.md",
+      "historical_source_sha256": "1ef5da551cb4622202e2a05b78cc04c25500b217bdb066e8cddca4bcdd85a966",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-010",
@@ -156,12 +156,12 @@
       "award_category": "融合/视听/互动",
       "award_category_raw": "电视访谈",
       "learning_route": "MULTIMEDIA_TEXTUAL",
-      "source_path": "历届新闻奖/2016年（第26届）/017-电视访谈-老冯家的“传家宝”.md",
-      "source_sha256": "887cbeb06c850ddef6074a74379d578c1ea3b9ba445668bef8ea34b3b83101e9",
-      "material_bundle": "references/award-case-materials/2016年（第26届）--017-电视访谈-老冯家的“传家宝”.md",
       "report_bundle": "references/award-case-reports/0010-AWD-010-v1.md",
       "report_sha256": "83718b4fbfc0465893c65c72d0b29ef1599155e1af064bb26ac3b67d8388f353",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2016年（第26届）/017-电视访谈-老冯家的“传家宝”.md",
+      "historical_source_sha256": "887cbeb06c850ddef6074a74379d578c1ea3b9ba445668bef8ea34b3b83101e9",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-011",
@@ -172,12 +172,12 @@
       "award_category": "融合/视听/互动",
       "award_category_raw": "电视直播",
       "learning_route": "MULTIMEDIA_TEXTUAL",
-      "source_path": "历届新闻奖/2016年（第26届）/018-电视直播-南昌西汉海昏侯墓主椁室考古发掘系列现场直播.md",
-      "source_sha256": "249265e2d17f26ea30eac9fbdf69d4ccac09b1cf83752dff04251c72f36c28df",
-      "material_bundle": "references/award-case-materials/2016年（第26届）--018-电视直播-南昌西汉海昏侯墓主椁室考古发掘系列现场直播.md",
       "report_bundle": "references/award-case-reports/0011-AWD-011-v1.md",
       "report_sha256": "07b55dc830296d61aa10e65e9547b80e43750e1535edd9f2759015aa588066b4",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2016年（第26届）/018-电视直播-南昌西汉海昏侯墓主椁室考古发掘系列现场直播.md",
+      "historical_source_sha256": "249265e2d17f26ea30eac9fbdf69d4ccac09b1cf83752dff04251c72f36c28df",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-012",
@@ -188,12 +188,12 @@
       "award_category": "新闻专栏",
       "award_category_raw": "新闻名专栏",
       "learning_route": "COLUMN",
-      "source_path": "历届新闻奖/2016年（第26届）/024-新闻名专栏-视点.md",
-      "source_sha256": "c5ba308a912906e50733c822089c5bc7faf279176bf6e31ee07ca0e3d6edde6e",
-      "material_bundle": "references/award-case-materials/2016年（第26届）--024-新闻名专栏-视点.md",
       "report_bundle": "references/award-case-reports/0012-AWD-012-v1.md",
       "report_sha256": "8bb24f82511efbbc48dbc09113f4e6b80f8b6dfb8bcb7d89b8c7c7e7ceca3373",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2016年（第26届）/024-新闻名专栏-视点.md",
+      "historical_source_sha256": "c5ba308a912906e50733c822089c5bc7faf279176bf6e31ee07ca0e3d6edde6e",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-013",
@@ -204,12 +204,12 @@
       "award_category": "新闻专栏",
       "award_category_raw": "新闻名专栏",
       "learning_route": "COLUMN",
-      "source_path": "历届新闻奖/2016年（第26届）/025-新闻名专栏-广安观潮.md",
-      "source_sha256": "9158994b63ea5d2a4a9f5c45c6bdb92ecbe0d785f7183c3d2fd9072564e001d6",
-      "material_bundle": "references/award-case-materials/2016年（第26届）--025-新闻名专栏-广安观潮.md",
       "report_bundle": "references/award-case-reports/0013-AWD-013-v1.md",
       "report_sha256": "ae473547cd8cefd761acc204b05159482e02070dd561c401e60a0076a7c741dc",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2016年（第26届）/025-新闻名专栏-广安观潮.md",
+      "historical_source_sha256": "9158994b63ea5d2a4a9f5c45c6bdb92ecbe0d785f7183c3d2fd9072564e001d6",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-014",
@@ -220,12 +220,12 @@
       "award_category": "新闻专栏",
       "award_category_raw": "新闻名专栏",
       "learning_route": "COLUMN",
-      "source_path": "历届新闻奖/2016年（第26届）/026-新闻名专栏-啄木鸟在行动.md",
-      "source_sha256": "99de019a565b65353d1cd344a74531c22792e2d720c1448d0214dfa7426e68df",
-      "material_bundle": "references/award-case-materials/2016年（第26届）--026-新闻名专栏-啄木鸟在行动.md",
       "report_bundle": "references/award-case-reports/0014-AWD-014-v1.md",
       "report_sha256": "71243f2822b0ad3e12cda8d1b503c48d948f3b90bc2e3d4398d77c459289b4a2",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2016年（第26届）/026-新闻名专栏-啄木鸟在行动.md",
+      "historical_source_sha256": "99de019a565b65353d1cd344a74531c22792e2d720c1448d0214dfa7426e68df",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-015",
@@ -236,12 +236,12 @@
       "award_category": "新闻专栏",
       "award_category_raw": "新闻名专栏",
       "learning_route": "COLUMN",
-      "source_path": "历届新闻奖/2016年（第26届）/027-新闻名专栏-市民大讲堂.md",
-      "source_sha256": "e8f51677872fe31ca9051b345480de6adabc81297a0e2c8bad90d8449a93bad9",
-      "material_bundle": "references/award-case-materials/2016年（第26届）--027-新闻名专栏-市民大讲堂.md",
       "report_bundle": "references/award-case-reports/0015-AWD-015-v1.md",
       "report_sha256": "857c7db426b65ce8b83853860b8a19ae0258c89d1a7f88186cae9b3a0e894544",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2016年（第26届）/027-新闻名专栏-市民大讲堂.md",
+      "historical_source_sha256": "e8f51677872fe31ca9051b345480de6adabc81297a0e2c8bad90d8449a93bad9",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-016",
@@ -252,12 +252,12 @@
       "award_category": "新闻论文",
       "award_category_raw": "新闻论文",
       "learning_route": "JOURNALISM_THEORY",
-      "source_path": "历届新闻奖/2016年（第26届）/034-新闻论文-把握对外传播的时代新要求——深入学习贯彻习近平同志对人民日报海外版创刊30周年重要指示精神.md",
-      "source_sha256": "6c8930360938a28d08522e6ffe601eac7905f12c9dda04c6c9ffb183c1e6782e",
-      "material_bundle": "references/award-case-materials/2016年（第26届）--034-新闻论文-把握对外传播的时代新要求——深入学习贯彻习近平同志对人民日报海外版创刊30周年重要指示精神.md",
       "report_bundle": "references/award-case-reports/0016-AWD-016-v1.md",
       "report_sha256": "4775fb13c2fda89b91c3a8bf0b965c9a764f41034d9c1b7cf4dc7e378422ae1b",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2016年（第26届）/034-新闻论文-把握对外传播的时代新要求——深入学习贯彻习近平同志对人民日报海外版创刊30周年重要指示精神.md",
+      "historical_source_sha256": "6c8930360938a28d08522e6ffe601eac7905f12c9dda04c6c9ffb183c1e6782e",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-017",
@@ -268,12 +268,12 @@
       "award_category": "国际传播",
       "award_category_raw": "国际传播",
       "learning_route": "INTERNATIONAL",
-      "source_path": "历届新闻奖/2016年（第26届）/037-国际传播-中国军队援非抗击埃博拉系列报道（文字系列）.md",
-      "source_sha256": "eb69f1337f73dddbb320ae944af936502bf48066852d753308b33bf274428fb8",
-      "material_bundle": "references/award-case-materials/2016年（第26届）--037-国际传播-中国军队援非抗击埃博拉系列报道（文字系列）.md",
       "report_bundle": "references/award-case-reports/0017-AWD-017-v1.md",
       "report_sha256": "7d64841c8116c25773b52e13bd11162e226018677038260a8bc76e5e9b69df25",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2016年（第26届）/037-国际传播-中国军队援非抗击埃博拉系列报道（文字系列）.md",
+      "historical_source_sha256": "eb69f1337f73dddbb320ae944af936502bf48066852d753308b33bf274428fb8",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-018",
@@ -284,12 +284,12 @@
       "award_category": "国际传播",
       "award_category_raw": "国际传播",
       "learning_route": "INTERNATIONAL",
-      "source_path": "历届新闻奖/2016年（第26届）/039-国际传播-中老缅泰湄公河联合巡逻执法成效明显（文字消息）.md",
-      "source_sha256": "18819bdf0810f1f9eb50fa8a22a61db8091a0a21e36ddb170e27928c7284160d",
-      "material_bundle": "references/award-case-materials/2016年（第26届）--039-国际传播-中老缅泰湄公河联合巡逻执法成效明显（文字消息）.md",
       "report_bundle": "references/award-case-reports/0018-AWD-018-v1.md",
       "report_sha256": "5c99b48d15b711211fd99a852c23a505a7db7aaa39ddc0bd03ce432cf758ee48",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2016年（第26届）/039-国际传播-中老缅泰湄公河联合巡逻执法成效明显（文字消息）.md",
+      "historical_source_sha256": "18819bdf0810f1f9eb50fa8a22a61db8091a0a21e36ddb170e27928c7284160d",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-019",
@@ -300,12 +300,12 @@
       "award_category": "消息",
       "award_category_raw": "文字消息",
       "learning_route": "HARD_NEWS",
-      "source_path": "历届新闻奖/2017年（第27届）/001-文字消息-1445种全新病毒科被发现.md",
-      "source_sha256": "ca8b6dbca423f07db727eeb10fbb0860a8ef981a485040d5c682a62ab3de2d7a",
-      "material_bundle": "references/award-case-materials/2017年（第27届）--001-文字消息-1445种全新病毒科被发现.md",
       "report_bundle": "references/award-case-reports/0019-AWD-019-v1.md",
       "report_sha256": "35091e68c1fc189fe543cb2c36b7491420b3078edb979d98161ead2418bb227d",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2017年（第27届）/001-文字消息-1445种全新病毒科被发现.md",
+      "historical_source_sha256": "ca8b6dbca423f07db727eeb10fbb0860a8ef981a485040d5c682a62ab3de2d7a",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-020",
@@ -316,12 +316,12 @@
       "award_category": "消息",
       "award_category_raw": "文字消息",
       "learning_route": "HARD_NEWS",
-      "source_path": "历届新闻奖/2017年（第27届）/002-文字消息-折翼海天，用生命为航母事业铺路.md",
-      "source_sha256": "6afe37a13db4b44462c3bda4e8b9c49a92a751c6bfd8afe25168d207302feba1",
-      "material_bundle": "references/award-case-materials/2017年（第27届）--002-文字消息-折翼海天，用生命为航母事业铺路.md",
       "report_bundle": "references/award-case-reports/0020-AWD-020-v1.md",
       "report_sha256": "ea8f734460fc3b3eec119cb1cc5ccc9a41f0ca69c246e61081c8bddd703bbb65",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2017年（第27届）/002-文字消息-折翼海天，用生命为航母事业铺路.md",
+      "historical_source_sha256": "6afe37a13db4b44462c3bda4e8b9c49a92a751c6bfd8afe25168d207302feba1",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-021",
@@ -332,12 +332,12 @@
       "award_category": "评论",
       "award_category_raw": "文字评论",
       "learning_route": "COMMENTARY",
-      "source_path": "历届新闻奖/2017年（第27届）/003-文字评论-供给侧改革需加减法并举.md",
-      "source_sha256": "da1b5f5b37f10bc83f9a93e9a09bc7e09d8c73956c4052d542dbf1379c0e36c0",
-      "material_bundle": "references/award-case-materials/2017年（第27届）--003-文字评论-供给侧改革需加减法并举.md",
       "report_bundle": "references/award-case-reports/0021-AWD-021-v1.md",
       "report_sha256": "20e1c4050cbdb90033fb5ed4c4b6e7639a73d66b42da1ce35d0ff6c6ca6fef84",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2017年（第27届）/003-文字评论-供给侧改革需加减法并举.md",
+      "historical_source_sha256": "da1b5f5b37f10bc83f9a93e9a09bc7e09d8c73956c4052d542dbf1379c0e36c0",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-022",
@@ -348,12 +348,12 @@
       "award_category": "评论",
       "award_category_raw": "文字评论",
       "learning_route": "COMMENTARY",
-      "source_path": "历届新闻奖/2017年（第27届）/004-文字评论-走向经济治理现代化的中国探索.md",
-      "source_sha256": "1280847547ee86f053016292c2e2490913d8e5a0c3852aea17b2af8dd25a3088",
-      "material_bundle": "references/award-case-materials/2017年（第27届）--004-文字评论-走向经济治理现代化的中国探索.md",
       "report_bundle": "references/award-case-reports/0022-AWD-022-v1.md",
       "report_sha256": "f3ed66b0bbe376eba6bf4882d8bcb71c5f982681908d30be99a483abd0125075",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2017年（第27届）/004-文字评论-走向经济治理现代化的中国探索.md",
+      "historical_source_sha256": "1280847547ee86f053016292c2e2490913d8e5a0c3852aea17b2af8dd25a3088",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-023",
@@ -364,12 +364,12 @@
       "award_category": "通讯/深度/典型",
       "award_category_raw": "文字通讯",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2017年（第27届）/005-文字通讯-老郭脱贫记.md",
-      "source_sha256": "b48fe85f8b4c9a53ec6ea6da9e681cbb6907302d7f2f826f24a99029013abc18",
-      "material_bundle": "references/award-case-materials/2017年（第27届）--005-文字通讯-老郭脱贫记.md",
       "report_bundle": "references/award-case-reports/0023-AWD-023-v1.md",
       "report_sha256": "e3f54c41ed9e22734a5c2507e28a62558a2b54836ed0817c20041efaa2a8d12d",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2017年（第27届）/005-文字通讯-老郭脱贫记.md",
+      "historical_source_sha256": "b48fe85f8b4c9a53ec6ea6da9e681cbb6907302d7f2f826f24a99029013abc18",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-024",
@@ -380,12 +380,12 @@
       "award_category": "通讯/深度/典型",
       "award_category_raw": "文字通讯",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2017年（第27届）/006-文字通讯-别了，白家庄矿.md",
-      "source_sha256": "7e625032769be12794cb64703408e09d48aff94e1754d38d7fb783b974808bd2",
-      "material_bundle": "references/award-case-materials/2017年（第27届）--006-文字通讯-别了，白家庄矿.md",
       "report_bundle": "references/award-case-reports/0024-AWD-024-v1.md",
       "report_sha256": "ed55be927ff84836800783c8a2346dd16567216ba5ca1a945cb0922a5e206fd5",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2017年（第27届）/006-文字通讯-别了，白家庄矿.md",
+      "historical_source_sha256": "7e625032769be12794cb64703408e09d48aff94e1754d38d7fb783b974808bd2",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-025",
@@ -396,12 +396,12 @@
       "award_category": "系列报道",
       "award_category_raw": "报纸系列（连续、组合）报",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2017年（第27届）/007-报纸系列（连续、组合）报-铁纪铁流.md",
-      "source_sha256": "d5ccbd026cb9e008b4f64a3d739aa85a655d2c50af27a3a94745a6063d419526",
-      "material_bundle": "references/award-case-materials/2017年（第27届）--007-报纸系列（连续、组合）报-铁纪铁流.md",
       "report_bundle": "references/award-case-reports/0025-AWD-025-v1.md",
       "report_sha256": "fdecd02b70f642d241db18c09e9908c261330d18bd66f582857d52ea8c59e414",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2017年（第27届）/007-报纸系列（连续、组合）报-铁纪铁流.md",
+      "historical_source_sha256": "d5ccbd026cb9e008b4f64a3d739aa85a655d2c50af27a3a94745a6063d419526",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-026",
@@ -412,12 +412,12 @@
       "award_category": "系列报道",
       "award_category_raw": "报纸系列（连续、组合）报",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2017年（第27届）/008-报纸系列（连续、组合）报-安徽宿州宋庙小学“要求受助贫困生出钱请吃饭事件”调查.md",
-      "source_sha256": "98312ac74196445bbd6a429aefe6d8c8455694dc10e8a244ac92a33fdb88ae01",
-      "material_bundle": "references/award-case-materials/2017年（第27届）--008-报纸系列（连续、组合）报-安徽宿州宋庙小学“要求受助贫困生出钱请吃饭事件”调查.md",
       "report_bundle": "references/award-case-reports/0026-AWD-026-v1.md",
       "report_sha256": "68d9e70f821f6813be11e99fb8f98ca5c2c129e17af9e1d51f0eb06ae8fc8dc8",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2017年（第27届）/008-报纸系列（连续、组合）报-安徽宿州宋庙小学“要求受助贫困生出钱请吃饭事件”调查.md",
+      "historical_source_sha256": "98312ac74196445bbd6a429aefe6d8c8455694dc10e8a244ac92a33fdb88ae01",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-027",
@@ -428,12 +428,12 @@
       "award_category": "副刊/报告文学",
       "award_category_raw": "报纸副刊",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2017年（第27届）/010-报纸副刊-巡视组长——追记李泉新.md",
-      "source_sha256": "8964dad34bfd36b01c20958763d43906450e6dccd42626f5f962de740937577f",
-      "material_bundle": "references/award-case-materials/2017年（第27届）--010-报纸副刊-巡视组长——追记李泉新.md",
       "report_bundle": "references/award-case-reports/0027-AWD-027-v1.md",
       "report_sha256": "01996723e56ec1166c297e15a4d6f201cf55921dd75b77254fcb71569790321d",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2017年（第27届）/010-报纸副刊-巡视组长——追记李泉新.md",
+      "historical_source_sha256": "8964dad34bfd36b01c20958763d43906450e6dccd42626f5f962de740937577f",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-028",
@@ -444,12 +444,12 @@
       "award_category": "新闻专栏",
       "award_category_raw": "新闻名专栏",
       "learning_route": "COLUMN",
-      "source_path": "历届新闻奖/2017年（第27届）/033-新闻名专栏-人民眼.md",
-      "source_sha256": "db3c65045d4e2f21e534541ef29a1ade65a5622eaaf4b9766a81712146155485",
-      "material_bundle": "references/award-case-materials/2017年（第27届）--033-新闻名专栏-人民眼.md",
       "report_bundle": "references/award-case-reports/0028-AWD-028-v1.md",
       "report_sha256": "51fb3a194bed5de9b3535e5f73eff1049df0e06d7cc6cc30468fc3c4ba8cc69e",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2017年（第27届）/033-新闻名专栏-人民眼.md",
+      "historical_source_sha256": "db3c65045d4e2f21e534541ef29a1ade65a5622eaaf4b9766a81712146155485",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-029",
@@ -460,12 +460,12 @@
       "award_category": "新闻专栏",
       "award_category_raw": "新闻名专栏",
       "learning_route": "COLUMN",
-      "source_path": "历届新闻奖/2017年（第27届）/034-新闻名专栏-长安观察.md",
-      "source_sha256": "f8da0497c85440a82bac363a304adb6bcb1d7739e8c8d66819f3e26481b0a926",
-      "material_bundle": "references/award-case-materials/2017年（第27届）--034-新闻名专栏-长安观察.md",
       "report_bundle": "references/award-case-reports/0029-AWD-029-v1.md",
       "report_sha256": "55f92cb7311f476f54f63d28081b2b55c08ae380a7a7556aed8d3ef4f5ebe76d",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2017年（第27届）/034-新闻名专栏-长安观察.md",
+      "historical_source_sha256": "f8da0497c85440a82bac363a304adb6bcb1d7739e8c8d66819f3e26481b0a926",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-030",
@@ -476,12 +476,12 @@
       "award_category": "新闻专栏",
       "award_category_raw": "新闻名专栏",
       "learning_route": "COLUMN",
-      "source_path": "历届新闻奖/2017年（第27届）/035-新闻名专栏-之江观察.md",
-      "source_sha256": "0cedb54cec9a325139bd5efa9a581399bbfad6a8d137434839ff5ba5f473a82a",
-      "material_bundle": "references/award-case-materials/2017年（第27届）--035-新闻名专栏-之江观察.md",
       "report_bundle": "references/award-case-reports/0030-AWD-030-v1.md",
       "report_sha256": "c1d71040b44d7c545d1d053aacfd2f7d2e2d3db560d80be5961b841182b436eb",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2017年（第27届）/035-新闻名专栏-之江观察.md",
+      "historical_source_sha256": "0cedb54cec9a325139bd5efa9a581399bbfad6a8d137434839ff5ba5f473a82a",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-031",
@@ -492,12 +492,12 @@
       "award_category": "新闻专栏",
       "award_category_raw": "新闻名专栏",
       "learning_route": "COLUMN",
-      "source_path": "历届新闻奖/2017年（第27届）/036-新闻名专栏-逐梦他乡重庆人.md",
-      "source_sha256": "cf515dc10e46e7e08a59ebf7ed8ddf1893d244ec53716a1f2b8fb2f25c007245",
-      "material_bundle": "references/award-case-materials/2017年（第27届）--036-新闻名专栏-逐梦他乡重庆人.md",
       "report_bundle": "references/award-case-reports/0031-AWD-031-v1.md",
       "report_sha256": "5693eaab022c7ce64aaf25a1227282496470d440afbe0946e6190df800dfdf6d",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2017年（第27届）/036-新闻名专栏-逐梦他乡重庆人.md",
+      "historical_source_sha256": "cf515dc10e46e7e08a59ebf7ed8ddf1893d244ec53716a1f2b8fb2f25c007245",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-032",
@@ -508,12 +508,12 @@
       "award_category": "新闻论文",
       "award_category_raw": "综合项目 新闻论文",
       "learning_route": "JOURNALISM_THEORY",
-      "source_path": "历届新闻奖/2017年（第27届）/043-综合项目 新闻论文-把握好政治家办报的时代要求.md",
-      "source_sha256": "01aba0262f86449d134db707130f7858d80f1b4103f2e25f94daa75d5e803608",
-      "material_bundle": "references/award-case-materials/2017年（第27届）--043-综合项目 新闻论文-把握好政治家办报的时代要求.md",
       "report_bundle": "references/award-case-reports/0032-AWD-032-v1.md",
       "report_sha256": "7bd7038cd7cfdb1778a53628e301f5606178a642d5d4d5a3cc3e05d6359bf400",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2017年（第27届）/043-综合项目 新闻论文-把握好政治家办报的时代要求.md",
+      "historical_source_sha256": "01aba0262f86449d134db707130f7858d80f1b4103f2e25f94daa75d5e803608",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-033",
@@ -524,12 +524,12 @@
       "award_category": "新闻论文",
       "award_category_raw": "综合项目 新闻论文",
       "learning_route": "JOURNALISM_THEORY",
-      "source_path": "历届新闻奖/2017年（第27届）/044-综合项目 新闻论文-始终坚守军报姓党的政治灵魂.md",
-      "source_sha256": "d8722e276cd066063c622443b1a697282b9c21e60586d25d1450ac2538eae96d",
-      "material_bundle": "references/award-case-materials/2017年（第27届）--044-综合项目 新闻论文-始终坚守军报姓党的政治灵魂.md",
       "report_bundle": "references/award-case-reports/0033-AWD-033-v1.md",
       "report_sha256": "1840a8ba046f1b59ee27ea3695abb2ec6cdb58bfc1c8d611dd59712e0d677df0",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2017年（第27届）/044-综合项目 新闻论文-始终坚守军报姓党的政治灵魂.md",
+      "historical_source_sha256": "d8722e276cd066063c622443b1a697282b9c21e60586d25d1450ac2538eae96d",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-034",
@@ -540,12 +540,12 @@
       "award_category": "国际传播",
       "award_category_raw": "国际传播 (文字消息)",
       "learning_route": "INTERNATIONAL",
-      "source_path": "历届新闻奖/2017年（第27届）/045-国际传播 (文字消息)-Putin eyes closer partnership with China普京接受新华社社长独家专访 表示期待打造.md",
-      "source_sha256": "cd33c9514f34e7cc8fabb3f719712900f8b2e6d8a96d03beeaa41cba86a4868f",
-      "material_bundle": "references/award-case-materials/2017年（第27届）--045-国际传播 (文字消息)-Putin eyes closer partnership with China普京接受新华社社长独家专访 表示期待打造.md",
       "report_bundle": "references/award-case-reports/0034-AWD-034-v1.md",
       "report_sha256": "97f70837ffadb5c09637201e2adb472d79f72b5b69c0ee293478841f4f00e202",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2017年（第27届）/045-国际传播 (文字消息)-Putin eyes closer partnership with China普京接受新华社社长独家专访 表示期待打造.md",
+      "historical_source_sha256": "cd33c9514f34e7cc8fabb3f719712900f8b2e6d8a96d03beeaa41cba86a4868f",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-035",
@@ -556,12 +556,12 @@
       "award_category": "消息",
       "award_category_raw": "文字消息",
       "learning_route": "HARD_NEWS",
-      "source_path": "历届新闻奖/2018年（第28届）/001-文字消息-习近平首次沙场阅兵 号令解放军向世界一流军队进发.md",
-      "source_sha256": "051d7afc6d6c5ca6add8370a254c928ab134049e2b24e130549a16937177e06e",
-      "material_bundle": "references/award-case-materials/2018年（第28届）--001-文字消息-习近平首次沙场阅兵 号令解放军向世界一流军队进发.md",
       "report_bundle": "references/award-case-reports/0035-AWD-035-v1.md",
       "report_sha256": "b901240ca5094271c24a726a1a3c871a33babe2f7fd030b8ff33eec51362efea",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2018年（第28届）/001-文字消息-习近平首次沙场阅兵 号令解放军向世界一流军队进发.md",
+      "historical_source_sha256": "051d7afc6d6c5ca6add8370a254c928ab134049e2b24e130549a16937177e06e",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-036",
@@ -572,12 +572,12 @@
       "award_category": "消息",
       "award_category_raw": "文字消息",
       "learning_route": "HARD_NEWS",
-      "source_path": "历届新闻奖/2018年（第28届）/002-文字消息-创造港珠澳大桥的“极致”.md",
-      "source_sha256": "d3e26813b1025c6d77dcd6158bbf412e92dd98d699bb916ff444c8f7970c6f64",
-      "material_bundle": "references/award-case-materials/2018年（第28届）--002-文字消息-创造港珠澳大桥的“极致”.md",
       "report_bundle": "references/award-case-reports/0036-AWD-036-v1.md",
       "report_sha256": "07f2e02df076c0fd12df767e2bd2e896e31c80c2149bfd878e5bb44dbab83ac3",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2018年（第28届）/002-文字消息-创造港珠澳大桥的“极致”.md",
+      "historical_source_sha256": "d3e26813b1025c6d77dcd6158bbf412e92dd98d699bb916ff444c8f7970c6f64",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-037",
@@ -588,12 +588,12 @@
       "award_category": "评论",
       "award_category_raw": "文字评论",
       "learning_route": "COMMENTARY",
-      "source_path": "历届新闻奖/2018年（第28届）/003-文字评论-民生实事莫沉迷于“数字突破”.md",
-      "source_sha256": "b42e0e1a3689f5720a01262bbd2a211331eba751f32642c4cbb16c8a5c2d9b42",
-      "material_bundle": "references/award-case-materials/2018年（第28届）--003-文字评论-民生实事莫沉迷于“数字突破”.md",
       "report_bundle": "references/award-case-reports/0037-AWD-037-v1.md",
       "report_sha256": "f37cff6f8265dae9238a1f5b1ec800ad3b4779039af46141fb582fbab8b2a794",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2018年（第28届）/003-文字评论-民生实事莫沉迷于“数字突破”.md",
+      "historical_source_sha256": "b42e0e1a3689f5720a01262bbd2a211331eba751f32642c4cbb16c8a5c2d9b42",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-038",
@@ -604,12 +604,12 @@
       "award_category": "评论",
       "award_category_raw": "文字评论",
       "learning_route": "COMMENTARY",
-      "source_path": "历届新闻奖/2018年（第28届）/004-文字评论-新时代呼唤蓬勃的青年精神.md",
-      "source_sha256": "c3da9debb5125f4db04919ff0fa1a809041858b98ee6f57d218e995c52702912",
-      "material_bundle": "references/award-case-materials/2018年（第28届）--004-文字评论-新时代呼唤蓬勃的青年精神.md",
       "report_bundle": "references/award-case-reports/0038-AWD-038-v1.md",
       "report_sha256": "8c0d2757aebb75b1de6bca13032edc5be62d02de6644de306e084325a8b8e09c",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2018年（第28届）/004-文字评论-新时代呼唤蓬勃的青年精神.md",
+      "historical_source_sha256": "c3da9debb5125f4db04919ff0fa1a809041858b98ee6f57d218e995c52702912",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-039",
@@ -620,12 +620,12 @@
       "award_category": "调查性报道",
       "award_category_raw": "调查性报道",
       "learning_route": "GENERAL_REVIEW",
-      "source_path": "历届新闻奖/2018年（第28届）/005-调查性报道-甘肃祁连山：问责风暴下的生态突围.md",
-      "source_sha256": "abdbb133bcb5eb63a43b9717de34cad9df450e56d7c05af4fe5f99fee1efec6b",
-      "material_bundle": "references/award-case-materials/2018年（第28届）--005-调查性报道-甘肃祁连山：问责风暴下的生态突围.md",
       "report_bundle": "references/award-case-reports/0039-AWD-039-v1.md",
       "report_sha256": "8383552fdc4f4bf1037f5b9a8f0e336773197824d700fcfeb21614a26ff2fd29",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2018年（第28届）/005-调查性报道-甘肃祁连山：问责风暴下的生态突围.md",
+      "historical_source_sha256": "abdbb133bcb5eb63a43b9717de34cad9df450e56d7c05af4fe5f99fee1efec6b",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-040",
@@ -636,12 +636,12 @@
       "award_category": "通讯/深度/典型",
       "award_category_raw": "文字通讯",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2018年（第28届）/006-文字通讯-“见字如面”23年.md",
-      "source_sha256": "88951eeb7c38217855826e47e8ea80ba5474827c9aa27557d6d67d4eb5607021",
-      "material_bundle": "references/award-case-materials/2018年（第28届）--006-文字通讯-“见字如面”23年.md",
       "report_bundle": "references/award-case-reports/0040-AWD-040-v1.md",
       "report_sha256": "e1778158eb11fe8578b7a06eb8bae40d9c75b7f9e0924dc6573984c591cc5ff7",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2018年（第28届）/006-文字通讯-“见字如面”23年.md",
+      "historical_source_sha256": "88951eeb7c38217855826e47e8ea80ba5474827c9aa27557d6d67d4eb5607021",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-041",
@@ -652,12 +652,12 @@
       "award_category": "通讯/深度/典型",
       "award_category_raw": "文字通讯",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2018年（第28届）/007-文字通讯-“我在中国社区矫正的日子”.md",
-      "source_sha256": "ffb6e1b4e56d7c7d8a4403d719cf907e60e8ac0fa40e93c119aa64c03a623dc6",
-      "material_bundle": "references/award-case-materials/2018年（第28届）--007-文字通讯-“我在中国社区矫正的日子”.md",
       "report_bundle": "references/award-case-reports/0041-AWD-041-v1.md",
       "report_sha256": "2f3ad314a6e849989013ab7d308bce59e365d889fdbf95dc05f14406ab62beab",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2018年（第28届）/007-文字通讯-“我在中国社区矫正的日子”.md",
+      "historical_source_sha256": "ffb6e1b4e56d7c7d8a4403d719cf907e60e8ac0fa40e93c119aa64c03a623dc6",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-042",
@@ -668,12 +668,12 @@
       "award_category": "系列报道",
       "award_category_raw": "系列报道",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2018年（第28届）/008-系列报道-以习近平同志为核心的党中央领导和推进强军兴军纪实.md",
-      "source_sha256": "9279569e817331624ceede416f38bd036baccd892ae5e566ed3a506000262406",
-      "material_bundle": "references/award-case-materials/2018年（第28届）--008-系列报道-以习近平同志为核心的党中央领导和推进强军兴军纪实.md",
       "report_bundle": "references/award-case-reports/0042-AWD-042-v1.md",
       "report_sha256": "20250a6042c2c8f9b102f4e9e6c04324ef624eff8bd3fee6e6c3edfcccf54151",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2018年（第28届）/008-系列报道-以习近平同志为核心的党中央领导和推进强军兴军纪实.md",
+      "historical_source_sha256": "9279569e817331624ceede416f38bd036baccd892ae5e566ed3a506000262406",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-043",
@@ -684,12 +684,12 @@
       "award_category": "副刊/报告文学",
       "award_category_raw": "报纸副刊",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2018年（第28届）/010-报纸副刊-大风歌.md",
-      "source_sha256": "28b9c7129c2950c889084059bab5a7d21213948ad60bde1e854b7b52a7003e9b",
-      "material_bundle": "references/award-case-materials/2018年（第28届）--010-报纸副刊-大风歌.md",
       "report_bundle": "references/award-case-reports/0043-AWD-043-v1.md",
       "report_sha256": "87e4825fc24fea5f165c0cb779a4532e1b74ef83de834c849aa3ec95aa613b11",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2018年（第28届）/010-报纸副刊-大风歌.md",
+      "historical_source_sha256": "28b9c7129c2950c889084059bab5a7d21213948ad60bde1e854b7b52a7003e9b",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-044",
@@ -700,12 +700,12 @@
       "award_category": "评论",
       "award_category_raw": "网络评论",
       "learning_route": "COMMENTARY",
-      "source_path": "历届新闻奖/2018年（第28届）/030-网络评论-极恶！拿慰安妇头像做表情包，良心何在.md",
-      "source_sha256": "55aabf589999af4718d0f0b8111d71ff9db599042ab45b50fe77a98aab374d35",
-      "material_bundle": "references/award-case-materials/2018年（第28届）--030-网络评论-极恶！拿慰安妇头像做表情包，良心何在.md",
       "report_bundle": "references/award-case-reports/0044-AWD-044-v1.md",
       "report_sha256": "e9e0e5f44d4ce3f2d89608ed01055157cb6462816f25dc0476be86fd2b8bc2af",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2018年（第28届）/030-网络评论-极恶！拿慰安妇头像做表情包，良心何在.md",
+      "historical_source_sha256": "55aabf589999af4718d0f0b8111d71ff9db599042ab45b50fe77a98aab374d35",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-045",
@@ -716,12 +716,12 @@
       "award_category": "新闻专栏",
       "award_category_raw": "新闻名专栏",
       "learning_route": "COLUMN",
-      "source_path": "历届新闻奖/2018年（第28届）/035-新闻名专栏-陇上评论.md",
-      "source_sha256": "5f32377fdfaf95ee5e48d10e9de51680c65878f410f7d34dfb76cb84c5cdc429",
-      "material_bundle": "references/award-case-materials/2018年（第28届）--035-新闻名专栏-陇上评论.md",
       "report_bundle": "references/award-case-reports/0045-AWD-045-v1.md",
       "report_sha256": "0c5447fc1209befb02cd335fe49a32ae957e258031448246adb54694f5830bc0",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2018年（第28届）/035-新闻名专栏-陇上评论.md",
+      "historical_source_sha256": "5f32377fdfaf95ee5e48d10e9de51680c65878f410f7d34dfb76cb84c5cdc429",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-046",
@@ -732,12 +732,12 @@
       "award_category": "新闻专栏",
       "award_category_raw": "新闻名专栏",
       "learning_route": "COLUMN",
-      "source_path": "历届新闻奖/2018年（第28届）/036-新闻名专栏-星期五调查.md",
-      "source_sha256": "400eeb5e4c0c48da916422ccd0213f03dcbc022de8eddd69a7d1962827665912",
-      "material_bundle": "references/award-case-materials/2018年（第28届）--036-新闻名专栏-星期五调查.md",
       "report_bundle": "references/award-case-reports/0046-AWD-046-v1.md",
       "report_sha256": "d3a9053879356f89a8245b92b4c101f087e897efadc43d2f726ef8fa4d2b673b",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2018年（第28届）/036-新闻名专栏-星期五调查.md",
+      "historical_source_sha256": "400eeb5e4c0c48da916422ccd0213f03dcbc022de8eddd69a7d1962827665912",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-047",
@@ -748,12 +748,12 @@
       "award_category": "新闻专栏",
       "award_category_raw": "新闻名专栏",
       "learning_route": "COLUMN",
-      "source_path": "历届新闻奖/2018年（第28届）/038-新闻名专栏-政策解读.md",
-      "source_sha256": "3350a8e1507d8ec2555313a4e8796413844e99794ccbfddc0915bdaa0fcc0bf9",
-      "material_bundle": "references/award-case-materials/2018年（第28届）--038-新闻名专栏-政策解读.md",
       "report_bundle": "references/award-case-reports/0047-AWD-047-v1.md",
       "report_sha256": "b74c8d82ea4c122a5f2e4cdcb78f298c093b89638619f1cffa7dd2d61cd0d3f3",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2018年（第28届）/038-新闻名专栏-政策解读.md",
+      "historical_source_sha256": "3350a8e1507d8ec2555313a4e8796413844e99794ccbfddc0915bdaa0fcc0bf9",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-048",
@@ -764,12 +764,12 @@
       "award_category": "新闻论文",
       "award_category_raw": "新闻论文",
       "learning_route": "JOURNALISM_THEORY",
-      "source_path": "历届新闻奖/2018年（第28届）/045-新闻论文-理性对待西方涉华舆论.md",
-      "source_sha256": "d22faebe95b23b361c8bc31eece57cee49413a12204e15261a9693b3bbd3aebc",
-      "material_bundle": "references/award-case-materials/2018年（第28届）--045-新闻论文-理性对待西方涉华舆论.md",
       "report_bundle": "references/award-case-reports/0048-AWD-048-v1.md",
       "report_sha256": "1e6c6880f6f5456ed1f70b35df6d15f577579736df9e2f4c06990fdf51fc8b8c",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2018年（第28届）/045-新闻论文-理性对待西方涉华舆论.md",
+      "historical_source_sha256": "d22faebe95b23b361c8bc31eece57cee49413a12204e15261a9693b3bbd3aebc",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-049",
@@ -780,12 +780,12 @@
       "award_category": "新闻论文",
       "award_category_raw": "新闻论文",
       "learning_route": "JOURNALISM_THEORY",
-      "source_path": "历届新闻奖/2018年（第28届）/046-新闻论文-构建话语共同体 提升舆论引导力.md",
-      "source_sha256": "18fdcb8c0e8aea6f0a7056dc4e86a23980c631ad805d4a5ef59cf5d81e8b71ab",
-      "material_bundle": "references/award-case-materials/2018年（第28届）--046-新闻论文-构建话语共同体 提升舆论引导力.md",
       "report_bundle": "references/award-case-reports/0049-AWD-049-v1.md",
       "report_sha256": "ef8db9e85f6bafc91260683e960737515869a8c6e075aa3c08ad2e5467d687be",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2018年（第28届）/046-新闻论文-构建话语共同体 提升舆论引导力.md",
+      "historical_source_sha256": "18fdcb8c0e8aea6f0a7056dc4e86a23980c631ad805d4a5ef59cf5d81e8b71ab",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-050",
@@ -796,12 +796,12 @@
       "award_category": "国际传播",
       "award_category_raw": "国际传播",
       "learning_route": "INTERNATIONAL",
-      "source_path": "历届新闻奖/2018年（第28届）/047-国际传播-谁抢走了美国人的饭碗.md",
-      "source_sha256": "a896029210adddb9038b049974121bafa31b62b57615bcc627792639f5a339ad",
-      "material_bundle": "references/award-case-materials/2018年（第28届）--047-国际传播-谁抢走了美国人的饭碗.md",
       "report_bundle": "references/award-case-reports/0050-AWD-050-v1.md",
       "report_sha256": "ed82d7ccff0087167c08fd94af68ee46ef3fa255c8f08762bb70dab63e650a98",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2018年（第28届）/047-国际传播-谁抢走了美国人的饭碗.md",
+      "historical_source_sha256": "a896029210adddb9038b049974121bafa31b62b57615bcc627792639f5a339ad",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-051",
@@ -812,12 +812,12 @@
       "award_category": "国际传播",
       "award_category_raw": "国际传播",
       "learning_route": "INTERNATIONAL",
-      "source_path": "历届新闻奖/2018年（第28届）/048-国际传播-US Navy becoming a hazard in Asian waters（美国海军威胁亚洲航行安全）.md",
-      "source_sha256": "406ac5b6f0885db1e00fc7765a32c1fc2866a92d3357bf57447781d6f8702d02",
-      "material_bundle": "references/award-case-materials/2018年（第28届）--048-国际传播-US Navy becoming a hazard in Asian waters（美国海军威胁亚洲航行安全）.md",
       "report_bundle": "references/award-case-reports/0051-AWD-051-v1.md",
       "report_sha256": "b0d6e29723f45627c8d31a1a02b485ed08a395725f454a82ce580c26580cca2c",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2018年（第28届）/048-国际传播-US Navy becoming a hazard in Asian waters（美国海军威胁亚洲航行安全）.md",
+      "historical_source_sha256": "406ac5b6f0885db1e00fc7765a32c1fc2866a92d3357bf57447781d6f8702d02",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-052",
@@ -828,12 +828,12 @@
       "award_category": "国际传播",
       "award_category_raw": "国际传播",
       "learning_route": "INTERNATIONAL",
-      "source_path": "历届新闻奖/2018年（第28届）/049-国际传播-习近平：新时代的领路人.md",
-      "source_sha256": "015831f908de1d29a94cbacbce83a4d3ed0a99d366fc06f3f597a1b7cdd187c5",
-      "material_bundle": "references/award-case-materials/2018年（第28届）--049-国际传播-习近平：新时代的领路人.md",
       "report_bundle": "references/award-case-reports/0052-AWD-052-v1.md",
       "report_sha256": "adaaa8111ca2fe717d4fc7da67a61aa18ce6f3c3fa0422e21c4b2c027d898467",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2018年（第28届）/049-国际传播-习近平：新时代的领路人.md",
+      "historical_source_sha256": "015831f908de1d29a94cbacbce83a4d3ed0a99d366fc06f3f597a1b7cdd187c5",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-053",
@@ -844,12 +844,12 @@
       "award_category": "国际传播",
       "award_category_raw": "国际传播(系列报道)",
       "learning_route": "INTERNATIONAL",
-      "source_path": "历届新闻奖/2018年（第28届）/050-国际传播(系列报道)-“十九大十九问”系列报道.md",
-      "source_sha256": "d76648cd0324ac397500da3ad4e228555c3e82702726e32e4aefabe27f278cb9",
-      "material_bundle": "references/award-case-materials/2018年（第28届）--050-国际传播(系列报道)-“十九大十九问”系列报道.md",
       "report_bundle": "references/award-case-reports/0053-AWD-053-v1.md",
       "report_sha256": "8a1a95b4b2ca1f15de78624890d288a67340f3ba3d8596d1f1af3223905f2f11",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2018年（第28届）/050-国际传播(系列报道)-“十九大十九问”系列报道.md",
+      "historical_source_sha256": "d76648cd0324ac397500da3ad4e228555c3e82702726e32e4aefabe27f278cb9",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-054",
@@ -860,12 +860,12 @@
       "award_category": "国际传播",
       "award_category_raw": "国际传播",
       "learning_route": "INTERNATIONAL",
-      "source_path": "历届新闻奖/2018年（第28届）/051-国际传播-《中国面临的挑战3》特别节目.md",
-      "source_sha256": "c2feca7fa585e9575ad3490fbfb6cb9bfbe96a8f89b1f864e1326f3c1d906167",
-      "material_bundle": "references/award-case-materials/2018年（第28届）--051-国际传播-《中国面临的挑战3》特别节目.md",
       "report_bundle": "references/award-case-reports/0054-AWD-054-v1.md",
       "report_sha256": "3ea57f425de11e17e2818364d3f07609a26766011146621be4b1ce3876882cac",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2018年（第28届）/051-国际传播-《中国面临的挑战3》特别节目.md",
+      "historical_source_sha256": "c2feca7fa585e9575ad3490fbfb6cb9bfbe96a8f89b1f864e1326f3c1d906167",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-055",
@@ -876,12 +876,12 @@
       "award_category": "消息",
       "award_category_raw": "文字消息",
       "learning_route": "HARD_NEWS",
-      "source_path": "历届新闻奖/2019年（第29届）/001-文字消息-23年圆梦，福建晋江水流进金门.md",
-      "source_sha256": "9e82dbb9ba702f6de4ca06b4076f4a9412d637f9ea4b228c588ca301c5fcba68",
-      "material_bundle": "references/award-case-materials/2019年（第29届）--001-文字消息-23年圆梦，福建晋江水流进金门.md",
       "report_bundle": "references/award-case-reports/0055-AWD-055-v1.md",
       "report_sha256": "620ae2c8e8c9b4c46cbb45ac5bebcf60345f8b832deb32d1c23612d1a84d5495",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2019年（第29届）/001-文字消息-23年圆梦，福建晋江水流进金门.md",
+      "historical_source_sha256": "9e82dbb9ba702f6de4ca06b4076f4a9412d637f9ea4b228c588ca301c5fcba68",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-056",
@@ -892,12 +892,12 @@
       "award_category": "消息",
       "award_category_raw": "文字消息",
       "learning_route": "HARD_NEWS",
-      "source_path": "历届新闻奖/2019年（第29届）/002-文字消息-浙江为“最多跑一次”改革立法审议通过全国“放管服”改革领域首部综合性地方法规.md",
-      "source_sha256": "91455fbf68b0f8a5a47c7335e85b5620b4b1ed0d16f80caf19992dbe0815886f",
-      "material_bundle": "references/award-case-materials/2019年（第29届）--002-文字消息-浙江为“最多跑一次”改革立法审议通过全国“放管服”改革领域首部综合性地方法规.md",
       "report_bundle": "references/award-case-reports/0056-AWD-056-v1.md",
       "report_sha256": "7afc0a5d259f0104f8ee0d569c69b31468e8a1881714e10035531573dff96635",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2019年（第29届）/002-文字消息-浙江为“最多跑一次”改革立法审议通过全国“放管服”改革领域首部综合性地方法规.md",
+      "historical_source_sha256": "91455fbf68b0f8a5a47c7335e85b5620b4b1ed0d16f80caf19992dbe0815886f",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-057",
@@ -908,12 +908,12 @@
       "award_category": "评论",
       "award_category_raw": "文字评论",
       "learning_route": "COMMENTARY",
-      "source_path": "历届新闻奖/2019年（第29届）/003-文字评论-对“私营经济离场论”这类蛊惑人心的奇谈怪论应高度警惕——“两个毫不动摇”任何时候都不能偏废.md",
-      "source_sha256": "f77b7dd3c8ad86b7c852462332995756034118f21493feb36e4503aaf56c3afd",
-      "material_bundle": "references/award-case-materials/2019年（第29届）--003-文字评论-对“私营经济离场论”这类蛊惑人心的奇谈怪论应高度警惕——“两个毫不动摇”任何时候都不能偏废.md",
       "report_bundle": "references/award-case-reports/0057-AWD-057-v1.md",
       "report_sha256": "ddbcd25bb8d6f8a694ac3d87558081a8fa9ad7a5b8e97c7d8b383cf2a7c6ee6f",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2019年（第29届）/003-文字评论-对“私营经济离场论”这类蛊惑人心的奇谈怪论应高度警惕——“两个毫不动摇”任何时候都不能偏废.md",
+      "historical_source_sha256": "f77b7dd3c8ad86b7c852462332995756034118f21493feb36e4503aaf56c3afd",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-058",
@@ -924,12 +924,12 @@
       "award_category": "评论",
       "award_category_raw": "文字评论",
       "learning_route": "COMMENTARY",
-      "source_path": "历届新闻奖/2019年（第29届）/004-文字评论-新华社评论员：向着更加壮阔的航程 ——致敬改革开放40周年.md",
-      "source_sha256": "b15268888e4bbb34c3e7dce70759216445e62d71e67b03ebf5459eea6e003b43",
-      "material_bundle": "references/award-case-materials/2019年（第29届）--004-文字评论-新华社评论员：向着更加壮阔的航程 ——致敬改革开放40周年.md",
       "report_bundle": "references/award-case-reports/0058-AWD-058-v1.md",
       "report_sha256": "29e71aa87d1f919fd76f5b31ecfe4444f9aa6c2dbfa99416f2128a05227e4d5e",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2019年（第29届）/004-文字评论-新华社评论员：向着更加壮阔的航程 ——致敬改革开放40周年.md",
+      "historical_source_sha256": "b15268888e4bbb34c3e7dce70759216445e62d71e67b03ebf5459eea6e003b43",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-059",
@@ -940,12 +940,12 @@
       "award_category": "通讯/深度/典型",
       "award_category_raw": "通讯与深度报道",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2019年（第29届）/005-通讯与深度报道-“陆战雄师”：钢多气盈骨更硬.md",
-      "source_sha256": "6f2c8f2c1deeb11e2f414efb139f49bfebbe67fd818e1b04c7438d8258c9da2e",
-      "material_bundle": "references/award-case-materials/2019年（第29届）--005-通讯与深度报道-“陆战雄师”：钢多气盈骨更硬.md",
       "report_bundle": "references/award-case-reports/0059-AWD-059-v1.md",
       "report_sha256": "851df22c5ca00a72f2aa332efb31e7c7821bd2a49ae97e7a5d446be31387df34",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2019年（第29届）/005-通讯与深度报道-“陆战雄师”：钢多气盈骨更硬.md",
+      "historical_source_sha256": "6f2c8f2c1deeb11e2f414efb139f49bfebbe67fd818e1b04c7438d8258c9da2e",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-060",
@@ -956,12 +956,12 @@
       "award_category": "系列报道",
       "award_category_raw": "文字系列报道",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2019年（第29届）/006-文字系列报道-新思想从实践中产生.md",
-      "source_sha256": "75be93f043db6563a038499a2836cbc39fceb83f84f436a174de59aa4b068a94",
-      "material_bundle": "references/award-case-materials/2019年（第29届）--006-文字系列报道-新思想从实践中产生.md",
       "report_bundle": "references/award-case-reports/0060-AWD-060-v1.md",
       "report_sha256": "ce63475cdf2a88b494533b81db7455272ea7c017cec84e2774e75c96cc46c86d",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2019年（第29届）/006-文字系列报道-新思想从实践中产生.md",
+      "historical_source_sha256": "75be93f043db6563a038499a2836cbc39fceb83f84f436a174de59aa4b068a94",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-061",
@@ -972,12 +972,12 @@
       "award_category": "新闻专栏",
       "award_category_raw": "新闻名专栏",
       "learning_route": "COLUMN",
-      "source_path": "历届新闻奖/2019年（第29届）/032-新闻名专栏-纵横谈.md",
-      "source_sha256": "2e5da4c92fc9b770f1a60e636f7db4d2d86885acc7b3c0b0570244e45535038a",
-      "material_bundle": "references/award-case-materials/2019年（第29届）--032-新闻名专栏-纵横谈.md",
       "report_bundle": "references/award-case-reports/0061-AWD-061-v1.md",
       "report_sha256": "846a1860a3fca975df48a601972acf3c52caf25f3f46bb0acb3362e489ef4e37",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2019年（第29届）/032-新闻名专栏-纵横谈.md",
+      "historical_source_sha256": "2e5da4c92fc9b770f1a60e636f7db4d2d86885acc7b3c0b0570244e45535038a",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-062",
@@ -988,12 +988,12 @@
       "award_category": "新闻专栏",
       "award_category_raw": "新闻名专栏",
       "learning_route": "COLUMN",
-      "source_path": "历届新闻奖/2019年（第29届）/033-新闻名专栏-民生观.md",
-      "source_sha256": "4a7560fbcfe324b7dc96f2eef9d1ea9f12f7ca0cab8b73e8eae8ef3a5386255e",
-      "material_bundle": "references/award-case-materials/2019年（第29届）--033-新闻名专栏-民生观.md",
       "report_bundle": "references/award-case-reports/0062-AWD-062-v1.md",
       "report_sha256": "8ff7c6d272143e4a936153a8d2e7cee028392400fabadbc1745ccba537ce6bde",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2019年（第29届）/033-新闻名专栏-民生观.md",
+      "historical_source_sha256": "4a7560fbcfe324b7dc96f2eef9d1ea9f12f7ca0cab8b73e8eae8ef3a5386255e",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-063",
@@ -1004,12 +1004,12 @@
       "award_category": "新闻专栏",
       "award_category_raw": "新闻名专栏",
       "learning_route": "COLUMN",
-      "source_path": "历届新闻奖/2019年（第29届）/034-新闻名专栏-新华调查.md",
-      "source_sha256": "787bb3483e92ca6f35dded08ff9d2d297e13bb862c89720baa86811587c65161",
-      "material_bundle": "references/award-case-materials/2019年（第29届）--034-新闻名专栏-新华调查.md",
       "report_bundle": "references/award-case-reports/0063-AWD-063-v1.md",
       "report_sha256": "11e720784881f9dfb6bc93879dffa3604fd2ef624e08d4d8bf45ae48b17dc11a",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2019年（第29届）/034-新闻名专栏-新华调查.md",
+      "historical_source_sha256": "787bb3483e92ca6f35dded08ff9d2d297e13bb862c89720baa86811587c65161",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-064",
@@ -1020,12 +1020,12 @@
       "award_category": "新闻专栏",
       "award_category_raw": "新闻名专栏",
       "learning_route": "COLUMN",
-      "source_path": "历届新闻奖/2019年（第29届）/035-新闻名专栏-守护好我们的美丽家园.md",
-      "source_sha256": "5641c5047ef725c3480096c79a8d4b92d75b797d2d80823628b954b2fb3c4195",
-      "material_bundle": "references/award-case-materials/2019年（第29届）--035-新闻名专栏-守护好我们的美丽家园.md",
       "report_bundle": "references/award-case-reports/0064-AWD-064-v1.md",
       "report_sha256": "650f5da1c831a0b96d7729c112cd88c948872195fa34bd8ee1673f4018e0dbbd",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2019年（第29届）/035-新闻名专栏-守护好我们的美丽家园.md",
+      "historical_source_sha256": "5641c5047ef725c3480096c79a8d4b92d75b797d2d80823628b954b2fb3c4195",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-065",
@@ -1036,12 +1036,12 @@
       "award_category": "新闻论文",
       "award_category_raw": "新闻论文",
       "learning_route": "JOURNALISM_THEORY",
-      "source_path": "历届新闻奖/2019年（第29届）/042-新闻论文-坚定“四个意识”坚持守正创新——学习习近平总书记“8•21”重要讲话.md",
-      "source_sha256": "3bfa22cdd9417fdcd88a6c82ce719adf8247e1bdff9488509f78e83e1505d7a7",
-      "material_bundle": "references/award-case-materials/2019年（第29届）--042-新闻论文-坚定“四个意识”坚持守正创新——学习习近平总书记“8•21”重要讲话.md",
       "report_bundle": "references/award-case-reports/0065-AWD-065-v1.md",
       "report_sha256": "4c3d4bd81d47e95a31dafa49e738439d60ceb7185872ae32b04097396e6a2a22",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2019年（第29届）/042-新闻论文-坚定“四个意识”坚持守正创新——学习习近平总书记“8•21”重要讲话.md",
+      "historical_source_sha256": "3bfa22cdd9417fdcd88a6c82ce719adf8247e1bdff9488509f78e83e1505d7a7",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-066",
@@ -1052,12 +1052,12 @@
       "award_category": "新闻论文",
       "award_category_raw": "新闻论文",
       "learning_route": "JOURNALISM_THEORY",
-      "source_path": "历届新闻奖/2019年（第29届）/043-新闻论文-新时代呼唤构建良好网络舆论生态 ——深入学习贯彻习近平同志“4•19”重要讲话精神.md",
-      "source_sha256": "c0e87307ebba94995ed0decab8068e0d057d9885c2a1a2ec292a09d9427381f9",
-      "material_bundle": "references/award-case-materials/2019年（第29届）--043-新闻论文-新时代呼唤构建良好网络舆论生态 ——深入学习贯彻习近平同志“4•19”重要讲话精神.md",
       "report_bundle": "references/award-case-reports/0066-AWD-066-v1.md",
       "report_sha256": "8440df1436237ac59ab30ff9ad7e29c12f8cea1081bbd734443a6c3a584ad626",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2019年（第29届）/043-新闻论文-新时代呼唤构建良好网络舆论生态 ——深入学习贯彻习近平同志“4•19”重要讲话精神.md",
+      "historical_source_sha256": "c0e87307ebba94995ed0decab8068e0d057d9885c2a1a2ec292a09d9427381f9",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-067",
@@ -1068,12 +1068,12 @@
       "award_category": "国际传播",
       "award_category_raw": "国际传播",
       "learning_route": "INTERNATIONAL",
-      "source_path": "历届新闻奖/2019年（第29届）/044-国际传播-文字系列报道-40 years on（40年40人）（文字系列报道）.md",
-      "source_sha256": "34e3ac620196e1ddb2dd5fc73495ecf373a07324b6937e52d1baace2731f6b27",
-      "material_bundle": "references/award-case-materials/2019年（第29届）--044-国际传播-文字系列报道-40 years on（40年40人）（文字系列报道）.md",
       "report_bundle": "references/award-case-reports/0067-AWD-067-v1.md",
       "report_sha256": "d41bea8f9abbafb5bc0802a84424c4511dedd09bfb1857308a1b23fca50d0961",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2019年（第29届）/044-国际传播-文字系列报道-40 years on（40年40人）（文字系列报道）.md",
+      "historical_source_sha256": "34e3ac620196e1ddb2dd5fc73495ecf373a07324b6937e52d1baace2731f6b27",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-068",
@@ -1084,12 +1084,12 @@
       "award_category": "国际传播",
       "award_category_raw": "国际传播",
       "learning_route": "INTERNATIONAL",
-      "source_path": "历届新闻奖/2019年（第29届）/045-国际传播-文字通讯与深度-新时代改革引领者习近平（深度报道）.md",
-      "source_sha256": "4412e44ee2a808cf6b14f9bcfb8ce7160c90979da0065e122f724249cdfb3575",
-      "material_bundle": "references/award-case-materials/2019年（第29届）--045-国际传播-文字通讯与深度-新时代改革引领者习近平（深度报道）.md",
       "report_bundle": "references/award-case-reports/0068-AWD-068-v1.md",
       "report_sha256": "b35acd34948d6832146f4c5abd26b892eece52e5a11dfe0a07093cc876386345",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2019年（第29届）/045-国际传播-文字通讯与深度-新时代改革引领者习近平（深度报道）.md",
+      "historical_source_sha256": "4412e44ee2a808cf6b14f9bcfb8ce7160c90979da0065e122f724249cdfb3575",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-069",
@@ -1100,12 +1100,12 @@
       "award_category": "国际传播",
       "award_category_raw": "国际传播",
       "learning_route": "INTERNATIONAL",
-      "source_path": "历届新闻奖/2019年（第29届）/048-国际传播-文字评论-美国“霸凌”经贸政策吃不开也行不通（文字评论）.md",
-      "source_sha256": "502278bb6cf02a071a5a51d29525666cb17398f8a2005c794e2f4a421c31e331",
-      "material_bundle": "references/award-case-materials/2019年（第29届）--048-国际传播-文字评论-美国“霸凌”经贸政策吃不开也行不通（文字评论）.md",
       "report_bundle": "references/award-case-reports/0069-AWD-069-v1.md",
       "report_sha256": "e44bdbb2ccc9f98ab32d98fc3d19a296120e07a91cd3ace295243abcdda62082",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2019年（第29届）/048-国际传播-文字评论-美国“霸凌”经贸政策吃不开也行不通（文字评论）.md",
+      "historical_source_sha256": "502278bb6cf02a071a5a51d29525666cb17398f8a2005c794e2f4a421c31e331",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-070",
@@ -1116,12 +1116,12 @@
       "award_category": "消息",
       "award_category_raw": "文字消息",
       "learning_route": "HARD_NEWS",
-      "source_path": "历届新闻奖/2020年（第30届）/002-文字消息-告别“同命不同价”！.md",
-      "source_sha256": "9010cb6dcf3816be393fe74ab42343171a4f9c9fd3c399c3e94fcdc6044189a4",
-      "material_bundle": "references/award-case-materials/2020年（第30届）--002-文字消息-告别“同命不同价”！.md",
       "report_bundle": "references/award-case-reports/0070-AWD-070-v1.md",
       "report_sha256": "bb81039a3698adf226316b8b6f2c21950249ccc074d7b9cb83e35e19dbf74cd7",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2020年（第30届）/002-文字消息-告别“同命不同价”！.md",
+      "historical_source_sha256": "9010cb6dcf3816be393fe74ab42343171a4f9c9fd3c399c3e94fcdc6044189a4",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-071",
@@ -1132,12 +1132,12 @@
       "award_category": "评论",
       "award_category_raw": "文字评论",
       "learning_route": "COMMENTARY",
-      "source_path": "历届新闻奖/2020年（第30届）/003-文字评论-任何挑战都挡不住中国前进的步伐.md",
-      "source_sha256": "7b153d133c57f4278e05eb4d088232c51fda09bbbc6033df96c8ffb8c9a25200",
-      "material_bundle": "references/award-case-materials/2020年（第30届）--003-文字评论-任何挑战都挡不住中国前进的步伐.md",
       "report_bundle": "references/award-case-reports/0071-AWD-071-v1.md",
       "report_sha256": "a4037785f85c1b225c31a4b349c9709de06eee1aa4049a3a8542d2f9e3f2730a",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2020年（第30届）/003-文字评论-任何挑战都挡不住中国前进的步伐.md",
+      "historical_source_sha256": "7b153d133c57f4278e05eb4d088232c51fda09bbbc6033df96c8ffb8c9a25200",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-072",
@@ -1148,12 +1148,12 @@
       "award_category": "评论",
       "award_category_raw": "文字评论",
       "learning_route": "COMMENTARY",
-      "source_path": "历届新闻奖/2020年（第30届）/004-文字评论-向群众汇报.md",
-      "source_sha256": "15c7b8f63a0b293c4086bb5a89efbcaf082f9e3fd5ecfcd8e640e7210bc503bd",
-      "material_bundle": "references/award-case-materials/2020年（第30届）--004-文字评论-向群众汇报.md",
       "report_bundle": "references/award-case-reports/0072-AWD-072-v1.md",
       "report_sha256": "028417cbe9d5ccba33a36f610ba280ddcb312ef4f938a571f30d90900c0cc549",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2020年（第30届）/004-文字评论-向群众汇报.md",
+      "historical_source_sha256": "15c7b8f63a0b293c4086bb5a89efbcaf082f9e3fd5ecfcd8e640e7210bc503bd",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-073",
@@ -1164,12 +1164,12 @@
       "award_category": "通讯/深度/典型",
       "award_category_raw": "文字通讯与深度报道",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2020年（第30届）/005-文字通讯与深度报道-守护母亲河 建设幸福河——推进黄河流域生态保护和高质量发展系列报道.md",
-      "source_sha256": "91f4604a8f6eeb6ff6dff8b91b5554ecc20af8c9693d67cdc2a7358f9a3646b8",
-      "material_bundle": "references/award-case-materials/2020年（第30届）--005-文字通讯与深度报道-守护母亲河 建设幸福河——推进黄河流域生态保护和高质量发展系列报道.md",
       "report_bundle": "references/award-case-reports/0073-AWD-073-v1.md",
       "report_sha256": "1c3db826b94701990982dc868145d350f1d7222a92b05f4e57a92af96cf779fc",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2020年（第30届）/005-文字通讯与深度报道-守护母亲河 建设幸福河——推进黄河流域生态保护和高质量发展系列报道.md",
+      "historical_source_sha256": "91f4604a8f6eeb6ff6dff8b91b5554ecc20af8c9693d67cdc2a7358f9a3646b8",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-074",
@@ -1180,12 +1180,12 @@
       "award_category": "通讯/深度/典型",
       "award_category_raw": "文字通讯与深度报道",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2020年（第30届）/006-文字通讯与深度报道-屹立在喀喇昆仑之巅.md",
-      "source_sha256": "841c50297896a95c06f0b49d4a2e4fda7f3c043b4131332b9d415781315b80d3",
-      "material_bundle": "references/award-case-materials/2020年（第30届）--006-文字通讯与深度报道-屹立在喀喇昆仑之巅.md",
       "report_bundle": "references/award-case-reports/0074-AWD-074-v1.md",
       "report_sha256": "f3f1c363217e90bad5547a8b726e8b849bbd95198860afeb9fa4fd21bf7ae129",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2020年（第30届）/006-文字通讯与深度报道-屹立在喀喇昆仑之巅.md",
+      "historical_source_sha256": "841c50297896a95c06f0b49d4a2e4fda7f3c043b4131332b9d415781315b80d3",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-075",
@@ -1196,12 +1196,12 @@
       "award_category": "通讯/深度/典型",
       "award_category_raw": "文字通讯与深度报道",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2020年（第30届）/007-文字通讯与深度报道-英雄无言——95岁老党员张富清的本色人生.md",
-      "source_sha256": "29647ff2ed2bc6e4ebea7af42483108cf7037b27af9695a06746b72ebc1812dd",
-      "material_bundle": "references/award-case-materials/2020年（第30届）--007-文字通讯与深度报道-英雄无言——95岁老党员张富清的本色人生.md",
       "report_bundle": "references/award-case-reports/0075-AWD-075-v1.md",
       "report_sha256": "0cb517b881210cb290d13fcdf55765b3944cab3c99adc827ab23c07e30b9c55c",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2020年（第30届）/007-文字通讯与深度报道-英雄无言——95岁老党员张富清的本色人生.md",
+      "historical_source_sha256": "29647ff2ed2bc6e4ebea7af42483108cf7037b27af9695a06746b72ebc1812dd",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-076",
@@ -1212,12 +1212,12 @@
       "award_category": "通讯/深度/典型",
       "award_category_raw": "文字通讯与深度报道",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2020年（第30届）/008-文字通讯与深度报道-欧美黑杨砍掉之后.md",
-      "source_sha256": "0ffb388d715b0471c614a6f15d16cf2a48f133c5bace50a6063703d8e805a192",
-      "material_bundle": "references/award-case-materials/2020年（第30届）--008-文字通讯与深度报道-欧美黑杨砍掉之后.md",
       "report_bundle": "references/award-case-reports/0076-AWD-076-v1.md",
       "report_sha256": "576445d9272cbf7e6d48155bdba7b06a5895cf2ba9c4bc341ed4f8c7328baaf8",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2020年（第30届）/008-文字通讯与深度报道-欧美黑杨砍掉之后.md",
+      "historical_source_sha256": "0ffb388d715b0471c614a6f15d16cf2a48f133c5bace50a6063703d8e805a192",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-077",
@@ -1228,12 +1228,12 @@
       "award_category": "通讯/深度/典型",
       "award_category_raw": "文字通讯与深度报道",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2020年（第30届）/009-文字通讯与深度报道-奋进大湾区 乘风破浪时.md",
-      "source_sha256": "0825d3aa23313382dab5defefdb7766b7235aa18c8ceb09fb67358497fc40400",
-      "material_bundle": "references/award-case-materials/2020年（第30届）--009-文字通讯与深度报道-奋进大湾区 乘风破浪时.md",
       "report_bundle": "references/award-case-reports/0077-AWD-077-v1.md",
       "report_sha256": "3a3b0e7a86b2eed9c12202306e1ddd3901b9911ec6d3acc41abd7570d85a584a",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2020年（第30届）/009-文字通讯与深度报道-奋进大湾区 乘风破浪时.md",
+      "historical_source_sha256": "0825d3aa23313382dab5defefdb7766b7235aa18c8ceb09fb67358497fc40400",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-078",
@@ -1244,12 +1244,12 @@
       "award_category": "通讯/深度/典型",
       "award_category_raw": "文字通讯与深度报道",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2020年（第30届）/010-文字通讯与深度报道-哈尔滨一场专为非公、小微企业量身定做的焊工比赛，却只有两家企业参加—— 一些私企为何不愿参加技能竞赛？.md",
-      "source_sha256": "e114986cab20b9beae9cbd42cd45fbfd3c8049750fae59dcf1e74f42ada521df",
-      "material_bundle": "references/award-case-materials/2020年（第30届）--010-文字通讯与深度报道-哈尔滨一场专为非公、小微企业量身定做的焊工比赛，却只有两家企业参加—— 一些私企为何不愿参加技能竞赛？.md",
       "report_bundle": "references/award-case-reports/0078-AWD-078-v1.md",
       "report_sha256": "cb5e00aaf03e87c1d7f7438169b1f3466f4066aa14009dece717f811cc540a43",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2020年（第30届）/010-文字通讯与深度报道-哈尔滨一场专为非公、小微企业量身定做的焊工比赛，却只有两家企业参加—— 一些私企为何不愿参加技能竞赛？.md",
+      "historical_source_sha256": "e114986cab20b9beae9cbd42cd45fbfd3c8049750fae59dcf1e74f42ada521df",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-079",
@@ -1260,12 +1260,12 @@
       "award_category": "通讯/深度/典型",
       "award_category_raw": "文字通讯与深度报道",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2020年（第30届）/011-文字通讯与深度报道-二百八十一个签名挽留第一书记.md",
-      "source_sha256": "d95f84beb013e2dd76a2df7ba873b6c1bb3560609359a1b2120faba6ef549ac0",
-      "material_bundle": "references/award-case-materials/2020年（第30届）--011-文字通讯与深度报道-二百八十一个签名挽留第一书记.md",
       "report_bundle": "references/award-case-reports/0079-AWD-079-v1.md",
       "report_sha256": "7dc1f03389af792535c8032afebe710f245d385be08547c17d80e0c061751ce1",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2020年（第30届）/011-文字通讯与深度报道-二百八十一个签名挽留第一书记.md",
+      "historical_source_sha256": "d95f84beb013e2dd76a2df7ba873b6c1bb3560609359a1b2120faba6ef549ac0",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-080",
@@ -1276,12 +1276,12 @@
       "award_category": "副刊/报告文学",
       "award_category_raw": "副刊作品",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2020年（第30届）/014-副刊作品-活在表格里的牛.md",
-      "source_sha256": "ffd2972e15c2710aee9cf7e75afd200922d8abe19bdb6de2d631fd59741fac40",
-      "material_bundle": "references/award-case-materials/2020年（第30届）--014-副刊作品-活在表格里的牛.md",
       "report_bundle": "references/award-case-reports/0080-AWD-080-v1.md",
       "report_sha256": "4458bdb3cd363aa564e1606c6f8c914759266fc5eb046de036df816831bf7c34",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2020年（第30届）/014-副刊作品-活在表格里的牛.md",
+      "historical_source_sha256": "ffd2972e15c2710aee9cf7e75afd200922d8abe19bdb6de2d631fd59741fac40",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-081",
@@ -1292,12 +1292,12 @@
       "award_category": "新闻论文",
       "award_category_raw": "新闻论文",
       "learning_route": "JOURNALISM_THEORY",
-      "source_path": "历届新闻奖/2020年（第30届）/053-新闻论文-增强脚力、眼力、脑力、笔力 更好地履行新时代新华社的职责使命.md",
-      "source_sha256": "eafaaa33c1bc049c739b02cfcf0c2e734724ab25933082989394182f40e4d1f6",
-      "material_bundle": "references/award-case-materials/2020年（第30届）--053-新闻论文-增强脚力、眼力、脑力、笔力 更好地履行新时代新华社的职责使命.md",
       "report_bundle": "references/award-case-reports/0081-AWD-081-v1.md",
       "report_sha256": "1794905244c7f4976349777c26ce2319141d2ae45716c16fc6e0cb3e23a9b146",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2020年（第30届）/053-新闻论文-增强脚力、眼力、脑力、笔力 更好地履行新时代新华社的职责使命.md",
+      "historical_source_sha256": "eafaaa33c1bc049c739b02cfcf0c2e734724ab25933082989394182f40e4d1f6",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-082",
@@ -1308,12 +1308,12 @@
       "award_category": "新闻论文",
       "award_category_raw": "新闻论文",
       "learning_route": "JOURNALISM_THEORY",
-      "source_path": "历届新闻奖/2020年（第30届）/054-新闻论文-厘清边界内涵 构建凝聚共识的大舆论格局.md",
-      "source_sha256": "89873c00dd5f37aa85277778169dcba703b64e3c3cd3030acf1c430b37e3f127",
-      "material_bundle": "references/award-case-materials/2020年（第30届）--054-新闻论文-厘清边界内涵 构建凝聚共识的大舆论格局.md",
       "report_bundle": "references/award-case-reports/0082-AWD-082-v1.md",
       "report_sha256": "6650a918bb1bea54ab54f52e915358f11ca4eb1f23a4a3c1eb7aaf8bc114c346",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2020年（第30届）/054-新闻论文-厘清边界内涵 构建凝聚共识的大舆论格局.md",
+      "historical_source_sha256": "89873c00dd5f37aa85277778169dcba703b64e3c3cd3030acf1c430b37e3f127",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-083",
@@ -1324,12 +1324,12 @@
       "award_category": "通讯/深度/典型",
       "award_category_raw": "国际传播文字通讯与深度报",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2020年（第30届）/055-国际传播文字通讯与深度报-习近平与新时代的中国.md",
-      "source_sha256": "b4a5e6d16d7a8df7732afd60c9e2509d7c641eb0adddcfbe3a2dd167626d3d0b",
-      "material_bundle": "references/award-case-materials/2020年（第30届）--055-国际传播文字通讯与深度报-习近平与新时代的中国.md",
       "report_bundle": "references/award-case-reports/0083-AWD-083-v1.md",
       "report_sha256": "638b5fbe9baacdc2022a76a7a5c20bc3646b4dd75bf1bd97deb42f56e6f1fada",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2020年（第30届）/055-国际传播文字通讯与深度报-习近平与新时代的中国.md",
+      "historical_source_sha256": "b4a5e6d16d7a8df7732afd60c9e2509d7c641eb0adddcfbe3a2dd167626d3d0b",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-084",
@@ -1340,12 +1340,12 @@
       "award_category": "通讯/深度/典型",
       "award_category_raw": "国际传播文字通讯与深度报",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2020年（第30届）/056-国际传播文字通讯与深度报-习近平外交思想系列报道.md",
-      "source_sha256": "9f719721b72bb616960116f2c5cda6ec09003bce113b03d56dc25a47f614c8d7",
-      "material_bundle": "references/award-case-materials/2020年（第30届）--056-国际传播文字通讯与深度报-习近平外交思想系列报道.md",
       "report_bundle": "references/award-case-reports/0084-AWD-084-v1.md",
       "report_sha256": "928139dbedb56c7f41cba487e8898ea0f1e82be223128038b077c487eadb8a7d",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2020年（第30届）/056-国际传播文字通讯与深度报-习近平外交思想系列报道.md",
+      "historical_source_sha256": "9f719721b72bb616960116f2c5cda6ec09003bce113b03d56dc25a47f614c8d7",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-085",
@@ -1356,12 +1356,12 @@
       "award_category": "评论",
       "award_category_raw": "国际传播文字评论",
       "learning_route": "COMMENTARY",
-      "source_path": "历届新闻奖/2020年（第30届）/058-国际传播文字评论-为建设普遍安全的世界注入正能量——回望上半年中国外交成就③.md",
-      "source_sha256": "53d573aefdf2e7820ec3e37be6dc5bac7b2c6884ad63545d3d4f313282b2ddc1",
-      "material_bundle": "references/award-case-materials/2020年（第30届）--058-国际传播文字评论-为建设普遍安全的世界注入正能量——回望上半年中国外交成就③.md",
       "report_bundle": "references/award-case-reports/0085-AWD-085-v1.md",
       "report_sha256": "744a7fb80e2ad302ce131c72b6c84ff184aea07025a904da71254ba67b973828",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2020年（第30届）/058-国际传播文字评论-为建设普遍安全的世界注入正能量——回望上半年中国外交成就③.md",
+      "historical_source_sha256": "53d573aefdf2e7820ec3e37be6dc5bac7b2c6884ad63545d3d4f313282b2ddc1",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-086",
@@ -1372,12 +1372,12 @@
       "award_category": "评论",
       "award_category_raw": "国际传播文字评论",
       "learning_route": "COMMENTARY",
-      "source_path": "历届新闻奖/2020年（第30届）/059-国际传播文字评论-沙特巨额投资巴基斯坦有益各方.md",
-      "source_sha256": "f551d590406810149c7b3ef42f835b229007f4fbd0988931fddeb9717c4bf38d",
-      "material_bundle": "references/award-case-materials/2020年（第30届）--059-国际传播文字评论-沙特巨额投资巴基斯坦有益各方.md",
       "report_bundle": "references/award-case-reports/0086-AWD-086-v1.md",
       "report_sha256": "27772266b9eb3f8d07259ee8b8dbc563828e2dbe2dfcc0f499b87544f12d29bd",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2020年（第30届）/059-国际传播文字评论-沙特巨额投资巴基斯坦有益各方.md",
+      "historical_source_sha256": "f551d590406810149c7b3ef42f835b229007f4fbd0988931fddeb9717c4bf38d",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-087",
@@ -1388,12 +1388,12 @@
       "award_category": "消息",
       "award_category_raw": "文字消息",
       "learning_route": "HARD_NEWS",
-      "source_path": "历届新闻奖/2021年（第31届）/001-文字消息-从“暂停”到“重启”：武汉解除离汉通道管控.md",
-      "source_sha256": "fbc5e5b62fac2991c0e763998deb990c78293568c8fa326038b801c2eab63be0",
-      "material_bundle": "references/award-case-materials/2021年（第31届）--001-文字消息-从“暂停”到“重启”：武汉解除离汉通道管控.md",
       "report_bundle": "references/award-case-reports/0087-AWD-087-v1.md",
       "report_sha256": "7776149e478b28329f391ff5cf605ddf5204c6d3eb17444710e5fbc208d05ed8",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2021年（第31届）/001-文字消息-从“暂停”到“重启”：武汉解除离汉通道管控.md",
+      "historical_source_sha256": "fbc5e5b62fac2991c0e763998deb990c78293568c8fa326038b801c2eab63be0",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-088",
@@ -1404,12 +1404,12 @@
       "award_category": "消息",
       "award_category_raw": "文字消息",
       "learning_route": "HARD_NEWS",
-      "source_path": "历届新闻奖/2021年（第31届）/002-文字消息-湖北新冠肺炎新增病例首次零报告.md",
-      "source_sha256": "b6652a6efc90af9fea69bd94797f9fc6f8ce16c8cdfcef04caa2857426db1bbd",
-      "material_bundle": "references/award-case-materials/2021年（第31届）--002-文字消息-湖北新冠肺炎新增病例首次零报告.md",
       "report_bundle": "references/award-case-reports/0088-AWD-088-v1.md",
       "report_sha256": "01f12634267da59d92b5f1ae2b134674ee1f4c40e38ed738299c6ba6714da7cf",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2021年（第31届）/002-文字消息-湖北新冠肺炎新增病例首次零报告.md",
+      "historical_source_sha256": "b6652a6efc90af9fea69bd94797f9fc6f8ce16c8cdfcef04caa2857426db1bbd",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-089",
@@ -1420,12 +1420,12 @@
       "award_category": "消息",
       "award_category_raw": "文字消息",
       "learning_route": "HARD_NEWS",
-      "source_path": "历届新闻奖/2021年（第31届）/003-文字消息-我国最后一个不通公路的建制村车路双通滴滴！阿布洛哈村来车了.md",
-      "source_sha256": "ff5b6d7742cd3c9bb1b02afb2ee6e2abe428c6ec8721caf8e13afe8c1a4632fd",
-      "material_bundle": "references/award-case-materials/2021年（第31届）--003-文字消息-我国最后一个不通公路的建制村车路双通滴滴！阿布洛哈村来车了.md",
       "report_bundle": "references/award-case-reports/0089-AWD-089-v1.md",
       "report_sha256": "31ca1a23f84c0e891254ea8a74135e837ef512bd85bf7e3632bcff748b04674f",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2021年（第31届）/003-文字消息-我国最后一个不通公路的建制村车路双通滴滴！阿布洛哈村来车了.md",
+      "historical_source_sha256": "ff5b6d7742cd3c9bb1b02afb2ee6e2abe428c6ec8721caf8e13afe8c1a4632fd",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-090",
@@ -1436,12 +1436,12 @@
       "award_category": "评论",
       "award_category_raw": "文字评论",
       "learning_route": "COMMENTARY",
-      "source_path": "历届新闻奖/2021年（第31届）/004-文字评论-发现不了问题就是最大问题.md",
-      "source_sha256": "2cde5beb4c39f0a97999bd2dfbe7383c98dc10e4ca92577eedfa6a17458acf7d",
-      "material_bundle": "references/award-case-materials/2021年（第31届）--004-文字评论-发现不了问题就是最大问题.md",
       "report_bundle": "references/award-case-reports/0090-AWD-090-v1.md",
       "report_sha256": "b4e7da12f2228ec1a39fe6bb026c30cbd24b25e56e1d4da8675d58ea3504e80e",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2021年（第31届）/004-文字评论-发现不了问题就是最大问题.md",
+      "historical_source_sha256": "2cde5beb4c39f0a97999bd2dfbe7383c98dc10e4ca92577eedfa6a17458acf7d",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-091",
@@ -1452,12 +1452,12 @@
       "award_category": "评论",
       "award_category_raw": "文字评论",
       "learning_route": "COMMENTARY",
-      "source_path": "历届新闻奖/2021年（第31届）/005-文字评论-'Cover-up' claims from US are all sound and fury（谎言：美国最新一轮阴谋.md",
-      "source_sha256": "969fd26e45182a05c7b10ef44e3f9880bea70f88c58efea869ca2c33e2895de7",
-      "material_bundle": "references/award-case-materials/2021年（第31届）--005-文字评论-'Cover-up' claims from US are all sound and fury（谎言：美国最新一轮阴谋.md",
       "report_bundle": "references/award-case-reports/0091-AWD-091-v1.md",
       "report_sha256": "1c9b0a75dbd6c9c1179d0208f86c5f251fcafe17e676dc3e752ac43db45d0135",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2021年（第31届）/005-文字评论-'Cover-up' claims from US are all sound and fury（谎言：美国最新一轮阴谋.md",
+      "historical_source_sha256": "969fd26e45182a05c7b10ef44e3f9880bea70f88c58efea869ca2c33e2895de7",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-092",
@@ -1468,12 +1468,12 @@
       "award_category": "评论",
       "award_category_raw": "文字评论",
       "learning_route": "COMMENTARY",
-      "source_path": "历届新闻奖/2021年（第31届）/006-文字评论-警惕“精致的形式主义”.md",
-      "source_sha256": "5b1c8831ab09f25444b204afa9020bcdda1f986e48648772e2d49d75fa19f097",
-      "material_bundle": "references/award-case-materials/2021年（第31届）--006-文字评论-警惕“精致的形式主义”.md",
       "report_bundle": "references/award-case-reports/0092-AWD-092-v1.md",
       "report_sha256": "51658c2569d4c50cc425f8ba806e82c03e3fc8baeb4ff8277d1acf8d96e3e4f1",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2021年（第31届）/006-文字评论-警惕“精致的形式主义”.md",
+      "historical_source_sha256": "5b1c8831ab09f25444b204afa9020bcdda1f986e48648772e2d49d75fa19f097",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-093",
@@ -1484,12 +1484,12 @@
       "award_category": "通讯/深度/典型",
       "award_category_raw": "文字通讯与深度报道",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2021年（第31届）/007-文字通讯与深度报道-青海“隐形首富”：祁连山非法采煤获利百亿至今未停.md",
-      "source_sha256": "0305782a5fb263d2190430e6d81a1050d32580ac8eb7d130d6f1a9ef0880eddc",
-      "material_bundle": "references/award-case-materials/2021年（第31届）--007-文字通讯与深度报道-青海“隐形首富”：祁连山非法采煤获利百亿至今未停.md",
       "report_bundle": "references/award-case-reports/0093-AWD-093-v1.md",
       "report_sha256": "abf0d2e056394601e9442b62e4b2246dd4c97b8d84988dda80d2a06134397dc7",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2021年（第31届）/007-文字通讯与深度报道-青海“隐形首富”：祁连山非法采煤获利百亿至今未停.md",
+      "historical_source_sha256": "0305782a5fb263d2190430e6d81a1050d32580ac8eb7d130d6f1a9ef0880eddc",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-094",
@@ -1500,12 +1500,12 @@
       "award_category": "通讯/深度/典型",
       "award_category_raw": "文字通讯与深度报道",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2021年（第31届）/008-文字通讯与深度报道-护送“钻石公主”号上的同胞回家.md",
-      "source_sha256": "8b95a2d6f48e3315c9b85c51aeef6d39cef462e90a1d0c3db80d55a8a0faa006",
-      "material_bundle": "references/award-case-materials/2021年（第31届）--008-文字通讯与深度报道-护送“钻石公主”号上的同胞回家.md",
       "report_bundle": "references/award-case-reports/0094-AWD-094-v1.md",
       "report_sha256": "8ef0cae359d4f4c1e6e0bf5dd7e99004dcd530702d5efd6c189a7a88fd8aa419",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2021年（第31届）/008-文字通讯与深度报道-护送“钻石公主”号上的同胞回家.md",
+      "historical_source_sha256": "8b95a2d6f48e3315c9b85c51aeef6d39cef462e90a1d0c3db80d55a8a0faa006",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-095",
@@ -1516,12 +1516,12 @@
       "award_category": "通讯/深度/典型",
       "award_category_raw": "文字通讯与深度报道",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2021年（第31届）/009-文字通讯与深度报道-“半条被子的故事”有新篇.md",
-      "source_sha256": "7d7af7f1c0a214506d8109f0c1e21b0db0dd99191076a11b46a68fca43790fd1",
-      "material_bundle": "references/award-case-materials/2021年（第31届）--009-文字通讯与深度报道-“半条被子的故事”有新篇.md",
       "report_bundle": "references/award-case-reports/0095-AWD-095-v1.md",
       "report_sha256": "e1f8f1fefc86b62300809a4bb78f166026747414d6dfee734d2a087d75b81cc4",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2021年（第31届）/009-文字通讯与深度报道-“半条被子的故事”有新篇.md",
+      "historical_source_sha256": "7d7af7f1c0a214506d8109f0c1e21b0db0dd99191076a11b46a68fca43790fd1",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-096",
@@ -1532,12 +1532,12 @@
       "award_category": "通讯/深度/典型",
       "award_category_raw": "文字通讯与深度报道",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2021年（第31届）/010-文字通讯与深度报道-“总书记来过我们家”系列报道.md",
-      "source_sha256": "1dbdfd6a046d19518bc68c094e3e3c769193c47086bca80f68d18435410d0966",
-      "material_bundle": "references/award-case-materials/2021年（第31届）--010-文字通讯与深度报道-“总书记来过我们家”系列报道.md",
       "report_bundle": "references/award-case-reports/0096-AWD-096-v1.md",
       "report_sha256": "a5bb9766bcb79b61e6e0237422412b26adf0f0a7784fc64a9e1e1c0c0b81c424",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2021年（第31届）/010-文字通讯与深度报道-“总书记来过我们家”系列报道.md",
+      "historical_source_sha256": "1dbdfd6a046d19518bc68c094e3e3c769193c47086bca80f68d18435410d0966",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-097",
@@ -1548,12 +1548,12 @@
       "award_category": "通讯/深度/典型",
       "award_category_raw": "文字通讯与深度报道",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2021年（第31届）/011-文字通讯与深度报道-统帅的深情牵挂.md",
-      "source_sha256": "30825a95493f856b85c34621613010e261157b2beeb74078fde7fe7cb97b23b9",
-      "material_bundle": "references/award-case-materials/2021年（第31届）--011-文字通讯与深度报道-统帅的深情牵挂.md",
       "report_bundle": "references/award-case-reports/0097-AWD-097-v1.md",
       "report_sha256": "d9c166636d02919f8a2fdd5da8569fe76841f3ae1a1cbfd3f8737958e0cac041",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2021年（第31届）/011-文字通讯与深度报道-统帅的深情牵挂.md",
+      "historical_source_sha256": "30825a95493f856b85c34621613010e261157b2beeb74078fde7fe7cb97b23b9",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-098",
@@ -1564,12 +1564,12 @@
       "award_category": "通讯/深度/典型",
       "award_category_raw": "文字通讯与深度报道",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2021年（第31届）/012-文字通讯与深度报道-大山深处走出最美“古丽”.md",
-      "source_sha256": "eaf3a59034a98a147bda2815579dbc9ee12a828e8d4ee79286cdc966e4ac3e32",
-      "material_bundle": "references/award-case-materials/2021年（第31届）--012-文字通讯与深度报道-大山深处走出最美“古丽”.md",
       "report_bundle": "references/award-case-reports/0098-AWD-098-v1.md",
       "report_sha256": "d49ae09fe83676f7a297e3c52060eb1e451e20fa616445931c06e1bae6807b26",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2021年（第31届）/012-文字通讯与深度报道-大山深处走出最美“古丽”.md",
+      "historical_source_sha256": "eaf3a59034a98a147bda2815579dbc9ee12a828e8d4ee79286cdc966e4ac3e32",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-099",
@@ -1580,12 +1580,12 @@
       "award_category": "通讯/深度/典型",
       "award_category_raw": "文字通讯与深度报道",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2021年（第31届）/013-文字通讯与深度报道-杨叔的脱贫日记.md",
-      "source_sha256": "c0a23e594de8b4191a1450d595ae4dc0ea786b51a7c23fcf4c92bab247ac01fb",
-      "material_bundle": "references/award-case-materials/2021年（第31届）--013-文字通讯与深度报道-杨叔的脱贫日记.md",
       "report_bundle": "references/award-case-reports/0099-AWD-099-v1.md",
       "report_sha256": "d714931fe0d3cee834b3e09f59adf4c71445afae1eaed1108ff3817d0f2b936e",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2021年（第31届）/013-文字通讯与深度报道-杨叔的脱贫日记.md",
+      "historical_source_sha256": "c0a23e594de8b4191a1450d595ae4dc0ea786b51a7c23fcf4c92bab247ac01fb",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-100",
@@ -1596,12 +1596,12 @@
       "award_category": "副刊/报告文学",
       "award_category_raw": "副刊作品",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2021年（第31届）/015-副刊作品-“燃灯校长”送1600多名女孩出深山.md",
-      "source_sha256": "aab2e7780e59a809ec45b5eda145ce132ef35f5ca5b1abd79e9629b8e5eb5d51",
-      "material_bundle": "references/award-case-materials/2021年（第31届）--015-副刊作品-“燃灯校长”送1600多名女孩出深山.md",
       "report_bundle": "references/award-case-reports/0100-AWD-100-v1.md",
       "report_sha256": "f8f43ddfed9b4b25ce19db8e1bfac7dbf1055bdd2ee97077a69d9afc20c61638",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2021年（第31届）/015-副刊作品-“燃灯校长”送1600多名女孩出深山.md",
+      "historical_source_sha256": "aab2e7780e59a809ec45b5eda145ce132ef35f5ca5b1abd79e9629b8e5eb5d51",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-101",
@@ -1612,12 +1612,12 @@
       "award_category": "融合/视听/互动",
       "award_category_raw": "移动直播",
       "learning_route": "MULTIMEDIA_TEXTUAL",
-      "source_path": "历届新闻奖/2021年（第31届）/044-移动直播-巅峰见证——2020珠峰高程登顶测量.md",
-      "source_sha256": "dfc76db836366632f5c77dcfd14dfd306d5fbb6bb0c937f6de8d5317bde72e15",
-      "material_bundle": "references/award-case-materials/2021年（第31届）--044-移动直播-巅峰见证——2020珠峰高程登顶测量.md",
       "report_bundle": "references/award-case-reports/0101-AWD-101-v1.md",
       "report_sha256": "8b1e9e0e2e577f90553f271b26f34b5480416338f6e236dd71d7bf7cc8adb7bf",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2021年（第31届）/044-移动直播-巅峰见证——2020珠峰高程登顶测量.md",
+      "historical_source_sha256": "dfc76db836366632f5c77dcfd14dfd306d5fbb6bb0c937f6de8d5317bde72e15",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-102",
@@ -1628,12 +1628,12 @@
       "award_category": "融合/视听/互动",
       "award_category_raw": "创意互动",
       "learning_route": "MULTIMEDIA_TEXTUAL",
-      "source_path": "历届新闻奖/2021年（第31届）/045-创意互动-一张照片背后的这七年.md",
-      "source_sha256": "1ac1dec7abb65583c8c41e2e4d07b94de71bb223acafd80959e367100575acbc",
-      "material_bundle": "references/award-case-materials/2021年（第31届）--045-创意互动-一张照片背后的这七年.md",
       "report_bundle": "references/award-case-reports/0102-AWD-102-v1.md",
       "report_sha256": "10c645818421a7f16ab18fd2e6a4d09da607da40324c00e917bd50ba720a169c",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2021年（第31届）/045-创意互动-一张照片背后的这七年.md",
+      "historical_source_sha256": "1ac1dec7abb65583c8c41e2e4d07b94de71bb223acafd80959e367100575acbc",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-103",
@@ -1644,12 +1644,12 @@
       "award_category": "新闻专栏",
       "award_category_raw": "新闻名专栏",
       "learning_route": "COLUMN",
-      "source_path": "历届新闻奖/2021年（第31届）/049-新闻名专栏-长城瞭望.md",
-      "source_sha256": "60fc2c64152d93e5d5444090ca5146c1da8d717ac2e6191fbcbc292359f91707",
-      "material_bundle": "references/award-case-materials/2021年（第31届）--049-新闻名专栏-长城瞭望.md",
       "report_bundle": "references/award-case-reports/0103-AWD-103-v1.md",
       "report_sha256": "02d42e2ce4a0a09a1de4b1af64220f6471b9e374acce8eee915c65284deee3d0",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2021年（第31届）/049-新闻名专栏-长城瞭望.md",
+      "historical_source_sha256": "60fc2c64152d93e5d5444090ca5146c1da8d717ac2e6191fbcbc292359f91707",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-104",
@@ -1660,12 +1660,12 @@
       "award_category": "新闻专栏",
       "award_category_raw": "新闻名专栏",
       "learning_route": "COLUMN",
-      "source_path": "历届新闻奖/2021年（第31届）/050-新闻名专栏-深读.md",
-      "source_sha256": "33d4ac9336ab91824fa7c65a8353a2f88765528975c68ae158042cf98c425db1",
-      "material_bundle": "references/award-case-materials/2021年（第31届）--050-新闻名专栏-深读.md",
       "report_bundle": "references/award-case-reports/0104-AWD-104-v1.md",
       "report_sha256": "d500322e237251883d916908597b72e2ce5b14317f78c12da443ab11acea34e4",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2021年（第31届）/050-新闻名专栏-深读.md",
+      "historical_source_sha256": "33d4ac9336ab91824fa7c65a8353a2f88765528975c68ae158042cf98c425db1",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-105",
@@ -1676,12 +1676,12 @@
       "award_category": "国际传播",
       "award_category_raw": "国际传播",
       "learning_route": "INTERNATIONAL",
-      "source_path": "历届新闻奖/2021年（第31届）/060-国际传播-文字通讯与深度-习近平领导中国战“疫”.md",
-      "source_sha256": "fd296ae84f49644558eae33a531b91d74038acc271095a24a724b7cf8ced4db8",
-      "material_bundle": "references/award-case-materials/2021年（第31届）--060-国际传播-文字通讯与深度-习近平领导中国战“疫”.md",
       "report_bundle": "references/award-case-reports/0105-AWD-105-v1.md",
       "report_sha256": "53bac34706c71a175d52a160f2372552845a105f977511bbd0c0493d0c1a3e47",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2021年（第31届）/060-国际传播-文字通讯与深度-习近平领导中国战“疫”.md",
+      "historical_source_sha256": "fd296ae84f49644558eae33a531b91d74038acc271095a24a724b7cf8ced4db8",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-106",
@@ -1692,12 +1692,12 @@
       "award_category": "国际传播",
       "award_category_raw": "国际传播",
       "learning_route": "INTERNATIONAL",
-      "source_path": "历届新闻奖/2021年（第31届）/062-国际传播-电视新闻专题-抗美援朝保家卫国.md",
-      "source_sha256": "f679cf65397e37b0c9a4d478ca3122fbbf7bf995377a92b7dbbabe62f6cff620",
-      "material_bundle": "references/award-case-materials/2021年（第31届）--062-国际传播-电视新闻专题-抗美援朝保家卫国.md",
       "report_bundle": "references/award-case-reports/0106-AWD-106-v1.md",
       "report_sha256": "5dbcac2fa42f7cfd3d8684dc1f455cbc290d3c2bf701c1a572770fc8a23a353f",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2021年（第31届）/062-国际传播-电视新闻专题-抗美援朝保家卫国.md",
+      "historical_source_sha256": "f679cf65397e37b0c9a4d478ca3122fbbf7bf995377a92b7dbbabe62f6cff620",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-107",
@@ -1708,12 +1708,12 @@
       "award_category": "国际传播",
       "award_category_raw": "国际传播",
       "learning_route": "INTERNATIONAL",
-      "source_path": "历届新闻奖/2021年（第31届）/063-国际传播-文字评论-美在南海的军事挑衅注定徒劳无功.md",
-      "source_sha256": "979f6ae2016fd3a2999384f828304772fe7ec81652ea30447f9841052af79337",
-      "material_bundle": "references/award-case-materials/2021年（第31届）--063-国际传播-文字评论-美在南海的军事挑衅注定徒劳无功.md",
       "report_bundle": "references/award-case-reports/0107-AWD-107-v1.md",
       "report_sha256": "7571c6ad27181258dc8e38fa64ddbc9bf7394dfc0b0e64c0464668a6c2899fa5",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2021年（第31届）/063-国际传播-文字评论-美在南海的军事挑衅注定徒劳无功.md",
+      "historical_source_sha256": "979f6ae2016fd3a2999384f828304772fe7ec81652ea30447f9841052af79337",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-108",
@@ -1724,12 +1724,12 @@
       "award_category": "国际传播",
       "award_category_raw": "国际传播",
       "learning_route": "INTERNATIONAL",
-      "source_path": "历届新闻奖/2021年（第31届）/064-国际传播-文字通讯与深度-“近观中国”之“大变局·中国治”系列报道.md",
-      "source_sha256": "a346c186e15da88791b81410fbda15e111566e4b1d0b9753eb440c4eb00fe54a",
-      "material_bundle": "references/award-case-materials/2021年（第31届）--064-国际传播-文字通讯与深度-“近观中国”之“大变局·中国治”系列报道.md",
       "report_bundle": "references/award-case-reports/0108-AWD-108-v1.md",
       "report_sha256": "12f0e3bc255adf531c0499e3bdafd4d1a60e6c00bce54d9c652903557fb1e96a",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2021年（第31届）/064-国际传播-文字通讯与深度-“近观中国”之“大变局·中国治”系列报道.md",
+      "historical_source_sha256": "a346c186e15da88791b81410fbda15e111566e4b1d0b9753eb440c4eb00fe54a",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-109",
@@ -1740,12 +1740,12 @@
       "award_category": "国际传播",
       "award_category_raw": "国际传播",
       "learning_route": "INTERNATIONAL",
-      "source_path": "历届新闻奖/2021年（第31届）/065-国际传播-文字通讯与深度-习近平生态文明思想系列报道.md",
-      "source_sha256": "4b35ffff83640b7e020fae65612ca67b137da29b8de0c17a60f639a11cbc84c8",
-      "material_bundle": "references/award-case-materials/2021年（第31届）--065-国际传播-文字通讯与深度-习近平生态文明思想系列报道.md",
       "report_bundle": "references/award-case-reports/0109-AWD-109-v1.md",
       "report_sha256": "48edf87e2fac4801d5037c7c571c3b0f70f5e10c93e9b0a99d6f602c60641ad8",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2021年（第31届）/065-国际传播-文字通讯与深度-习近平生态文明思想系列报道.md",
+      "historical_source_sha256": "4b35ffff83640b7e020fae65612ca67b137da29b8de0c17a60f639a11cbc84c8",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-110",
@@ -1756,12 +1756,12 @@
       "award_category": "新闻论文",
       "award_category_raw": "新闻论文",
       "learning_route": "JOURNALISM_THEORY",
-      "source_path": "历届新闻奖/2021年（第31届）/066-新闻论文-积极回应时代挑战 加快构建全媒体传播格局.md",
-      "source_sha256": "5180554a9dffe4a0ec117ed190e1c70d662f9a77a4d769d7eadf9ea9ef2c56ea",
-      "material_bundle": "references/award-case-materials/2021年（第31届）--066-新闻论文-积极回应时代挑战 加快构建全媒体传播格局.md",
       "report_bundle": "references/award-case-reports/0110-AWD-110-v1.md",
       "report_sha256": "5369d20952d6ac91af2daf67bd51e44344d190bab23c539ee9288f4cc6665813",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2021年（第31届）/066-新闻论文-积极回应时代挑战 加快构建全媒体传播格局.md",
+      "historical_source_sha256": "5180554a9dffe4a0ec117ed190e1c70d662f9a77a4d769d7eadf9ea9ef2c56ea",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-111",
@@ -1772,12 +1772,12 @@
       "award_category": "新闻论文",
       "award_category_raw": "新闻论文",
       "learning_route": "JOURNALISM_THEORY",
-      "source_path": "历届新闻奖/2021年（第31届）/067-新闻论文-理论自信·运用自觉·报道自如——论以中国特色社会主义政治经济学指导新时代经济报道的重要性.md",
-      "source_sha256": "b556c384074ec3a49d44e0049efd779482e9f2d20964498964ab462d0395a55a",
-      "material_bundle": "references/award-case-materials/2021年（第31届）--067-新闻论文-理论自信·运用自觉·报道自如——论以中国特色社会主义政治经济学指导新时代经济报道的重要性.md",
       "report_bundle": "references/award-case-reports/0111-AWD-111-v1.md",
       "report_sha256": "629da2724d95af05e6ac3cc06b467b643ed7a72c2cd8d4621196a1300d051f9b",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2021年（第31届）/067-新闻论文-理论自信·运用自觉·报道自如——论以中国特色社会主义政治经济学指导新时代经济报道的重要性.md",
+      "historical_source_sha256": "b556c384074ec3a49d44e0049efd779482e9f2d20964498964ab462d0395a55a",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-112",
@@ -1788,12 +1788,12 @@
       "award_category": "消息",
       "award_category_raw": "消息（报纸）",
       "learning_route": "HARD_NEWS",
-      "source_path": "历届新闻奖/2022年（第32届）/001-消息（报纸）-中国人首次进入自己的空间站.md",
-      "source_sha256": "720bee5bfcafd3bf8e3a08e560a664b7f8acd29c501dcf88ba402f3a9c7e8187",
-      "material_bundle": "references/award-case-materials/2022年（第32届）--001-消息（报纸）-中国人首次进入自己的空间站.md",
       "report_bundle": "references/award-case-reports/0112-AWD-112-v1.md",
       "report_sha256": "fd1e9237a1d9a96e559a2bb473f62ca6bca29ea18fb76add5b444b42267bf98a",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2022年（第32届）/001-消息（报纸）-中国人首次进入自己的空间站.md",
+      "historical_source_sha256": "720bee5bfcafd3bf8e3a08e560a664b7f8acd29c501dcf88ba402f3a9c7e8187",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-113",
@@ -1804,12 +1804,12 @@
       "award_category": "消息",
       "award_category_raw": "消息（报纸）",
       "learning_route": "HARD_NEWS",
-      "source_path": "历届新闻奖/2022年（第32届）/006-消息（报纸）-舍弃八亿收入，换来鸥翔水美.md",
-      "source_sha256": "c3729d63682f49dfb50b8a571869d0ed99e2f2a95c335675fcf4ae7414edc8e2",
-      "material_bundle": "references/award-case-materials/2022年（第32届）--006-消息（报纸）-舍弃八亿收入，换来鸥翔水美.md",
       "report_bundle": "references/award-case-reports/0113-AWD-113-v1.md",
       "report_sha256": "07b74e2ce9cb676150bb965be11fa9d75f68c1a66ab837ec84f433c4f89980b8",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2022年（第32届）/006-消息（报纸）-舍弃八亿收入，换来鸥翔水美.md",
+      "historical_source_sha256": "c3729d63682f49dfb50b8a571869d0ed99e2f2a95c335675fcf4ae7414edc8e2",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-114",
@@ -1820,12 +1820,12 @@
       "award_category": "评论",
       "award_category_raw": "评论（期刊）",
       "learning_route": "COMMENTARY",
-      "source_path": "历届新闻奖/2022年（第32届）/008-评论（期刊）-没有共产党就没有中国人民的幸福生活.md",
-      "source_sha256": "24e6cc5a75e76e45a420d51fc06846ca139310119be4fbbb843df680cbe2ca60",
-      "material_bundle": "references/award-case-materials/2022年（第32届）--008-评论（期刊）-没有共产党就没有中国人民的幸福生活.md",
       "report_bundle": "references/award-case-reports/0114-AWD-114-v1.md",
       "report_sha256": "d4c21c0e35d04e6e5dd93fbc573248dee775cf76d0a311770909fe228da3fd69",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2022年（第32届）/008-评论（期刊）-没有共产党就没有中国人民的幸福生活.md",
+      "historical_source_sha256": "24e6cc5a75e76e45a420d51fc06846ca139310119be4fbbb843df680cbe2ca60",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-115",
@@ -1836,12 +1836,12 @@
       "award_category": "评论",
       "award_category_raw": "评论（报纸）",
       "learning_route": "COMMENTARY",
-      "source_path": "历届新闻奖/2022年（第32届）/009-评论（报纸）-决不允许“鸡脚杆子上刮油”.md",
-      "source_sha256": "bc5f75a65caa8cddf3650a1d25ca1d2afa57bef806ae8cde9823da8de654c2c8",
-      "material_bundle": "references/award-case-materials/2022年（第32届）--009-评论（报纸）-决不允许“鸡脚杆子上刮油”.md",
       "report_bundle": "references/award-case-reports/0115-AWD-115-v1.md",
       "report_sha256": "1d24f7896c3c35e8689a8ab56842e367073a847d3b8ee39aaa9d7e754dc9f848",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2022年（第32届）/009-评论（报纸）-决不允许“鸡脚杆子上刮油”.md",
+      "historical_source_sha256": "bc5f75a65caa8cddf3650a1d25ca1d2afa57bef806ae8cde9823da8de654c2c8",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-116",
@@ -1852,12 +1852,12 @@
       "award_category": "评论",
       "award_category_raw": "评论（报纸）",
       "learning_route": "COMMENTARY",
-      "source_path": "历届新闻奖/2022年（第32届）/011-评论（报纸）-砥柱人间是此峰 ——写在中国共产党成立100周年之际.md",
-      "source_sha256": "e229282dfd50f67c6877992b28185347ee0607d14f1582b0a96b8c8aaca490f7",
-      "material_bundle": "references/award-case-materials/2022年（第32届）--011-评论（报纸）-砥柱人间是此峰 ——写在中国共产党成立100周年之际.md",
       "report_bundle": "references/award-case-reports/0116-AWD-116-v1.md",
       "report_sha256": "beb679a4760e00570d75e81c4c085bf097a591ba5a5c711383a6d401f5631ce0",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2022年（第32届）/011-评论（报纸）-砥柱人间是此峰 ——写在中国共产党成立100周年之际.md",
+      "historical_source_sha256": "e229282dfd50f67c6877992b28185347ee0607d14f1582b0a96b8c8aaca490f7",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-117",
@@ -1868,12 +1868,12 @@
       "award_category": "通讯/深度/典型",
       "award_category_raw": "通讯（报纸）",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2022年（第32届）/013-通讯（报纸）-英雄屹立喀喇昆仑.md",
-      "source_sha256": "5b5c7f3f9a71e707bab4a804e1bf9735a72b14bfe5b970786d713116bd101ee8",
-      "material_bundle": "references/award-case-materials/2022年（第32届）--013-通讯（报纸）-英雄屹立喀喇昆仑.md",
       "report_bundle": "references/award-case-reports/0117-AWD-117-v1.md",
       "report_sha256": "1b1662b9bf6599a40ace0ba9d3f017f27c039c40c8002cf1aefd869e76df6f44",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2022年（第32届）/013-通讯（报纸）-英雄屹立喀喇昆仑.md",
+      "historical_source_sha256": "5b5c7f3f9a71e707bab4a804e1bf9735a72b14bfe5b970786d713116bd101ee8",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-118",
@@ -1884,12 +1884,12 @@
       "award_category": "通讯/深度/典型",
       "award_category_raw": "通讯（报纸）",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2022年（第32届）/014-通讯（报纸）-“生活在这样的国家，太幸福了”.md",
-      "source_sha256": "2c39750c22340c485aa3d4036966b26bd9036015781b1ce531c41d197c952723",
-      "material_bundle": "references/award-case-materials/2022年（第32届）--014-通讯（报纸）-“生活在这样的国家，太幸福了”.md",
       "report_bundle": "references/award-case-reports/0118-AWD-118-v1.md",
       "report_sha256": "24a696186abdaaf6628c471544e086afef624505e4e91f663400b7f2d661fb6f",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2022年（第32届）/014-通讯（报纸）-“生活在这样的国家，太幸福了”.md",
+      "historical_source_sha256": "2c39750c22340c485aa3d4036966b26bd9036015781b1ce531c41d197c952723",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-119",
@@ -1900,12 +1900,12 @@
       "award_category": "通讯/深度/典型",
       "award_category_raw": "通讯（报纸）",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2022年（第32届）/015-通讯（报纸）-煤炭问题调查.md",
-      "source_sha256": "e8897ca9dbddd06013d32968de79f387a7a4da7a4a08da8f0cea33cdf4543b34",
-      "material_bundle": "references/award-case-materials/2022年（第32届）--015-通讯（报纸）-煤炭问题调查.md",
       "report_bundle": "references/award-case-reports/0119-AWD-119-v1.md",
       "report_sha256": "2b0803915a12404507feb244742f53bde2be143e5f3eddff462db380d95be5df",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2022年（第32届）/015-通讯（报纸）-煤炭问题调查.md",
+      "historical_source_sha256": "e8897ca9dbddd06013d32968de79f387a7a4da7a4a08da8f0cea33cdf4543b34",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-120",
@@ -1916,12 +1916,12 @@
       "award_category": "通讯/深度/典型",
       "award_category_raw": "通讯（报纸）",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2022年（第32届）/016-通讯（报纸）-“祝融”轧下中国印.md",
-      "source_sha256": "fe5e4aa97880eae6921d424b73f3bf0f086c7f8885892a19d054c694dac7cc15",
-      "material_bundle": "references/award-case-materials/2022年（第32届）--016-通讯（报纸）-“祝融”轧下中国印.md",
       "report_bundle": "references/award-case-reports/0120-AWD-120-v1.md",
       "report_sha256": "9922a9a68c1e77aeadef8941409d2eae54c5ad1676b662c6abe90059d997af80",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2022年（第32届）/016-通讯（报纸）-“祝融”轧下中国印.md",
+      "historical_source_sha256": "fe5e4aa97880eae6921d424b73f3bf0f086c7f8885892a19d054c694dac7cc15",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-121",
@@ -1932,12 +1932,12 @@
       "award_category": "通讯/深度/典型",
       "award_category_raw": "通讯（通讯社）",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2022年（第32届）/017-通讯（通讯社）-记者手记：美国大选认证“终章”突变骚乱时刻.md",
-      "source_sha256": "07fce69dd28fc4613159564270a857bf0f2734ccafe4b130ad5fb1189df067c4",
-      "material_bundle": "references/award-case-materials/2022年（第32届）--017-通讯（通讯社）-记者手记：美国大选认证“终章”突变骚乱时刻.md",
       "report_bundle": "references/award-case-reports/0121-AWD-121-v1.md",
       "report_sha256": "12e2e24faa1e57dcfa7e67d106f188d8ed9e1ccb1c36fd0daa7f49adf729c212",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2022年（第32届）/017-通讯（通讯社）-记者手记：美国大选认证“终章”突变骚乱时刻.md",
+      "historical_source_sha256": "07fce69dd28fc4613159564270a857bf0f2734ccafe4b130ad5fb1189df067c4",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-122",
@@ -1948,12 +1948,12 @@
       "award_category": "系列报道",
       "award_category_raw": "系列报道（通讯社）",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2022年（第32届）/025-系列报道（通讯社）-习近平经济思想的生动实践系列述评.md",
-      "source_sha256": "b80704d21d7385ed41e0a537f5ef0fc4a49ff154442006e07d62672941f4d7c2",
-      "material_bundle": "references/award-case-materials/2022年（第32届）--025-系列报道（通讯社）-习近平经济思想的生动实践系列述评.md",
       "report_bundle": "references/award-case-reports/0122-AWD-122-v1.md",
       "report_sha256": "429f145a733dedcd5cad0eafd9d70a6a8495fa11f23279ac93fd47f5ad03bc8a",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2022年（第32届）/025-系列报道（通讯社）-习近平经济思想的生动实践系列述评.md",
+      "historical_source_sha256": "b80704d21d7385ed41e0a537f5ef0fc4a49ff154442006e07d62672941f4d7c2",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-123",
@@ -1964,12 +1964,12 @@
       "award_category": "系列报道",
       "award_category_raw": "系列报道（报纸）",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2022年（第32届）/028-系列报道（报纸）-习近平法治思想系列解读报道.md",
-      "source_sha256": "ea6947a4ea7fed93d9e8787f3749279805e52b89b82fa778ff8559a4045306c7",
-      "material_bundle": "references/award-case-materials/2022年（第32届）--028-系列报道（报纸）-习近平法治思想系列解读报道.md",
       "report_bundle": "references/award-case-reports/0123-AWD-123-v1.md",
       "report_sha256": "5a02b538ecd1245ac0587b6818c4ea9f166888058a81325ec384fe52d4cc402c",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2022年（第32届）/028-系列报道（报纸）-习近平法治思想系列解读报道.md",
+      "historical_source_sha256": "ea6947a4ea7fed93d9e8787f3749279805e52b89b82fa778ff8559a4045306c7",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-124",
@@ -1980,12 +1980,12 @@
       "award_category": "副刊/报告文学",
       "award_category_raw": "副刊作品 _报告文学（报",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2022年（第32届）/032-副刊作品 _报告文学（报-风卷红旗再出发.md",
-      "source_sha256": "b8b6c6b9ef5e735e7ca0986bfa28332e10e6a3e7004a53cccde6513df37337e4",
-      "material_bundle": "references/award-case-materials/2022年（第32届）--032-副刊作品 _报告文学（报-风卷红旗再出发.md",
       "report_bundle": "references/award-case-reports/0124-AWD-124-v1.md",
       "report_sha256": "cefe50b400e6eaa098349cd32c087842aa51d449abd8a5d84caeb98b0c2d2430",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2022年（第32届）/032-副刊作品 _报告文学（报-风卷红旗再出发.md",
+      "historical_source_sha256": "b8b6c6b9ef5e735e7ca0986bfa28332e10e6a3e7004a53cccde6513df37337e4",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-125",
@@ -1996,12 +1996,12 @@
       "award_category": "新闻专栏",
       "award_category_raw": "新闻专栏（通讯社）",
       "learning_route": "COLUMN",
-      "source_path": "历届新闻奖/2022年（第32届）/042-新闻专栏（通讯社）-国际观察.md",
-      "source_sha256": "e24ad03a4004b24eac0b183c20a905281c2bc1ab3844d93c95dfa4e0691af5ec",
-      "material_bundle": "references/award-case-materials/2022年（第32届）--042-新闻专栏（通讯社）-国际观察.md",
       "report_bundle": "references/award-case-reports/0125-AWD-125-v1.md",
       "report_sha256": "93f61fc89b7615d63d6d974d6bf39863782b4d324540b712a934da665782a13d",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2022年（第32届）/042-新闻专栏（通讯社）-国际观察.md",
+      "historical_source_sha256": "e24ad03a4004b24eac0b183c20a905281c2bc1ab3844d93c95dfa4e0691af5ec",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-126",
@@ -2012,12 +2012,12 @@
       "award_category": "新闻专栏",
       "award_category_raw": "新闻专栏（报纸）",
       "learning_route": "COLUMN",
-      "source_path": "历届新闻奖/2022年（第32届）/045-新闻专栏（报纸）-民生调查.md",
-      "source_sha256": "b3ed46d9f73248ce04c5da935d9513bb48fd98ab2c016150d8cac196b94466fd",
-      "material_bundle": "references/award-case-materials/2022年（第32届）--045-新闻专栏（报纸）-民生调查.md",
       "report_bundle": "references/award-case-reports/0126-AWD-126-v1.md",
       "report_sha256": "5ff3abd6c9e435e3cdbca89fc471d3aaf8edb85f67145a374eddda0a038e17fa",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2022年（第32届）/045-新闻专栏（报纸）-民生调查.md",
+      "historical_source_sha256": "b3ed46d9f73248ce04c5da935d9513bb48fd98ab2c016150d8cac196b94466fd",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-127",
@@ -2028,12 +2028,12 @@
       "award_category": "新闻业务研究",
       "award_category_raw": "新闻业务研究（期刊）",
       "learning_route": "RESEARCH_ABSORB",
-      "source_path": "历届新闻奖/2022年（第32届）/049-新闻业务研究（期刊）-全媒体传播体系建设的重要力量.md",
-      "source_sha256": "0f437bff867f07eef5bc75d9a1272a3002f7fe5f8218e08511cd80272b4af8d7",
-      "material_bundle": "references/award-case-materials/2022年（第32届）--049-新闻业务研究（期刊）-全媒体传播体系建设的重要力量.md",
       "report_bundle": "references/award-case-reports/0127-AWD-127-v1.md",
       "report_sha256": "9b4d7268f1292e459be68e844baab96fc787a489a06a9a1e6bcde0d9bc5005bc",
-      "special_rule": "research_absorption"
+      "special_rule": "research_absorption",
+      "historical_source_path": "历届新闻奖/2022年（第32届）/049-新闻业务研究（期刊）-全媒体传播体系建设的重要力量.md",
+      "historical_source_sha256": "0f437bff867f07eef5bc75d9a1272a3002f7fe5f8218e08511cd80272b4af8d7",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-128",
@@ -2044,12 +2044,12 @@
       "award_category": "新闻业务研究",
       "award_category_raw": "新闻业务研究（期刊）",
       "learning_route": "RESEARCH_ABSORB",
-      "source_path": "历届新闻奖/2022年（第32届）/050-新闻业务研究（期刊）-媒体融合视角下主流媒体的话语表达创新.md",
-      "source_sha256": "5e57d336d0c0a27fc0feeedbb8022e1c944e6bf213d5d271eb776327aa218156",
-      "material_bundle": "references/award-case-materials/2022年（第32届）--050-新闻业务研究（期刊）-媒体融合视角下主流媒体的话语表达创新.md",
       "report_bundle": "references/award-case-reports/0128-AWD-128-v1.md",
       "report_sha256": "c08ac38801be419bfd78d8f654b444e6b2f251c5529a592eb0f8942a4651bab8",
-      "special_rule": "research_absorption"
+      "special_rule": "research_absorption",
+      "historical_source_path": "历届新闻奖/2022年（第32届）/050-新闻业务研究（期刊）-媒体融合视角下主流媒体的话语表达创新.md",
+      "historical_source_sha256": "5e57d336d0c0a27fc0feeedbb8022e1c944e6bf213d5d271eb776327aa218156",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-129",
@@ -2060,12 +2060,12 @@
       "award_category": "重大主题报道",
       "award_category_raw": "重大主题报道（报纸）",
       "learning_route": "GENERAL_REVIEW",
-      "source_path": "历届新闻奖/2022年（第32届）/051-重大主题报道（报纸）-总书记心中的“国之大者”.md",
-      "source_sha256": "399accdae04059daaac30bd7e8e3012c684821607f2ccbbc97282c3d52bae1d4",
-      "material_bundle": "references/award-case-materials/2022年（第32届）--051-重大主题报道（报纸）-总书记心中的“国之大者”.md",
       "report_bundle": "references/award-case-reports/0129-AWD-129-v1.md",
       "report_sha256": "18738e2d9c557046b3e8336daec5a8a042321963eaca3ecd9cfac6bc1e6c05a1",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2022年（第32届）/051-重大主题报道（报纸）-总书记心中的“国之大者”.md",
+      "historical_source_sha256": "399accdae04059daaac30bd7e8e3012c684821607f2ccbbc97282c3d52bae1d4",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-130",
@@ -2076,12 +2076,12 @@
       "award_category": "重大主题报道",
       "award_category_raw": "重大主题报道（报纸）",
       "learning_route": "GENERAL_REVIEW",
-      "source_path": "历届新闻奖/2022年（第32届）/054-重大主题报道（报纸）-号角催征 ——解码《新华日报》老报纸里的百年初心.md",
-      "source_sha256": "d02325a8e11d921b6471dd350452780607e74562c3db4fc54b46eda307d4f188",
-      "material_bundle": "references/award-case-materials/2022年（第32届）--054-重大主题报道（报纸）-号角催征 ——解码《新华日报》老报纸里的百年初心.md",
       "report_bundle": "references/award-case-reports/0130-AWD-130-v1.md",
       "report_sha256": "a107fe3b0dcb044a4191641aeccdb297794e5ab4022a467518d98898e99086af",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2022年（第32届）/054-重大主题报道（报纸）-号角催征 ——解码《新华日报》老报纸里的百年初心.md",
+      "historical_source_sha256": "d02325a8e11d921b6471dd350452780607e74562c3db4fc54b46eda307d4f188",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-131",
@@ -2092,12 +2092,12 @@
       "award_category": "重大主题报道",
       "award_category_raw": "重大主题报道（报纸）",
       "learning_route": "GENERAL_REVIEW",
-      "source_path": "历届新闻奖/2022年（第32届）/055-重大主题报道（报纸）-《躺平不可取》等系列评论.md",
-      "source_sha256": "f5fb65b9fef792b9dd97d6388255bd6714ecc4ac4ee7d859b932463da0044445",
-      "material_bundle": "references/award-case-materials/2022年（第32届）--055-重大主题报道（报纸）-《躺平不可取》等系列评论.md",
       "report_bundle": "references/award-case-reports/0131-AWD-131-v1.md",
       "report_sha256": "d1847bb45fddbb56d4bbd962d65849d125b9825a6dd982018bb982932f1b8228",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2022年（第32届）/055-重大主题报道（报纸）-《躺平不可取》等系列评论.md",
+      "historical_source_sha256": "f5fb65b9fef792b9dd97d6388255bd6714ecc4ac4ee7d859b932463da0044445",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-132",
@@ -2108,12 +2108,12 @@
       "award_category": "国际传播",
       "award_category_raw": "国际传播（通讯社）",
       "learning_route": "INTERNATIONAL",
-      "source_path": "历届新闻奖/2022年（第32届）/058-国际传播（通讯社）-特稿：习近平带领百年大党奋进新征程.md",
-      "source_sha256": "a2a4dac2e1f0c1df1b0dfba712e44818cb0ccc352f96c2dfa49c71d42d1c673e",
-      "material_bundle": "references/award-case-materials/2022年（第32届）--058-国际传播（通讯社）-特稿：习近平带领百年大党奋进新征程.md",
       "report_bundle": "references/award-case-reports/0132-AWD-132-v1.md",
       "report_sha256": "19043b2dc33b293408ff1fecb5350837978f89b1938745493bbe2c9705ecd927",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2022年（第32届）/058-国际传播（通讯社）-特稿：习近平带领百年大党奋进新征程.md",
+      "historical_source_sha256": "a2a4dac2e1f0c1df1b0dfba712e44818cb0ccc352f96c2dfa49c71d42d1c673e",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-133",
@@ -2124,12 +2124,12 @@
       "award_category": "国际传播",
       "award_category_raw": "国际传播（报纸）",
       "learning_route": "INTERNATIONAL",
-      "source_path": "历届新闻奖/2022年（第32届）/059-国际传播（报纸）-没有任何力量能够阻挡中国前进的步伐.md",
-      "source_sha256": "d522da051c2663bc2728c73879b17fb403db28446eaef5edb609d4fdc4b803ec",
-      "material_bundle": "references/award-case-materials/2022年（第32届）--059-国际传播（报纸）-没有任何力量能够阻挡中国前进的步伐.md",
       "report_bundle": "references/award-case-reports/0133-AWD-133-v1.md",
       "report_sha256": "d52522012d31ab395d62882fe45b42c0ab75b175cedb1d3aeb6133985c4e563a",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2022年（第32届）/059-国际传播（报纸）-没有任何力量能够阻挡中国前进的步伐.md",
+      "historical_source_sha256": "d522da051c2663bc2728c73879b17fb403db28446eaef5edb609d4fdc4b803ec",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-134",
@@ -2140,12 +2140,12 @@
       "award_category": "国际传播",
       "award_category_raw": "国际传播（通讯社）",
       "learning_route": "INTERNATIONAL",
-      "source_path": "历届新闻奖/2022年（第32届）/061-国际传播（通讯社）-“东西问”之“观中国”系列报道.md",
-      "source_sha256": "80c89b638628fec400b0847a401d5b3e082303e11d943ab40a7e72123f094b55",
-      "material_bundle": "references/award-case-materials/2022年（第32届）--061-国际传播（通讯社）-“东西问”之“观中国”系列报道.md",
       "report_bundle": "references/award-case-reports/0134-AWD-134-v1.md",
       "report_sha256": "774ca14c28b7293f93b6df6e08ced665e24163efd50fdc8518077d2b69a78ec1",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2022年（第32届）/061-国际传播（通讯社）-“东西问”之“观中国”系列报道.md",
+      "historical_source_sha256": "80c89b638628fec400b0847a401d5b3e082303e11d943ab40a7e72123f094b55",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-135",
@@ -2156,12 +2156,12 @@
       "award_category": "通讯/深度/典型",
       "award_category_raw": "典型报道（期刊）",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2022年（第32届）/064-典型报道（期刊）-焦裕禄精神的新时代回响.md",
-      "source_sha256": "9229eeb0c1be2b1fd910c945167edf48becc59f349f92f2317b83978d37e4797",
-      "material_bundle": "references/award-case-materials/2022年（第32届）--064-典型报道（期刊）-焦裕禄精神的新时代回响.md",
       "report_bundle": "references/award-case-reports/0135-AWD-135-v1.md",
       "report_sha256": "2c09ea56385b3f748ec36bfa4d999fa248d6f508a2924b17ebc1aa723ee98278",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2022年（第32届）/064-典型报道（期刊）-焦裕禄精神的新时代回响.md",
+      "historical_source_sha256": "9229eeb0c1be2b1fd910c945167edf48becc59f349f92f2317b83978d37e4797",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-136",
@@ -2172,12 +2172,12 @@
       "award_category": "消息",
       "award_category_raw": "消息（报纸）",
       "learning_route": "HARD_NEWS",
-      "source_path": "历届新闻奖/2023年（第33届）/002-消息（报纸）-我军在台岛周边海空域成功举行实战化联合演训.md",
-      "source_sha256": "2f988a2ffb390f869021552d78e047bd70eade00d18c14bb67171a6b563033d8",
-      "material_bundle": "references/award-case-materials/2023年（第33届）--002-消息（报纸）-我军在台岛周边海空域成功举行实战化联合演训.md",
       "report_bundle": "references/award-case-reports/0136-AWD-136-v1.md",
       "report_sha256": "a3bbc3fa81d5d509229a4971ed8eeb246f8de8ddb7a4ae90591c325859ae6dc0",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2023年（第33届）/002-消息（报纸）-我军在台岛周边海空域成功举行实战化联合演训.md",
+      "historical_source_sha256": "2f988a2ffb390f869021552d78e047bd70eade00d18c14bb67171a6b563033d8",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-137",
@@ -2188,12 +2188,12 @@
       "award_category": "评论",
       "award_category_raw": "评论（报纸）",
       "learning_route": "COMMENTARY",
-      "source_path": "历届新闻奖/2023年（第33届）/007-评论（报纸）-集中精力办好自己的事情.md",
-      "source_sha256": "fa860e58b578c65c532ae24415da321845fae1bb96f919945c88897881624211",
-      "material_bundle": "references/award-case-materials/2023年（第33届）--007-评论（报纸）-集中精力办好自己的事情.md",
       "report_bundle": "references/award-case-reports/0137-AWD-137-v1.md",
       "report_sha256": "97fb341ed312fe7d3a2f73c5dc39de3eaa100e1292ce886b603d187950bbbba3",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2023年（第33届）/007-评论（报纸）-集中精力办好自己的事情.md",
+      "historical_source_sha256": "fa860e58b578c65c532ae24415da321845fae1bb96f919945c88897881624211",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-138",
@@ -2204,12 +2204,12 @@
       "award_category": "评论",
       "award_category_raw": "评论（通讯社）",
       "learning_route": "COMMENTARY",
-      "source_path": "历届新闻奖/2023年（第33届）/009-评论（通讯社）-Xinhua Commentary： Wrong, wrong, and wrong again -- Some Wes.md",
-      "source_sha256": "10a9c03c7c5f61dab7a360c4ab8803af14ad7dc6566a17fa5902554feb2fe615",
-      "material_bundle": "references/award-case-materials/2023年（第33届）--009-评论（通讯社）-Xinhua Commentary： Wrong, wrong, and wrong again -- Some Wes.md",
       "report_bundle": "references/award-case-reports/0138-AWD-138-v1.md",
       "report_sha256": "de1216325a4fbfe2e389e352ac33f14a9fb6b09cf7bc84f3a34c0d02aaf19b83",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2023年（第33届）/009-评论（通讯社）-Xinhua Commentary： Wrong, wrong, and wrong again -- Some Wes.md",
+      "historical_source_sha256": "10a9c03c7c5f61dab7a360c4ab8803af14ad7dc6566a17fa5902554feb2fe615",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-139",
@@ -2220,12 +2220,12 @@
       "award_category": "评论",
       "award_category_raw": "评论（报纸）",
       "learning_route": "COMMENTARY",
-      "source_path": "历届新闻奖/2023年（第33届）/010-评论（报纸）-对“时时放心不下”来源的追问.md",
-      "source_sha256": "297b59de0ce7595fc7361387ea5b02869c800936ed2b810cacfc1347090cbb8b",
-      "material_bundle": "references/award-case-materials/2023年（第33届）--010-评论（报纸）-对“时时放心不下”来源的追问.md",
       "report_bundle": "references/award-case-reports/0139-AWD-139-v1.md",
       "report_sha256": "a16d89774a24f3e10643322786f20829aa69146d8f65013b0c0bebd815ef7481",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2023年（第33届）/010-评论（报纸）-对“时时放心不下”来源的追问.md",
+      "historical_source_sha256": "297b59de0ce7595fc7361387ea5b02869c800936ed2b810cacfc1347090cbb8b",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-140",
@@ -2236,12 +2236,12 @@
       "award_category": "评论",
       "award_category_raw": "评论（报纸）",
       "learning_route": "COMMENTARY",
-      "source_path": "历届新闻奖/2023年（第33届）/011-评论（报纸）-致敬重庆 致敬人民.md",
-      "source_sha256": "3be8569a25a802575bcc50511d390d8f71fafce45cc1bdcf3d866495dfcd7393",
-      "material_bundle": "references/award-case-materials/2023年（第33届）--011-评论（报纸）-致敬重庆 致敬人民.md",
       "report_bundle": "references/award-case-reports/0140-AWD-140-v1.md",
       "report_sha256": "3466092b07c774742a56d188e287202648bc30bb7f16baad9ec807a5f76d9113",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2023年（第33届）/011-评论（报纸）-致敬重庆 致敬人民.md",
+      "historical_source_sha256": "3be8569a25a802575bcc50511d390d8f71fafce45cc1bdcf3d866495dfcd7393",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-141",
@@ -2252,12 +2252,12 @@
       "award_category": "通讯/深度/典型",
       "award_category_raw": "通讯（报纸）",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2023年（第33届）/012-通讯（报纸）-“小田变大田”引出“农田四变”.md",
-      "source_sha256": "f2009cacf9bf4ea36f39e01df2964d7e08ce82a7279ce2fdac1003e4a179e306",
-      "material_bundle": "references/award-case-materials/2023年（第33届）--012-通讯（报纸）-“小田变大田”引出“农田四变”.md",
       "report_bundle": "references/award-case-reports/0141-AWD-141-v1.md",
       "report_sha256": "5344e0756e2a8808ebaf29dd7192ef70b13e437270883905d72299774625cf25",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2023年（第33届）/012-通讯（报纸）-“小田变大田”引出“农田四变”.md",
+      "historical_source_sha256": "f2009cacf9bf4ea36f39e01df2964d7e08ce82a7279ce2fdac1003e4a179e306",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-142",
@@ -2268,12 +2268,12 @@
       "award_category": "通讯/深度/典型",
       "award_category_raw": "通讯（报纸）",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2023年（第33届）/013-通讯（报纸）-耕地问题调查.md",
-      "source_sha256": "1af70b4994bd0d12f7af25b6919340af6f545fb394b22d9112ee4aba2aeef10f",
-      "material_bundle": "references/award-case-materials/2023年（第33届）--013-通讯（报纸）-耕地问题调查.md",
       "report_bundle": "references/award-case-reports/0142-AWD-142-v1.md",
       "report_sha256": "99a7c3729e1cff1d2b75d65a75a01e86480f8e4c57509f80d35c02a223a1c501",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2023年（第33届）/013-通讯（报纸）-耕地问题调查.md",
+      "historical_source_sha256": "1af70b4994bd0d12f7af25b6919340af6f545fb394b22d9112ee4aba2aeef10f",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-143",
@@ -2284,12 +2284,12 @@
       "award_category": "通讯/深度/典型",
       "award_category_raw": "通讯（报纸）",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2023年（第33届）/015-通讯（报纸）-“外婆”的礼物.md",
-      "source_sha256": "75b774294ad2e62ecb39c8ec8e8e36cebd3e5f5c3b7e6a9cdaf8e526019066ff",
-      "material_bundle": "references/award-case-materials/2023年（第33届）--015-通讯（报纸）-“外婆”的礼物.md",
       "report_bundle": "references/award-case-reports/0143-AWD-143-v1.md",
       "report_sha256": "f77430111ddb332d7d6f62cd540fe589d95cf35289661ad669a1d8c40246b2b1",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2023年（第33届）/015-通讯（报纸）-“外婆”的礼物.md",
+      "historical_source_sha256": "75b774294ad2e62ecb39c8ec8e8e36cebd3e5f5c3b7e6a9cdaf8e526019066ff",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-144",
@@ -2300,12 +2300,12 @@
       "award_category": "系列报道",
       "award_category_raw": "系列报道（报纸）",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2023年（第33届）/025-系列报道（报纸）-工伤认定如何“新题新解”.md",
-      "source_sha256": "9e934c1fe7a66f8179f51ce1d6d77da820367e5487f264ff07bffe862650d63b",
-      "material_bundle": "references/award-case-materials/2023年（第33届）--025-系列报道（报纸）-工伤认定如何“新题新解”.md",
       "report_bundle": "references/award-case-reports/0144-AWD-144-v1.md",
       "report_sha256": "8a9b5c9a05dd8a17a5e8deb368afc72aa13082961b7ab935b2985ea577945ddb",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2023年（第33届）/025-系列报道（报纸）-工伤认定如何“新题新解”.md",
+      "historical_source_sha256": "9e934c1fe7a66f8179f51ce1d6d77da820367e5487f264ff07bffe862650d63b",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-145",
@@ -2316,12 +2316,12 @@
       "award_category": "系列报道",
       "award_category_raw": "系列报道（报纸）",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2023年（第33届）/026-系列报道（报纸）-乡村振兴蹲点记.md",
-      "source_sha256": "4f03f64e95de3b9f90ebde8f6fc000bf204be1b45eb52b5821514c34a920ac48",
-      "material_bundle": "references/award-case-materials/2023年（第33届）--026-系列报道（报纸）-乡村振兴蹲点记.md",
       "report_bundle": "references/award-case-reports/0145-AWD-145-v1.md",
       "report_sha256": "ec258ff6e91ff6a97984a62fc6be7975760b5a63e20bc31c5333a688b0fc8e6f",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2023年（第33届）/026-系列报道（报纸）-乡村振兴蹲点记.md",
+      "historical_source_sha256": "4f03f64e95de3b9f90ebde8f6fc000bf204be1b45eb52b5821514c34a920ac48",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-146",
@@ -2332,12 +2332,12 @@
       "award_category": "系列报道",
       "award_category_raw": "系列报道（报纸）",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2023年（第33届）/027-系列报道（报纸）-打造原创技术策源地系列报道.md",
-      "source_sha256": "73b1941b60bca73f6073db303d4787135c0132711b15e2790e21e038a361a69b",
-      "material_bundle": "references/award-case-materials/2023年（第33届）--027-系列报道（报纸）-打造原创技术策源地系列报道.md",
       "report_bundle": "references/award-case-reports/0146-AWD-146-v1.md",
       "report_sha256": "53622b19bf31c0c174a97e451c1c15142b751a973b4e9e4b4d125a0d412e47e9",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2023年（第33届）/027-系列报道（报纸）-打造原创技术策源地系列报道.md",
+      "historical_source_sha256": "73b1941b60bca73f6073db303d4787135c0132711b15e2790e21e038a361a69b",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-147",
@@ -2348,12 +2348,12 @@
       "award_category": "副刊/报告文学",
       "award_category_raw": "副刊作品 _ 报告文学（",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2023年（第33届）/032-副刊作品 _ 报告文学（-播火者.md",
-      "source_sha256": "eec0d2231a6ff33355365b8e33f3385137073c57cd45adea6df5284c266e2bbb",
-      "material_bundle": "references/award-case-materials/2023年（第33届）--032-副刊作品 _ 报告文学（-播火者.md",
       "report_bundle": "references/award-case-reports/0147-AWD-147-v1.md",
       "report_sha256": "23c233a219332db012fabacd04a6b0f13087e8d25d3dac5b1e9655018d1c7493",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2023年（第33届）/032-副刊作品 _ 报告文学（-播火者.md",
+      "historical_source_sha256": "eec0d2231a6ff33355365b8e33f3385137073c57cd45adea6df5284c266e2bbb",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-148",
@@ -2364,12 +2364,12 @@
       "award_category": "新闻专栏",
       "award_category_raw": "新闻专栏",
       "learning_route": "COLUMN",
-      "source_path": "历届新闻奖/2023年（第33届）/043-新闻专栏-强军论坛.md",
-      "source_sha256": "e0a7b588dbcedfc2ccc73645a43935caf5b958c7a7bc99f918b4f5b500826443",
-      "material_bundle": "references/award-case-materials/2023年（第33届）--043-新闻专栏-强军论坛.md",
       "report_bundle": "references/award-case-reports/0148-AWD-148-v1.md",
       "report_sha256": "856dfb9729c535ed38ada88b41f7acb5b7785ac2885ff5a4684d5c204d1260de",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2023年（第33届）/043-新闻专栏-强军论坛.md",
+      "historical_source_sha256": "e0a7b588dbcedfc2ccc73645a43935caf5b958c7a7bc99f918b4f5b500826443",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-149",
@@ -2380,12 +2380,12 @@
       "award_category": "新闻专栏",
       "award_category_raw": "新闻专栏",
       "learning_route": "COLUMN",
-      "source_path": "历届新闻奖/2023年（第33届）/044-新闻专栏-经济论坛.md",
-      "source_sha256": "2fe4a2dbd980a7e01d92ede31a9ea9237f6c42f26533e84507b2ca686e97d1fd",
-      "material_bundle": "references/award-case-materials/2023年（第33届）--044-新闻专栏-经济论坛.md",
       "report_bundle": "references/award-case-reports/0149-AWD-149-v1.md",
       "report_sha256": "18b66882ceab6846d3d71e7a0ea4f79c7210373c6cbd592179e1f57953cf69f2",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2023年（第33届）/044-新闻专栏-经济论坛.md",
+      "historical_source_sha256": "2fe4a2dbd980a7e01d92ede31a9ea9237f6c42f26533e84507b2ca686e97d1fd",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-150",
@@ -2396,12 +2396,12 @@
       "award_category": "新闻业务研究",
       "award_category_raw": "新闻业务研究（期刊）",
       "learning_route": "RESEARCH_ABSORB",
-      "source_path": "历届新闻奖/2023年（第33届）/050-新闻业务研究（期刊）-把彻底的理论讲彻底 把鲜活的思想讲鲜活——做深做实习近平经济思想宣传的探索与思考.md",
-      "source_sha256": "83ed2aacf2463abbb79b978fe529f646e72d5b159fbc4d67c4cca959698ce7dc",
-      "material_bundle": "references/award-case-materials/2023年（第33届）--050-新闻业务研究（期刊）-把彻底的理论讲彻底 把鲜活的思想讲鲜活——做深做实习近平经济思想宣传的探索与思考.md",
       "report_bundle": "references/award-case-reports/0150-AWD-150-v1.md",
       "report_sha256": "e781e6b11e94737f9dd6afa175bb8ebc5a5256b32dc93b73725115848183346a",
-      "special_rule": "research_absorption"
+      "special_rule": "research_absorption",
+      "historical_source_path": "历届新闻奖/2023年（第33届）/050-新闻业务研究（期刊）-把彻底的理论讲彻底 把鲜活的思想讲鲜活——做深做实习近平经济思想宣传的探索与思考.md",
+      "historical_source_sha256": "83ed2aacf2463abbb79b978fe529f646e72d5b159fbc4d67c4cca959698ce7dc",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-151",
@@ -2412,12 +2412,12 @@
       "award_category": "新闻业务研究",
       "award_category_raw": "新闻业务研究（期刊）",
       "learning_route": "RESEARCH_ABSORB",
-      "source_path": "历届新闻奖/2023年（第33届）/051-新闻业务研究（期刊）-新闻舆论工作者要时刻心怀“国之大者”.md",
-      "source_sha256": "e64d8ef72573594ca4e65c6e67630a947074cfd481a96c15fbe091c5240e9cae",
-      "material_bundle": "references/award-case-materials/2023年（第33届）--051-新闻业务研究（期刊）-新闻舆论工作者要时刻心怀“国之大者”.md",
       "report_bundle": "references/award-case-reports/0151-AWD-151-v1.md",
       "report_sha256": "5e4d7b0287700965760757df8021572094089200e4af01acb54dbad859b346a2",
-      "special_rule": "research_absorption"
+      "special_rule": "research_absorption",
+      "historical_source_path": "历届新闻奖/2023年（第33届）/051-新闻业务研究（期刊）-新闻舆论工作者要时刻心怀“国之大者”.md",
+      "historical_source_sha256": "e64d8ef72573594ca4e65c6e67630a947074cfd481a96c15fbe091c5240e9cae",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-152",
@@ -2428,12 +2428,12 @@
       "award_category": "重大主题报道",
       "award_category_raw": "重大主题报道（报纸）",
       "learning_route": "GENERAL_REVIEW",
-      "source_path": "历届新闻奖/2023年（第33届）/052-重大主题报道（报纸）-“奋进强国路·总书记这样引领中国式现代化”.md",
-      "source_sha256": "edd2c610dce2a5239a1fe53bfca82464be2e57dbe217fa75e5b96c2f062aa2d9",
-      "material_bundle": "references/award-case-materials/2023年（第33届）--052-重大主题报道（报纸）-“奋进强国路·总书记这样引领中国式现代化”.md",
       "report_bundle": "references/award-case-reports/0152-AWD-152-v1.md",
       "report_sha256": "e8bb61022a1b280794f2dd89282232794579d002da27bb633364a7b5a75c7a0d",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2023年（第33届）/052-重大主题报道（报纸）-“奋进强国路·总书记这样引领中国式现代化”.md",
+      "historical_source_sha256": "edd2c610dce2a5239a1fe53bfca82464be2e57dbe217fa75e5b96c2f062aa2d9",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-153",
@@ -2444,12 +2444,12 @@
       "award_category": "重大主题报道",
       "award_category_raw": "重大主题报道（报纸）",
       "learning_route": "GENERAL_REVIEW",
-      "source_path": "历届新闻奖/2023年（第33届）/053-重大主题报道（报纸）-神山村三日.md",
-      "source_sha256": "d11bfd04fa4d560a98f61c951c24e17f0c2f8493321d73cd2a62c2161dc1294b",
-      "material_bundle": "references/award-case-materials/2023年（第33届）--053-重大主题报道（报纸）-神山村三日.md",
       "report_bundle": "references/award-case-reports/0153-AWD-153-v1.md",
       "report_sha256": "34413004020087cd9df611d010199d55555c731bf33dfa598e4d736d6966893d",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2023年（第33届）/053-重大主题报道（报纸）-神山村三日.md",
+      "historical_source_sha256": "d11bfd04fa4d560a98f61c951c24e17f0c2f8493321d73cd2a62c2161dc1294b",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-154",
@@ -2460,12 +2460,12 @@
       "award_category": "重大主题报道",
       "award_category_raw": "重大主题报道",
       "learning_route": "GENERAL_REVIEW",
-      "source_path": "历届新闻奖/2023年（第33届）/056-重大主题报道-北京2022年冬奥会和冬残奥会 官方特别报道.md",
-      "source_sha256": "7b58802857c7e98926072536ce3475fe6b407bee69501759698c854f0c025761",
-      "material_bundle": "references/award-case-materials/2023年（第33届）--056-重大主题报道-北京2022年冬奥会和冬残奥会 官方特别报道.md",
       "report_bundle": "references/award-case-reports/0154-AWD-154-v1.md",
       "report_sha256": "29e6ba5b76333fae48f62bdfdd3dfacfd183ae5ab6830bc8d093bc57b8dbf3ad",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2023年（第33届）/056-重大主题报道-北京2022年冬奥会和冬残奥会 官方特别报道.md",
+      "historical_source_sha256": "7b58802857c7e98926072536ce3475fe6b407bee69501759698c854f0c025761",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-155",
@@ -2476,12 +2476,12 @@
       "award_category": "国际传播",
       "award_category_raw": "国际传播（通讯社）",
       "learning_route": "INTERNATIONAL",
-      "source_path": "历届新闻奖/2023年（第33届）/057-国际传播（通讯社）-特稿：新征程领路人习近平.md",
-      "source_sha256": "87eb078325b6c7aabe1d56d1b4b18315718116604f893bb430cea351e0a00952",
-      "material_bundle": "references/award-case-materials/2023年（第33届）--057-国际传播（通讯社）-特稿：新征程领路人习近平.md",
       "report_bundle": "references/award-case-reports/0155-AWD-155-v1.md",
       "report_sha256": "ca736242dc7c0ee5f864b59dd4bc88b5acc44bc0a4732f17e91cfe25e250af67",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2023年（第33届）/057-国际传播（通讯社）-特稿：新征程领路人习近平.md",
+      "historical_source_sha256": "87eb078325b6c7aabe1d56d1b4b18315718116604f893bb430cea351e0a00952",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-156",
@@ -2492,12 +2492,12 @@
       "award_category": "国际传播",
       "award_category_raw": "国际传播（通讯社）",
       "learning_route": "INTERNATIONAL",
-      "source_path": "历届新闻奖/2023年（第33届）/058-国际传播（通讯社）-习近平抵达利雅得出席首届中国－阿拉伯国家峰会、中国－海湾阿拉伯国家合作委员会峰会并对沙特进行国事访问.md",
-      "source_sha256": "b56eee7f2c918a8810e9d4aefa172a731c8e292390c342b26c86abd228796219",
-      "material_bundle": "references/award-case-materials/2023年（第33届）--058-国际传播（通讯社）-习近平抵达利雅得出席首届中国－阿拉伯国家峰会、中国－海湾阿拉伯国家合作委员会峰会并对沙特进行国事访问.md",
       "report_bundle": "references/award-case-reports/0156-AWD-156-v1.md",
       "report_sha256": "b65c49191576a190de4540ae7317bf51171188bc80bd5b541b5525facccc737c",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2023年（第33届）/058-国际传播（通讯社）-习近平抵达利雅得出席首届中国－阿拉伯国家峰会、中国－海湾阿拉伯国家合作委员会峰会并对沙特进行国事访问.md",
+      "historical_source_sha256": "b56eee7f2c918a8810e9d4aefa172a731c8e292390c342b26c86abd228796219",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-157",
@@ -2508,12 +2508,12 @@
       "award_category": "国际传播",
       "award_category_raw": "国际传播（报纸）",
       "learning_route": "INTERNATIONAL",
-      "source_path": "历届新闻奖/2023年（第33届）/059-国际传播（报纸）-中国政府和中国人民实现祖国统一的决心坚如磐石.md",
-      "source_sha256": "4380739f44cdcca87f438fc6b057201815a0d2b9df6120f74cea716364f5b2f6",
-      "material_bundle": "references/award-case-materials/2023年（第33届）--059-国际传播（报纸）-中国政府和中国人民实现祖国统一的决心坚如磐石.md",
       "report_bundle": "references/award-case-reports/0157-AWD-157-v1.md",
       "report_sha256": "3691ba00c4d515b50af821999fedeb870e4968dba44964421fa06315ce4515ef",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2023年（第33届）/059-国际传播（报纸）-中国政府和中国人民实现祖国统一的决心坚如磐石.md",
+      "historical_source_sha256": "4380739f44cdcca87f438fc6b057201815a0d2b9df6120f74cea716364f5b2f6",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-158",
@@ -2524,12 +2524,12 @@
       "award_category": "国际传播",
       "award_category_raw": "国际传播（报纸）",
       "learning_route": "INTERNATIONAL",
-      "source_path": "历届新闻奖/2023年（第33届）/060-国际传播（报纸）-Visits of vision (习近平主席的海外足迹）.md",
-      "source_sha256": "65d43ac7c24cb6324e7925c7b7ced56c1e243d2c5e7ce5726fb0843e9befe866",
-      "material_bundle": "references/award-case-materials/2023年（第33届）--060-国际传播（报纸）-Visits of vision (习近平主席的海外足迹）.md",
       "report_bundle": "references/award-case-reports/0158-AWD-158-v1.md",
       "report_sha256": "05146993c57f49473745cc2028032d85805af759a54fdba5f6a0b2ae9ed5ef0b",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2023年（第33届）/060-国际传播（报纸）-Visits of vision (习近平主席的海外足迹）.md",
+      "historical_source_sha256": "65d43ac7c24cb6324e7925c7b7ced56c1e243d2c5e7ce5726fb0843e9befe866",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-159",
@@ -2540,12 +2540,12 @@
       "award_category": "通讯/深度/典型",
       "award_category_raw": "典型报道（报纸）",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2023年（第33届）/065-典型报道（报纸）-“七虎”竞南通.md",
-      "source_sha256": "6ecad95ae0da6d259cd3827509a4fec079d41edcadbe335beba397236a306a89",
-      "material_bundle": "references/award-case-materials/2023年（第33届）--065-典型报道（报纸）-“七虎”竞南通.md",
       "report_bundle": "references/award-case-reports/0159-AWD-159-v1.md",
       "report_sha256": "9a615cd943a3876a66d54e58207bdbb49f1297e7e81f9f162c91d325f110f5f3",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2023年（第33届）/065-典型报道（报纸）-“七虎”竞南通.md",
+      "historical_source_sha256": "6ecad95ae0da6d259cd3827509a4fec079d41edcadbe335beba397236a306a89",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-160",
@@ -2556,12 +2556,12 @@
       "award_category": "消息",
       "award_category_raw": "消息（报纸）",
       "learning_route": "HARD_NEWS",
-      "source_path": "历届新闻奖/2024年（第34届）/003-消息（报纸）-江苏发出第1000万户个体工商户营业执照 成为全国首个在册个体工商户总量破千万省份.md",
-      "source_sha256": "09a0b38d2d9ccda11674512428096bb2333858205e37ce2f061ec5ef31472b9c",
-      "material_bundle": "references/award-case-materials/2024年（第34届）--003-消息（报纸）-江苏发出第1000万户个体工商户营业执照 成为全国首个在册个体工商户总量破千万省份.md",
       "report_bundle": "references/award-case-reports/0160-AWD-160-v1.md",
       "report_sha256": "5c4357491d7b6aa9ea177be29f6b2890232a16c9bb7585a4945f23c4edf53bb9",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2024年（第34届）/003-消息（报纸）-江苏发出第1000万户个体工商户营业执照 成为全国首个在册个体工商户总量破千万省份.md",
+      "historical_source_sha256": "09a0b38d2d9ccda11674512428096bb2333858205e37ce2f061ec5ef31472b9c",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-161",
@@ -2572,12 +2572,12 @@
       "award_category": "消息",
       "award_category_raw": "消息（报纸）",
       "learning_route": "HARD_NEWS",
-      "source_path": "历届新闻奖/2024年（第34届）/005-消息（报纸）-中美乐团上演“茉莉香飘《茉莉花》”.md",
-      "source_sha256": "5f04beb8a582f3ad78172cf6d53f87c770c6998123a68ca51a81def8cc3402b4",
-      "material_bundle": "references/award-case-materials/2024年（第34届）--005-消息（报纸）-中美乐团上演“茉莉香飘《茉莉花》”.md",
       "report_bundle": "references/award-case-reports/0161-AWD-161-v1.md",
       "report_sha256": "4cb3a11ed8b91d45870c8dc8fccb5dd47ddf774b11871a3ca42a806ec29766d2",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2024年（第34届）/005-消息（报纸）-中美乐团上演“茉莉香飘《茉莉花》”.md",
+      "historical_source_sha256": "5f04beb8a582f3ad78172cf6d53f87c770c6998123a68ca51a81def8cc3402b4",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-162",
@@ -2588,12 +2588,12 @@
       "award_category": "消息",
       "award_category_raw": "消息（报纸）",
       "learning_route": "HARD_NEWS",
-      "source_path": "历届新闻奖/2024年（第34届）/006-消息（报纸）-“江西造”在沙特点亮中国品牌之光.md",
-      "source_sha256": "3e4e26f78f5b46ad488013c0accc33557a6499a921963f4b697efc29b5319540",
-      "material_bundle": "references/award-case-materials/2024年（第34届）--006-消息（报纸）-“江西造”在沙特点亮中国品牌之光.md",
       "report_bundle": "references/award-case-reports/0162-AWD-162-v1.md",
       "report_sha256": "057581e9f44eee6140de8d9ace91d25d508b30a9a248a36ced9c90d439df03d7",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2024年（第34届）/006-消息（报纸）-“江西造”在沙特点亮中国品牌之光.md",
+      "historical_source_sha256": "3e4e26f78f5b46ad488013c0accc33557a6499a921963f4b697efc29b5319540",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-163",
@@ -2604,12 +2604,12 @@
       "award_category": "评论",
       "award_category_raw": "评论（通讯社）",
       "learning_route": "COMMENTARY",
-      "source_path": "历届新闻奖/2024年（第34届）/007-评论（通讯社）-钟华论：民族复兴的领路人 亿万人民的主心骨.md",
-      "source_sha256": "f649466b77531b956d1611564f378349fb60799a56400bc46a0b7c816a21f8fa",
-      "material_bundle": "references/award-case-materials/2024年（第34届）--007-评论（通讯社）-钟华论：民族复兴的领路人 亿万人民的主心骨.md",
       "report_bundle": "references/award-case-reports/0163-AWD-163-v1.md",
       "report_sha256": "2b00c45aaa07570830fc095ec3faefec51add818efd3099961068acb48518238",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2024年（第34届）/007-评论（通讯社）-钟华论：民族复兴的领路人 亿万人民的主心骨.md",
+      "historical_source_sha256": "f649466b77531b956d1611564f378349fb60799a56400bc46a0b7c816a21f8fa",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-164",
@@ -2620,12 +2620,12 @@
       "award_category": "评论",
       "award_category_raw": "评论（报纸）",
       "learning_route": "COMMENTARY",
-      "source_path": "历届新闻奖/2024年（第34届）/008-评论（报纸）-让大地赋我们无穷力量——写在全党大兴调查研究之际.md",
-      "source_sha256": "605096d3f4d166a965078df8578302d18fcc1062a5370eeaf1562afe94557b22",
-      "material_bundle": "references/award-case-materials/2024年（第34届）--008-评论（报纸）-让大地赋我们无穷力量——写在全党大兴调查研究之际.md",
       "report_bundle": "references/award-case-reports/0164-AWD-164-v1.md",
       "report_sha256": "fd098734434fd67f79757685585c1a1cad8eb84e84a2512335bddc9018cec3cb",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2024年（第34届）/008-评论（报纸）-让大地赋我们无穷力量——写在全党大兴调查研究之际.md",
+      "historical_source_sha256": "605096d3f4d166a965078df8578302d18fcc1062a5370eeaf1562afe94557b22",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-165",
@@ -2636,12 +2636,12 @@
       "award_category": "评论",
       "award_category_raw": "评论（报纸）",
       "learning_route": "COMMENTARY",
-      "source_path": "历届新闻奖/2024年（第34届）/009-评论（报纸）-年轻干部既要德配其位也要才配其位.md",
-      "source_sha256": "8c4aff66fc3ebd749952f0203acfc362d02915381faa32d6febd37c6ad3c8906",
-      "material_bundle": "references/award-case-materials/2024年（第34届）--009-评论（报纸）-年轻干部既要德配其位也要才配其位.md",
       "report_bundle": "references/award-case-reports/0165-AWD-165-v1.md",
       "report_sha256": "04afed8957720fc0ffe6be568e7f98014b38edc38415abe7e54107a99215a96f",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2024年（第34届）/009-评论（报纸）-年轻干部既要德配其位也要才配其位.md",
+      "historical_source_sha256": "8c4aff66fc3ebd749952f0203acfc362d02915381faa32d6febd37c6ad3c8906",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-166",
@@ -2652,12 +2652,12 @@
       "award_category": "评论",
       "award_category_raw": "评论（新媒体）",
       "learning_route": "COMMENTARY",
-      "source_path": "历届新闻奖/2024年（第34届）/010-评论（新媒体）-经济随笔 丨 中央经济工作会议精神的深层逻辑.md",
-      "source_sha256": "4189fff47862d821d4779b419b9e95f4450ea8fbf456dde3979301c3a039a1a2",
-      "material_bundle": "references/award-case-materials/2024年（第34届）--010-评论（新媒体）-经济随笔 丨 中央经济工作会议精神的深层逻辑.md",
       "report_bundle": "references/award-case-reports/0166-AWD-166-v1.md",
       "report_sha256": "11f7aacc9133e82571078d551fc42728cba07759faae0a7cddeaf5898850abb3",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2024年（第34届）/010-评论（新媒体）-经济随笔 丨 中央经济工作会议精神的深层逻辑.md",
+      "historical_source_sha256": "4189fff47862d821d4779b419b9e95f4450ea8fbf456dde3979301c3a039a1a2",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-167",
@@ -2668,12 +2668,12 @@
       "award_category": "评论",
       "award_category_raw": "评论（报纸）",
       "learning_route": "COMMENTARY",
-      "source_path": "历届新闻奖/2024年（第34届）/011-评论（报纸）-再造一个新广东.md",
-      "source_sha256": "edd77e3b7d0f419ea59d7892277e5fdd84554d3c9269b8e36090b7fe65afc6d9",
-      "material_bundle": "references/award-case-materials/2024年（第34届）--011-评论（报纸）-再造一个新广东.md",
       "report_bundle": "references/award-case-reports/0167-AWD-167-v1.md",
       "report_sha256": "5def400f077a94c2b8a400e65e21f13059ca18ca13713ff865ca90ca0cd712ef",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2024年（第34届）/011-评论（报纸）-再造一个新广东.md",
+      "historical_source_sha256": "edd77e3b7d0f419ea59d7892277e5fdd84554d3c9269b8e36090b7fe65afc6d9",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-168",
@@ -2684,12 +2684,12 @@
       "award_category": "通讯/深度/典型",
       "award_category_raw": "通讯（报纸）",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2024年（第34届）/013-通讯（报纸）-两名基层干部的“鸡毛信”.md",
-      "source_sha256": "7e102b455bd5af5910884b02c43fd7a43fcfa3f31fb62b8d008ac18cfae33c7b",
-      "material_bundle": "references/award-case-materials/2024年（第34届）--013-通讯（报纸）-两名基层干部的“鸡毛信”.md",
       "report_bundle": "references/award-case-reports/0168-AWD-168-v1.md",
       "report_sha256": "5ec727c7e61fc53d15731024d1049a229ffd3019f7cdf5fd8dea84814402a20d",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2024年（第34届）/013-通讯（报纸）-两名基层干部的“鸡毛信”.md",
+      "historical_source_sha256": "7e102b455bd5af5910884b02c43fd7a43fcfa3f31fb62b8d008ac18cfae33c7b",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-169",
@@ -2700,12 +2700,12 @@
       "award_category": "通讯/深度/典型",
       "award_category_raw": "通讯（期刊）",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2024年（第34届）/014-通讯（期刊）-瞭望 · 治国理政纪事｜建设牢不可破的 北疆绿色长城.md",
-      "source_sha256": "4419360cf6c4d29adc8719f55c7c4ae42b55969cc3ae834151d8eebda308523c",
-      "material_bundle": "references/award-case-materials/2024年（第34届）--014-通讯（期刊）-瞭望 · 治国理政纪事｜建设牢不可破的 北疆绿色长城.md",
       "report_bundle": "references/award-case-reports/0169-AWD-169-v1.md",
       "report_sha256": "e213365b2915c3c504371b19bd242b16fb93136ce1b1d2d8e0de82a16241e577",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2024年（第34届）/014-通讯（期刊）-瞭望 · 治国理政纪事｜建设牢不可破的 北疆绿色长城.md",
+      "historical_source_sha256": "4419360cf6c4d29adc8719f55c7c4ae42b55969cc3ae834151d8eebda308523c",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-170",
@@ -2716,12 +2716,12 @@
       "award_category": "通讯/深度/典型",
       "award_category_raw": "通讯（报纸）",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2024年（第34届）/017-通讯（报纸）-防止脱实向虚.md",
-      "source_sha256": "7296cf87710cbd0b61e2b6fed47f8dabac436fb914d20b5c34cfc0a6ce12f1ad",
-      "material_bundle": "references/award-case-materials/2024年（第34届）--017-通讯（报纸）-防止脱实向虚.md",
       "report_bundle": "references/award-case-reports/0170-AWD-170-v1.md",
       "report_sha256": "65c5d5c2509b3e63f9ba986eb3a71e2d83488d9f1d929cceb7a62a4a3acf3c04",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2024年（第34届）/017-通讯（报纸）-防止脱实向虚.md",
+      "historical_source_sha256": "7296cf87710cbd0b61e2b6fed47f8dabac436fb914d20b5c34cfc0a6ce12f1ad",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-171",
@@ -2732,12 +2732,12 @@
       "award_category": "系列报道",
       "award_category_raw": "系列报道（报纸）",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2024年（第34届）/025-系列报道（报纸）-“了不起的青春小店”系列报道.md",
-      "source_sha256": "9ef8c189af256fc9636a5dc792f838847be33533d88675439c69e3a391e56777",
-      "material_bundle": "references/award-case-materials/2024年（第34届）--025-系列报道（报纸）-“了不起的青春小店”系列报道.md",
       "report_bundle": "references/award-case-reports/0171-AWD-171-v1.md",
       "report_sha256": "0bbffd45fe23713568d204295a5008643d261ba0ac8ae389bf600712f11cf528",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2024年（第34届）/025-系列报道（报纸）-“了不起的青春小店”系列报道.md",
+      "historical_source_sha256": "9ef8c189af256fc9636a5dc792f838847be33533d88675439c69e3a391e56777",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-172",
@@ -2748,12 +2748,12 @@
       "award_category": "副刊/报告文学",
       "award_category_raw": "副刊作品",
       "learning_route": "NARRATIVE_FEATURE",
-      "source_path": "历届新闻奖/2024年（第34届）/033-副刊作品-歌声起太行.md",
-      "source_sha256": "3bc77809d9a0a9867f9cae16502ec8b53cb032748fb774e38160a062ffdb848c",
-      "material_bundle": "references/award-case-materials/2024年（第34届）--033-副刊作品-歌声起太行.md",
       "report_bundle": "references/award-case-reports/0172-AWD-172-v1.md",
       "report_sha256": "5fb3d4a913dbcbfc50f3381fb364a63c5d8fa346546e71c334bdd103aaead880",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2024年（第34届）/033-副刊作品-歌声起太行.md",
+      "historical_source_sha256": "3bc77809d9a0a9867f9cae16502ec8b53cb032748fb774e38160a062ffdb848c",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-173",
@@ -2764,12 +2764,12 @@
       "award_category": "新闻业务研究",
       "award_category_raw": "新闻业务研究（期刊）",
       "learning_route": "RESEARCH_ABSORB",
-      "source_path": "历届新闻奖/2024年（第34届）/051-新闻业务研究（期刊）-“爆款长红”的探索与思考.md",
-      "source_sha256": "98ecbaea1f4870ed4170470cc8a2c3579f4202294aaed876fdf570bc1a5267c9",
-      "material_bundle": "references/award-case-materials/2024年（第34届）--051-新闻业务研究（期刊）-“爆款长红”的探索与思考.md",
       "report_bundle": "references/award-case-reports/0173-AWD-173-v1.md",
       "report_sha256": "8fe1437f0d0377a2e464bf7a7777dfeb1baea1be346df6c05770d9e0d3ed8354",
-      "special_rule": "research_absorption"
+      "special_rule": "research_absorption",
+      "historical_source_path": "历届新闻奖/2024年（第34届）/051-新闻业务研究（期刊）-“爆款长红”的探索与思考.md",
+      "historical_source_sha256": "98ecbaea1f4870ed4170470cc8a2c3579f4202294aaed876fdf570bc1a5267c9",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-174",
@@ -2780,12 +2780,12 @@
       "award_category": "新闻业务研究",
       "award_category_raw": "新闻业务研究（期刊）",
       "learning_route": "RESEARCH_ABSORB",
-      "source_path": "历届新闻奖/2024年（第34届）/052-新闻业务研究（期刊）-主力军全面挺进主战场 构建媒体深度融合新生态.md",
-      "source_sha256": "524561c911502eefc552f0a09dc9085b739a4dd1ba8e40cb3b95e52ec6388c16",
-      "material_bundle": "references/award-case-materials/2024年（第34届）--052-新闻业务研究（期刊）-主力军全面挺进主战场 构建媒体深度融合新生态.md",
       "report_bundle": "references/award-case-reports/0174-AWD-174-v1.md",
       "report_sha256": "3ad0a1559601786213ce900a24870acb134a696211899b1c199cd3d77fe09840",
-      "special_rule": "research_absorption"
+      "special_rule": "research_absorption",
+      "historical_source_path": "历届新闻奖/2024年（第34届）/052-新闻业务研究（期刊）-主力军全面挺进主战场 构建媒体深度融合新生态.md",
+      "historical_source_sha256": "524561c911502eefc552f0a09dc9085b739a4dd1ba8e40cb3b95e52ec6388c16",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-175",
@@ -2796,12 +2796,12 @@
       "award_category": "重大主题报道",
       "award_category_raw": "重大主题报道（报纸）",
       "learning_route": "GENERAL_REVIEW",
-      "source_path": "历届新闻奖/2024年（第34届）/053-重大主题报道（报纸）-人民的选择——写在习近平同志全票当选国家主席、中央军委主席之际.md",
-      "source_sha256": "4ce37565ca2d439e0e34e4347ff824452e9de6b52ee432c9fd9203c2f5804ea4",
-      "material_bundle": "references/award-case-materials/2024年（第34届）--053-重大主题报道（报纸）-人民的选择——写在习近平同志全票当选国家主席、中央军委主席之际.md",
       "report_bundle": "references/award-case-reports/0175-AWD-175-v1.md",
       "report_sha256": "6ba0cb9716115fc75fdea1b0ba657410e53b170afc353d48d8204f20c98dfadf",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2024年（第34届）/053-重大主题报道（报纸）-人民的选择——写在习近平同志全票当选国家主席、中央军委主席之际.md",
+      "historical_source_sha256": "4ce37565ca2d439e0e34e4347ff824452e9de6b52ee432c9fd9203c2f5804ea4",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-176",
@@ -2812,12 +2812,12 @@
       "award_category": "重大主题报道",
       "award_category_raw": "重大主题报道（通讯社）",
       "learning_route": "GENERAL_REVIEW",
-      "source_path": "历届新闻奖/2024年（第34届）/054-重大主题报道（通讯社）-人民江山.md",
-      "source_sha256": "efa6867e50b1bc67aa42f9a0d8c4fae1c49cf8c239b57975f441502c08814451",
-      "material_bundle": "references/award-case-materials/2024年（第34届）--054-重大主题报道（通讯社）-人民江山.md",
       "report_bundle": "references/award-case-reports/0176-AWD-176-v1.md",
       "report_sha256": "e32cfebb33c0a4ce1db8f2edc4672b3775959aa6fec072ef334a4b7c26cd0ad4",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2024年（第34届）/054-重大主题报道（通讯社）-人民江山.md",
+      "historical_source_sha256": "efa6867e50b1bc67aa42f9a0d8c4fae1c49cf8c239b57975f441502c08814451",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-177",
@@ -2828,12 +2828,12 @@
       "award_category": "重大主题报道",
       "award_category_raw": "重大主题报道（报纸）",
       "learning_route": "GENERAL_REVIEW",
-      "source_path": "历届新闻奖/2024年（第34届）/056-重大主题报道（报纸）-“全面深入学习贯彻习近平强军思想”系列评论员文章.md",
-      "source_sha256": "f006f8f2d4654123333bb9bc1e935defb48e577614e088b7cd82894f05839469",
-      "material_bundle": "references/award-case-materials/2024年（第34届）--056-重大主题报道（报纸）-“全面深入学习贯彻习近平强军思想”系列评论员文章.md",
       "report_bundle": "references/award-case-reports/0177-AWD-177-v1.md",
       "report_sha256": "e14311fb62ea15f3374052ccd0f517d153e899986dfdbcbc9bf89575fab0a70a",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2024年（第34届）/056-重大主题报道（报纸）-“全面深入学习贯彻习近平强军思想”系列评论员文章.md",
+      "historical_source_sha256": "f006f8f2d4654123333bb9bc1e935defb48e577614e088b7cd82894f05839469",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-178",
@@ -2844,12 +2844,12 @@
       "award_category": "国际传播",
       "award_category_raw": "国际传播",
       "learning_route": "INTERNATIONAL",
-      "source_path": "历届新闻奖/2024年（第34届）/061-国际传播-“新华社五论中美关系”系列评论.md",
-      "source_sha256": "9c67f9bbe3fe9b593f7741865d18650bad56337f059cbf9218d7c69c59ef0f85",
-      "material_bundle": "references/award-case-materials/2024年（第34届）--061-国际传播-“新华社五论中美关系”系列评论.md",
       "report_bundle": "references/award-case-reports/0178-AWD-178-v1.md",
       "report_sha256": "c77cc82bd4c29512d5e43022f4e2f4533a3db74f5d34ad34c92ef14152a924f8",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2024年（第34届）/061-国际传播-“新华社五论中美关系”系列评论.md",
+      "historical_source_sha256": "9c67f9bbe3fe9b593f7741865d18650bad56337f059cbf9218d7c69c59ef0f85",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-179",
@@ -2860,12 +2860,12 @@
       "award_category": "国际传播",
       "award_category_raw": "国际传播",
       "learning_route": "INTERNATIONAL",
-      "source_path": "历届新闻奖/2024年（第34届）/062-国际传播-Nation's export curbs on key semiconductor materials seen as.md",
-      "source_sha256": "2781fd43ea2e581222e945961da153eceeb24c9596af8cb8ceb134929929a7e3",
-      "material_bundle": "references/award-case-materials/2024年（第34届）--062-国际传播-Nation's export curbs on key semiconductor materials seen as.md",
       "report_bundle": "references/award-case-reports/0179-AWD-179-v1.md",
       "report_sha256": "1490c9b0b4ff21a1ab4db00fdf637951a2158f80f54e0d67c54fb8f3e9cae5e6",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2024年（第34届）/062-国际传播-Nation's export curbs on key semiconductor materials seen as.md",
+      "historical_source_sha256": "2781fd43ea2e581222e945961da153eceeb24c9596af8cb8ceb134929929a7e3",
+      "source_access": "historical_provenance_only"
     },
     {
       "article_id": "AWD-180",
@@ -2876,12 +2876,13 @@
       "award_category": "舆论监督报道",
       "award_category_raw": "舆论监督报道（通讯社）",
       "learning_route": "GENERAL_REVIEW",
-      "source_path": "历届新闻奖/2024年（第34届）/069-舆论监督报道（通讯社）-“部分中小学生课间10分钟被约束现象调查”系列报道.md",
-      "source_sha256": "df4c4ff4eb07e3d6f4882a0327923a4117f10d92ed6b52e5481a6237fdd98611",
-      "material_bundle": "references/award-case-materials/2024年（第34届）--069-舆论监督报道（通讯社）-“部分中小学生课间10分钟被约束现象调查”系列报道.md",
       "report_bundle": "references/award-case-reports/0180-AWD-180-v1.md",
       "report_sha256": "c9a0701d3c4cf234846833a6f3bc6c3988f5fc4635695b768b1df3621d284633",
-      "special_rule": "standard_news_learning"
+      "special_rule": "standard_news_learning",
+      "historical_source_path": "历届新闻奖/2024年（第34届）/069-舆论监督报道（通讯社）-“部分中小学生课间10分钟被约束现象调查”系列报道.md",
+      "historical_source_sha256": "df4c4ff4eb07e3d6f4882a0327923a4117f10d92ed6b52e5481a6237fdd98611",
+      "source_access": "historical_provenance_only"
     }
-  ]
+  ],
+  "historical_material_policy": "not_bundled_not_auto_loaded"
 }

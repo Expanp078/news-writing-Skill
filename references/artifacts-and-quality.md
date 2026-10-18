@@ -1,4 +1,4 @@
-# alpha1.0 项目产物、状态与质量门槛
+# alpha1.1 项目产物、状态与质量门槛
 
 ## 1. 推荐项目目录
 
@@ -32,7 +32,7 @@ news-project/
 
 ```yaml
 task_id: NW-YYYYMMDD-###
-skill_version: alpha1.0
+skill_version: alpha1.1
 state: intake|source_mapped|knowledge_analysis_done|prewriting_done|draft_vN_done|review_rN_done|converged|blocked|final
 current_draft: drafts/draft-vN.md
 current_review: reviews/review-rN.md
@@ -97,7 +97,7 @@ last_update: <ISO-8601>
 
 ## 5. 版本升级触发器
 
-以下变化不应直接修改 alpha1.0 的 references：
+以下变化不应直接修改 alpha1.1 的 references：
 
 - 图谱、综合知识库或经验库的主版本发生变化；
 - 资源哈希变化；
@@ -105,4 +105,4 @@ last_update: <ISO-8601>
 - 前向测试发现主流程缺少阶段门槛；
 - 检查者独立性、收敛规则或高风险边界发生实质调整。
 
-这些情况应建立新版本或显式重建记录，并保留 alpha1.0 快照以便回退。
+这些情况应建立新版本或显式重建记录，并保留 alpha1.1 快照以便回退。

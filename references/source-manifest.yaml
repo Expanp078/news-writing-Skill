@@ -1,6 +1,6 @@
 skill:
   name: news-writing-alpha1
-  version: alpha1.0
+  version: alpha1.1
   snapshot_date: 2026-10-18
   update_policy: explicit_rebuild_and_version_bump
   source_policy: copy_and_hash
@@ -44,17 +44,16 @@ deferred_resources:
     source_path: /Users/transit/Documents/ChatGPT/徐言的作业/学习成果/历届新闻奖学习/分析报告
     bundled_path: award-case-reports/
     index_path: award-case-index.json
-    index_sha256: c6706f3d9bd85c3d1890d5b7329d37308ff07aa4b3767feb258ba095c3d87466
-    load: targeted_case_lookup_only
-    count: 180
-  - id: CASE_MATERIALS
-    source_path: /Users/transit/Documents/ChatGPT/徐言的作业/历届新闻奖
-    bundled_path: award-case-materials/
-    index_path: award-case-index.json
-    index_sha256: c6706f3d9bd85c3d1890d5b7329d37308ff07aa4b3767feb258ba095c3d87466
+    index_sha256: e5a980693f1f909ee045c56e18320dd1e23055d25bd753b054c0763284e7e510
     load: targeted_case_lookup_only
     count: 180
 
 forbidden_sources:
   - /Users/transit/Documents/ChatGPT/徐言的作业/学习成果/权威媒体优秀新闻稿学习
   - unregistered_external_materials
+
+historical_material_policy:
+  bundled_originals: false
+  automatic_source_retrieval: false
+  provenance_in_learning_outputs: retained_not_loadable
+  unavailable_action: historical_source_unavailable
