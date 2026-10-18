@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate alpha1.1 project structure and iteration gates, not article quality."""
+"""Validate alpha1.2 project structure and iteration gates, not article quality."""
 
 from __future__ import annotations
 
@@ -9,7 +9,7 @@ from pathlib import Path
 
 
 def parse_args() -> argparse.Namespace:
-    p = argparse.ArgumentParser(description="Validate a news-writing alpha1.1 project")
+    p = argparse.ArgumentParser(description="Validate a news-writing alpha1.2 project")
     p.add_argument("path", type=Path)
     return p.parse_args()
 
@@ -17,6 +17,11 @@ def parse_args() -> argparse.Namespace:
 def require(path: Path, errors: list[str]) -> None:
     if not path.is_file():
         errors.append(f"missing file: {path.relative_to(path.parents[1]) if len(path.parents) > 1 else path}")
+
+
+def version_number(path: Path) -> int:
+    match = re.search(r"[vr](\d+)", path.name)
+    return int(match.group(1)) if match else -1
 
 
 def main() -> int:
@@ -27,14 +32,16 @@ def main() -> int:
         return 2
     require(root / "00-input-manifest.yaml", errors)
     require(root / "state" / "material-precheck.md", errors)
+    require(root / "state" / "resource-load-log.yaml", errors)
+    require(root / "state" / "input-hashes.yaml", errors)
     require(root / "01-analysis-report.md", errors)
     require(root / "02-prewriting-plan.md", errors)
     for name in ("drafts", "reviews", "revisions", "state", "final"):
         if not (root / name).is_dir():
             errors.append(f"missing directory: {name}")
-    drafts = sorted((root / "drafts").glob("draft-v*.md")) if (root / "drafts").is_dir() else []
-    reviews = sorted((root / "reviews").glob("review-r*.md")) if (root / "reviews").is_dir() else []
-    revisions = sorted((root / "revisions").glob("revision-log-r*.md")) if (root / "revisions").is_dir() else []
+    drafts = sorted((root / "drafts").glob("draft-v*.md"), key=version_number) if (root / "drafts").is_dir() else []
+    reviews = sorted((root / "reviews").glob("review-r*.md"), key=version_number) if (root / "reviews").is_dir() else []
+    revisions = sorted((root / "revisions").glob("revision-log-r*.md"), key=version_number) if (root / "revisions").is_dir() else []
     if not drafts:
         errors.append("no draft found")
     if len(reviews) < 3:
@@ -74,8 +81,13 @@ def main() -> int:
                 errors.append(f"revision log lacks finding decisions: {log.name}")
     for state_file in (root / "state" / "resource-load-log.yaml", root / "00-input-manifest.yaml"):
         state_text = state_file.read_text(encoding="utf-8") if state_file.is_file() else ""
-        if state_file.is_file() and any("path:" in line and "权威媒体优秀新闻稿学习" in line for line in state_text.splitlines()):
-            errors.append(f"forbidden legacy directory appears in {state_file.name}")
+        for line in state_text.splitlines():
+            if not re.search(r"(?:path|file|resource)\s*:", line):
+                continue
+            forbidden = ("权威媒体优秀新闻稿学习", "award-case-reports/", "award-case-materials/",
+                         "award-experience-v2.1.md", "历届新闻奖学习/分析报告", "历届新闻奖学习/经验.md")
+            if any(marker in line for marker in forbidden):
+                errors.append(f"historical learning resource loaded in {state_file.name}")
     for review in reviews:
         text = review.read_text(encoding="utf-8")
         if not re.search(r"(reviewer|round|加载|独立|convergence_judgment|收敛)", text, re.I):

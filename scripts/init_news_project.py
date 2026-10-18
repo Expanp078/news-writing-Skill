@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Create an empty alpha1.1 news-writing project without overwriting files."""
+"""Create an empty alpha1.2 news-writing project without overwriting files."""
 
 from __future__ import annotations
 
@@ -9,7 +9,7 @@ from pathlib import Path
 
 
 def parse_args() -> argparse.Namespace:
-    p = argparse.ArgumentParser(description="Initialize a news-writing alpha1.1 project")
+    p = argparse.ArgumentParser(description="Initialize a news-writing alpha1.2 project")
     p.add_argument("path", type=Path, help="new project directory")
     p.add_argument("--task-id", required=True, help="stable task identifier")
     p.add_argument("--genre", default="", help="optional requested genre")
@@ -35,7 +35,7 @@ def main() -> int:
         "\n".join(
             [
                 f"task_id: {quote(args.task_id)}",
-                "skill_version: 'alpha1.1'",
+                "skill_version: 'alpha1.2'",
                 f"created_at: {quote(now)}",
                 f"requested_genre: {quote(args.genre)}",
                 f"medium: {quote(args.medium)}",
@@ -60,7 +60,7 @@ def main() -> int:
         "\n".join(
             [
                 f"task_id: {quote(args.task_id)}",
-                "skill_version: 'alpha1.1'",
+                "skill_version: 'alpha1.2'",
                 "state: intake",
                 "rounds_completed: 0",
                 "minimum_rounds: 3",

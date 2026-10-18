@@ -1,59 +1,51 @@
 skill:
   name: news-writing-alpha1
-  version: alpha1.1
-  snapshot_date: 2026-10-18
+  version: alpha1.2
+  experience_version: v2.2-standalone
+  snapshot_date: '2026-10-18'
   update_policy: explicit_rebuild_and_version_bump
-  source_policy: copy_and_hash
-
+runtime_policy:
+  historical_news: not_bundled_not_loadable
+  historical_learning_reports: not_bundled_not_loadable
+  legacy_experience_and_archives: not_loadable
+  current_task_analysis_report: required
+  source_metadata: provenance_only_not_runtime_paths
 resources:
-  - id: GRAPH
-    role: task_router
-    source_path: /Users/transit/Documents/ChatGPT/徐言的作业/学习成果/跨书整合/00-跨书任务入口图谱.md
-    bundled_path: knowledge-graph.md
-    sha256: b8764f5062516460bfb875dd2ef6785ff4e549903a05161b5f9cd00224911aa9
-    load: always_first
-  - id: KB
-    role: cross_book_method_layer
-    source_path: /Users/transit/Documents/ChatGPT/徐言的作业/学习成果/跨书整合/01-跨书综合知识库.md
-    bundled_path: cross-book-knowledge.md
-    sha256: 97458a704e306ff9336f5873b5b7f7520577a5d8cd3b5b28f682f1ec7e3e7077
-    load: route_then_select_cards
-  - id: CONCEPT_INDEX
-    role: machine_lookup_and_drilldown_router
-    source_path: /Users/transit/Documents/ChatGPT/徐言的作业/学习成果/跨书整合/02-跨书概念索引.yaml
-    bundled_path: concept-index.yaml
-    sha256: 97117809f2fcc71b933f9d211c40d719f942c9b7648a4e1a14c7bce8df172cbc
-    load: when_route_or_read_next_is_unclear
-  - id: EXPERIENCE
-    role: award_exemplar_strategy_layer
-    source_path: /Users/transit/Documents/ChatGPT/徐言的作业/学习成果/历届新闻奖学习/经验.md
-    bundled_path: award-experience-v2.1.md
-    declared_version: v2.1-evidence-audited
-    sha256: 460624f3d32207fe1b70bf2a95bf02d53de613a9025e07c6161f42cb2d4518eb
-    load: only_after_analysis_report
-
+- id: GRAPH
+  role: task_router
+  bundled_path: knowledge-graph.md
+  sha256: b8764f5062516460bfb875dd2ef6785ff4e549903a05161b5f9cd00224911aa9
+  load: always_first
+- id: KB
+  role: cross_book_method_layer
+  bundled_path: cross-book-knowledge.md
+  sha256: 97458a704e306ff9336f5873b5b7f7520577a5d8cd3b5b28f682f1ec7e3e7077
+  load: route_then_select_cards
+- id: CONCEPT_INDEX
+  role: machine_lookup_and_drilldown_router
+  bundled_path: concept-index.yaml
+  sha256: 97117809f2fcc71b933f9d211c40d719f942c9b7648a4e1a14c7bce8df172cbc
+  load: when_route_or_read_next_is_unclear
+- id: EXPERIENCE
+  bundled_path: experience/index.md
+  sha256: 1a0dd8831e120302c8e6d6d3c71b2d143df2b90524daf9089a2e2f41abc134c4
+  load: after_current_analysis_report
+- id: STRATEGIES
+  bundled_path: experience/strategies.md
+  sha256: cad9dcdb4b1fcd5e9a25128ebd53ed61415d68fb41e96f9672da5062e13e1dc4
+  load: select_by_task
+- id: DISTINCTIONS
+  bundled_path: experience/distinctions.md
+  sha256: 766b5ac6b1c6cf9d02a7b5cf1b994682bf4522179e9a438234615c7c768c437f
+  load: conditional_branch_or_counterexample
+- id: PROVENANCE
+  bundled_path: experience/provenance.json
+  sha256: cbbed5223589340ae39631d854705913a2a6315efce8903e6f2de9d98e625044
+  load: optional_historical_attribution
 deferred_resources:
-  - id: BOOK_NOTES
-    source_path: /Users/transit/Documents/ChatGPT/徐言的作业/学习成果/笔记/B01-B11
-    bundled_path: book-notes/
-    index_path: book-notes/index.json
-    index_sha256: cb3c13b4d710b7bcf13745bb437048ac295f55c34c1756528e1d47d830547626
-    load: READ_NEXT_only
-    count: 11
-  - id: CASE_REPORTS
-    source_path: /Users/transit/Documents/ChatGPT/徐言的作业/学习成果/历届新闻奖学习/分析报告
-    bundled_path: award-case-reports/
-    index_path: award-case-index.json
-    index_sha256: e5a980693f1f909ee045c56e18320dd1e23055d25bd753b054c0763284e7e510
-    load: targeted_case_lookup_only
-    count: 180
-
-forbidden_sources:
-  - /Users/transit/Documents/ChatGPT/徐言的作业/学习成果/权威媒体优秀新闻稿学习
-  - unregistered_external_materials
-
-historical_material_policy:
-  bundled_originals: false
-  automatic_source_retrieval: false
-  provenance_in_learning_outputs: retained_not_loadable
-  unavailable_action: historical_source_unavailable
+- id: BOOK_NOTES
+  bundled_path: book-notes/
+  index_path: book-notes/index.json
+  index_sha256: cb3c13b4d710b7bcf13745bb437048ac295f55c34c1756528e1d47d830547626
+  load: READ_NEXT_only
+  count: 11

@@ -1,3 +1,3 @@
 interface:
-  display_name: "新闻稿写作 alpha1.1"
+  display_name: "新闻稿写作 alpha1.2"
   short_description: "基于跨书知识库和获奖经验库的新闻稿分析、起草与多轮独立审阅"

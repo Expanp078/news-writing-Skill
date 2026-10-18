@@ -1,4 +1,4 @@
-# alpha1.1 项目产物、状态与质量门槛
+# alpha1.2 项目产物、状态与质量门槛
 
 ## 1. 推荐项目目录
 
@@ -32,7 +32,7 @@ news-project/
 
 ```yaml
 task_id: NW-YYYYMMDD-###
-skill_version: alpha1.1
+skill_version: alpha1.2
 state: intake|source_mapped|knowledge_analysis_done|prewriting_done|draft_vN_done|review_rN_done|converged|blocked|final
 current_draft: drafts/draft-vN.md
 current_review: reviews/review-rN.md
@@ -61,7 +61,8 @@ last_update: <ISO-8601>
 
 - [ ] 首轮分析确实读取图谱、L0 不变量和相关综合卡；
 - [ ] 分析报告有材料地图、claim ledger、来源状态、受众和风险；
-- [ ] 经验库在分析报告完成后调用，并标出触发条件和边界；
+- [ ] 独立经验在当前分析报告完成后调用，并标出触发条件和边界；
+- [ ] 加载清单中没有历史学习新闻、学习分析报告、旧经验包或备份；
 - [ ] 精确规则、低置信锚点、高风险主张已回源或降级；
 - [ ] 稿件没有把经验案例、奖项评价或机构立场冒充事件事实；
 - [ ] 未知、冲突和未回应保持可见。
@@ -97,7 +98,7 @@ last_update: <ISO-8601>
 
 ## 5. 版本升级触发器
 
-以下变化不应直接修改 alpha1.1 的 references：
+以下变化不应直接修改 alpha1.2 的 references：
 
 - 图谱、综合知识库或经验库的主版本发生变化；
 - 资源哈希变化；
@@ -105,4 +106,4 @@ last_update: <ISO-8601>
 - 前向测试发现主流程缺少阶段门槛；
 - 检查者独立性、收敛规则或高风险边界发生实质调整。
 
-这些情况应建立新版本或显式重建记录，并保留 alpha1.1 快照以便回退。
+这些情况应建立新版本或显式重建记录，并保留 alpha1.2 快照以便回退。

@@ -1,0 +1,1633 @@
+{
+  "schema_version": "v2.2-standalone",
+  "purpose": "Historical provenance only, not a source-loading index or evidence for current news",
+  "historical_limitations": [
+    "Reports used representative windows, not exhaustive claim inventories; 116 reports had 12-entry windows.",
+    "61 opening fields were placeholders and cannot support opening-specific claims.",
+    "Text-only materials do not prove audiovisual or audience effects.",
+    "Business research transfer across institutions remains unvalidated."
+  ],
+  "sources": [
+    {
+      "article_id": "AWD-001",
+      "award_year": 2016,
+      "title": "629户人的藏乡走出359名大学生",
+      "award_category": "消息",
+      "learning_route": "HARD_NEWS",
+      "related_strategy": "SYN2-0005",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-002",
+      "award_year": 2016,
+      "title": "漠视生命是最可怕的沉沦",
+      "award_category": "评论",
+      "learning_route": "COMMENTARY",
+      "related_strategy": "SYN2-0006",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-003",
+      "award_year": 2016,
+      "title": "中国故事， 更精彩的书写还在后面",
+      "award_category": "评论",
+      "learning_route": "COMMENTARY",
+      "related_strategy": "SYN2-0006",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-004",
+      "award_year": 2016,
+      "title": "五问中国经济",
+      "award_category": "通讯/深度/典型",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-005",
+      "award_year": 2016,
+      "title": "马氏“兄弟”跨越二十年的诚信",
+      "award_category": "通讯/深度/典型",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-006",
+      "award_year": 2016,
+      "title": "“为什么2元钱的‘救命药’没有人做？”",
+      "award_category": "系列报道",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0014",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-007",
+      "award_year": 2016,
+      "title": "义乌最美民工张明伟：“东家”比我更需要这笔钱",
+      "award_category": "系列报道",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-008",
+      "award_year": 2016,
+      "title": "一位财政部长的两份遗嘱",
+      "award_category": "副刊/报告文学",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-009",
+      "award_year": 2016,
+      "title": "大国工匠",
+      "award_category": "系列报道",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-010",
+      "award_year": 2016,
+      "title": "老冯家的“传家宝”",
+      "award_category": "融合/视听/互动",
+      "learning_route": "MULTIMEDIA_TEXTUAL",
+      "related_strategy": "SYN2-0011",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-011",
+      "award_year": 2016,
+      "title": "南昌西汉海昏侯墓主椁室考古发掘系列现场直播",
+      "award_category": "融合/视听/互动",
+      "learning_route": "MULTIMEDIA_TEXTUAL",
+      "related_strategy": "SYN2-0011",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-012",
+      "award_year": 2016,
+      "title": "视点",
+      "award_category": "新闻专栏",
+      "learning_route": "COLUMN",
+      "related_strategy": "SYN2-0013",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-013",
+      "award_year": 2016,
+      "title": "广安观潮",
+      "award_category": "新闻专栏",
+      "learning_route": "COLUMN",
+      "related_strategy": "SYN2-0010",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-014",
+      "award_year": 2016,
+      "title": "啄木鸟在行动",
+      "award_category": "新闻专栏",
+      "learning_route": "COLUMN",
+      "related_strategy": "SYN2-0010",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-015",
+      "award_year": 2016,
+      "title": "市民大讲堂",
+      "award_category": "新闻专栏",
+      "learning_route": "COLUMN",
+      "related_strategy": "SYN2-0010",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-016",
+      "award_year": 2016,
+      "title": "把握对外传播的时代新要求——深入学习贯彻习近平同志对人民日报海外版创刊30周年重要指示精神",
+      "award_category": "新闻论文",
+      "learning_route": "JOURNALISM_THEORY",
+      "related_strategy": "RES-SYN2-0003",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-017",
+      "award_year": 2016,
+      "title": "中国军队援非抗击埃博拉系列报道（文字系列）",
+      "award_category": "国际传播",
+      "learning_route": "INTERNATIONAL",
+      "related_strategy": "SYN2-0009",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-018",
+      "award_year": 2016,
+      "title": "中老缅泰湄公河联合巡逻执法成效明显（文字消息）",
+      "award_category": "国际传播",
+      "learning_route": "INTERNATIONAL",
+      "related_strategy": "SYN2-0009",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-019",
+      "award_year": 2017,
+      "title": "1445种全新病毒科被发现",
+      "award_category": "消息",
+      "learning_route": "HARD_NEWS",
+      "related_strategy": "SYN2-0012",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-020",
+      "award_year": 2017,
+      "title": "折翼海天，用生命为航母事业铺路",
+      "award_category": "消息",
+      "learning_route": "HARD_NEWS",
+      "related_strategy": "SYN2-0005",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-021",
+      "award_year": 2017,
+      "title": "供给侧改革需加减法并举",
+      "award_category": "评论",
+      "learning_route": "COMMENTARY",
+      "related_strategy": "SYN2-0006",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-022",
+      "award_year": 2017,
+      "title": "走向经济治理现代化的中国探索",
+      "award_category": "评论",
+      "learning_route": "COMMENTARY",
+      "related_strategy": "SYN2-0006",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-023",
+      "award_year": 2017,
+      "title": "老郭脱贫记",
+      "award_category": "通讯/深度/典型",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-024",
+      "award_year": 2017,
+      "title": "别了，白家庄矿",
+      "award_category": "通讯/深度/典型",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-025",
+      "award_year": 2017,
+      "title": "铁纪铁流",
+      "award_category": "系列报道",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-026",
+      "award_year": 2017,
+      "title": "安徽宿州宋庙小学“要求受助贫困生出钱请吃饭事件”调查",
+      "award_category": "系列报道",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0016",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-027",
+      "award_year": 2017,
+      "title": "巡视组长——追记李泉新",
+      "award_category": "副刊/报告文学",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-028",
+      "award_year": 2017,
+      "title": "人民眼",
+      "award_category": "新闻专栏",
+      "learning_route": "COLUMN",
+      "related_strategy": "SYN2-0010",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-029",
+      "award_year": 2017,
+      "title": "长安观察",
+      "award_category": "新闻专栏",
+      "learning_route": "COLUMN",
+      "related_strategy": "SYN2-0010",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-030",
+      "award_year": 2017,
+      "title": "之江观察",
+      "award_category": "新闻专栏",
+      "learning_route": "COLUMN",
+      "related_strategy": "SYN2-0010",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-031",
+      "award_year": 2017,
+      "title": "逐梦他乡重庆人",
+      "award_category": "新闻专栏",
+      "learning_route": "COLUMN",
+      "related_strategy": "SYN2-0010",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-032",
+      "award_year": 2017,
+      "title": "把握好政治家办报的时代要求",
+      "award_category": "新闻论文",
+      "learning_route": "JOURNALISM_THEORY",
+      "related_strategy": "RES-SYN2-0003",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-033",
+      "award_year": 2017,
+      "title": "始终坚守军报姓党的政治灵魂",
+      "award_category": "新闻论文",
+      "learning_route": "JOURNALISM_THEORY",
+      "related_strategy": "RES-SYN2-0003",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-034",
+      "award_year": 2017,
+      "title": "Putin eyes closer partnership with China普京接受新华社社长独家专访 表示期待打造",
+      "award_category": "国际传播",
+      "learning_route": "INTERNATIONAL",
+      "related_strategy": "SYN2-0013",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-035",
+      "award_year": 2018,
+      "title": "习近平首次沙场阅兵 号令解放军向世界一流军队进发",
+      "award_category": "消息",
+      "learning_route": "HARD_NEWS",
+      "related_strategy": "SYN2-0005",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-036",
+      "award_year": 2018,
+      "title": "创造港珠澳大桥的“极致”",
+      "award_category": "消息",
+      "learning_route": "HARD_NEWS",
+      "related_strategy": "SYN2-0005",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-037",
+      "award_year": 2018,
+      "title": "民生实事莫沉迷于“数字突破”",
+      "award_category": "评论",
+      "learning_route": "COMMENTARY",
+      "related_strategy": "SYN2-0006",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-038",
+      "award_year": 2018,
+      "title": "新时代呼唤蓬勃的青年精神",
+      "award_category": "评论",
+      "learning_route": "COMMENTARY",
+      "related_strategy": "SYN2-0006",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-039",
+      "award_year": 2018,
+      "title": "甘肃祁连山：问责风暴下的生态突围",
+      "award_category": "调查性报道",
+      "learning_route": "GENERAL_REVIEW",
+      "related_strategy": "SYN2-0008",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-040",
+      "award_year": 2018,
+      "title": "“见字如面”23年",
+      "award_category": "通讯/深度/典型",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-041",
+      "award_year": 2018,
+      "title": "“我在中国社区矫正的日子”",
+      "award_category": "通讯/深度/典型",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-042",
+      "award_year": 2018,
+      "title": "以习近平同志为核心的党中央领导和推进强军兴军纪实",
+      "award_category": "系列报道",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-043",
+      "award_year": 2018,
+      "title": "大风歌",
+      "award_category": "副刊/报告文学",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-044",
+      "award_year": 2018,
+      "title": "极恶！拿慰安妇头像做表情包，良心何在",
+      "award_category": "评论",
+      "learning_route": "COMMENTARY",
+      "related_strategy": "SYN2-0006",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-045",
+      "award_year": 2018,
+      "title": "陇上评论",
+      "award_category": "新闻专栏",
+      "learning_route": "COLUMN",
+      "related_strategy": "SYN2-0010",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-046",
+      "award_year": 2018,
+      "title": "星期五调查",
+      "award_category": "新闻专栏",
+      "learning_route": "COLUMN",
+      "related_strategy": "SYN2-0010",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-047",
+      "award_year": 2018,
+      "title": "政策解读",
+      "award_category": "新闻专栏",
+      "learning_route": "COLUMN",
+      "related_strategy": "SYN2-0010",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-048",
+      "award_year": 2018,
+      "title": "理性对待西方涉华舆论",
+      "award_category": "新闻论文",
+      "learning_route": "JOURNALISM_THEORY",
+      "related_strategy": "RES-SYN2-0003",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-049",
+      "award_year": 2018,
+      "title": "构建话语共同体 提升舆论引导力",
+      "award_category": "新闻论文",
+      "learning_route": "JOURNALISM_THEORY",
+      "related_strategy": "RES-SYN2-0003",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-050",
+      "award_year": 2018,
+      "title": "谁抢走了美国人的饭碗",
+      "award_category": "国际传播",
+      "learning_route": "INTERNATIONAL",
+      "related_strategy": "SYN2-0009",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-051",
+      "award_year": 2018,
+      "title": "US Navy becoming a hazard in Asian waters（美国海军威胁亚洲航行安全）",
+      "award_category": "国际传播",
+      "learning_route": "INTERNATIONAL",
+      "related_strategy": "SYN2-0009",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-052",
+      "award_year": 2018,
+      "title": "习近平：新时代的领路人",
+      "award_category": "国际传播",
+      "learning_route": "INTERNATIONAL",
+      "related_strategy": "SYN2-0009",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-053",
+      "award_year": 2018,
+      "title": "“十九大十九问”系列报道",
+      "award_category": "国际传播",
+      "learning_route": "INTERNATIONAL",
+      "related_strategy": "SYN2-0009",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-054",
+      "award_year": 2018,
+      "title": "《中国面临的挑战3》特别节目",
+      "award_category": "国际传播",
+      "learning_route": "INTERNATIONAL",
+      "related_strategy": "SYN2-0009",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-055",
+      "award_year": 2019,
+      "title": "23年圆梦，福建晋江水流进金门",
+      "award_category": "消息",
+      "learning_route": "HARD_NEWS",
+      "related_strategy": "SYN2-0005",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-056",
+      "award_year": 2019,
+      "title": "浙江为“最多跑一次”改革立法审议通过全国“放管服”改革领域首部综合性地方法规",
+      "award_category": "消息",
+      "learning_route": "HARD_NEWS",
+      "related_strategy": "SYN2-0005",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-057",
+      "award_year": 2019,
+      "title": "对“私营经济离场论”这类蛊惑人心的奇谈怪论应高度警惕——“两个毫不动摇”任何时候都不能偏废",
+      "award_category": "评论",
+      "learning_route": "COMMENTARY",
+      "related_strategy": "SYN2-0006",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-058",
+      "award_year": 2019,
+      "title": "新华社评论员：向着更加壮阔的航程 ——致敬改革开放40周年",
+      "award_category": "评论",
+      "learning_route": "COMMENTARY",
+      "related_strategy": "SYN2-0006",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-059",
+      "award_year": 2019,
+      "title": "“陆战雄师”：钢多气盈骨更硬",
+      "award_category": "通讯/深度/典型",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-060",
+      "award_year": 2019,
+      "title": "新思想从实践中产生",
+      "award_category": "系列报道",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-061",
+      "award_year": 2019,
+      "title": "纵横谈",
+      "award_category": "新闻专栏",
+      "learning_route": "COLUMN",
+      "related_strategy": "SYN2-0010",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-062",
+      "award_year": 2019,
+      "title": "民生观",
+      "award_category": "新闻专栏",
+      "learning_route": "COLUMN",
+      "related_strategy": "SYN2-0010",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-063",
+      "award_year": 2019,
+      "title": "新华调查",
+      "award_category": "新闻专栏",
+      "learning_route": "COLUMN",
+      "related_strategy": "SYN2-0010",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-064",
+      "award_year": 2019,
+      "title": "守护好我们的美丽家园",
+      "award_category": "新闻专栏",
+      "learning_route": "COLUMN",
+      "related_strategy": "SYN2-0010",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-065",
+      "award_year": 2019,
+      "title": "坚定“四个意识”坚持守正创新——学习习近平总书记“8•21”重要讲话",
+      "award_category": "新闻论文",
+      "learning_route": "JOURNALISM_THEORY",
+      "related_strategy": "RES-SYN2-0003",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-066",
+      "award_year": 2019,
+      "title": "新时代呼唤构建良好网络舆论生态 ——深入学习贯彻习近平同志“4•19”重要讲话精神",
+      "award_category": "新闻论文",
+      "learning_route": "JOURNALISM_THEORY",
+      "related_strategy": "RES-SYN2-0003",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-067",
+      "award_year": 2019,
+      "title": "文字系列报道-40 years on（40年40人）（文字系列报道）",
+      "award_category": "国际传播",
+      "learning_route": "INTERNATIONAL",
+      "related_strategy": "SYN2-0009",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-068",
+      "award_year": 2019,
+      "title": "文字通讯与深度-新时代改革引领者习近平（深度报道）",
+      "award_category": "国际传播",
+      "learning_route": "INTERNATIONAL",
+      "related_strategy": "SYN2-0009",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-069",
+      "award_year": 2019,
+      "title": "文字评论-美国“霸凌”经贸政策吃不开也行不通（文字评论）",
+      "award_category": "国际传播",
+      "learning_route": "INTERNATIONAL",
+      "related_strategy": "SYN2-0009",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-070",
+      "award_year": 2020,
+      "title": "告别“同命不同价”！",
+      "award_category": "消息",
+      "learning_route": "HARD_NEWS",
+      "related_strategy": "SYN2-0005",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-071",
+      "award_year": 2020,
+      "title": "任何挑战都挡不住中国前进的步伐",
+      "award_category": "评论",
+      "learning_route": "COMMENTARY",
+      "related_strategy": "SYN2-0006",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-072",
+      "award_year": 2020,
+      "title": "向群众汇报",
+      "award_category": "评论",
+      "learning_route": "COMMENTARY",
+      "related_strategy": "SYN2-0006",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-073",
+      "award_year": 2020,
+      "title": "守护母亲河 建设幸福河——推进黄河流域生态保护和高质量发展系列报道",
+      "award_category": "通讯/深度/典型",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-074",
+      "award_year": 2020,
+      "title": "屹立在喀喇昆仑之巅",
+      "award_category": "通讯/深度/典型",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-075",
+      "award_year": 2020,
+      "title": "英雄无言——95岁老党员张富清的本色人生",
+      "award_category": "通讯/深度/典型",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-076",
+      "award_year": 2020,
+      "title": "欧美黑杨砍掉之后",
+      "award_category": "通讯/深度/典型",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-077",
+      "award_year": 2020,
+      "title": "奋进大湾区 乘风破浪时",
+      "award_category": "通讯/深度/典型",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-078",
+      "award_year": 2020,
+      "title": "哈尔滨一场专为非公、小微企业量身定做的焊工比赛，却只有两家企业参加—— 一些私企为何不愿参加技能竞赛？",
+      "award_category": "通讯/深度/典型",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-079",
+      "award_year": 2020,
+      "title": "二百八十一个签名挽留第一书记",
+      "award_category": "通讯/深度/典型",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-080",
+      "award_year": 2020,
+      "title": "活在表格里的牛",
+      "award_category": "副刊/报告文学",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-081",
+      "award_year": 2020,
+      "title": "增强脚力、眼力、脑力、笔力 更好地履行新时代新华社的职责使命",
+      "award_category": "新闻论文",
+      "learning_route": "JOURNALISM_THEORY",
+      "related_strategy": "RES-SYN2-0003",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-082",
+      "award_year": 2020,
+      "title": "厘清边界内涵 构建凝聚共识的大舆论格局",
+      "award_category": "新闻论文",
+      "learning_route": "JOURNALISM_THEORY",
+      "related_strategy": "RES-SYN2-0003",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-083",
+      "award_year": 2020,
+      "title": "习近平与新时代的中国",
+      "award_category": "通讯/深度/典型",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-084",
+      "award_year": 2020,
+      "title": "习近平外交思想系列报道",
+      "award_category": "通讯/深度/典型",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-085",
+      "award_year": 2020,
+      "title": "为建设普遍安全的世界注入正能量——回望上半年中国外交成就③",
+      "award_category": "评论",
+      "learning_route": "COMMENTARY",
+      "related_strategy": "SYN2-0006",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-086",
+      "award_year": 2020,
+      "title": "沙特巨额投资巴基斯坦有益各方",
+      "award_category": "评论",
+      "learning_route": "COMMENTARY",
+      "related_strategy": "SYN2-0006",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-087",
+      "award_year": 2021,
+      "title": "从“暂停”到“重启”：武汉解除离汉通道管控",
+      "award_category": "消息",
+      "learning_route": "HARD_NEWS",
+      "related_strategy": "SYN2-0005",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-088",
+      "award_year": 2021,
+      "title": "湖北新冠肺炎新增病例首次零报告",
+      "award_category": "消息",
+      "learning_route": "HARD_NEWS",
+      "related_strategy": "SYN2-0005",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-089",
+      "award_year": 2021,
+      "title": "我国最后一个不通公路的建制村车路双通滴滴！阿布洛哈村来车了",
+      "award_category": "消息",
+      "learning_route": "HARD_NEWS",
+      "related_strategy": "SYN2-0005",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-090",
+      "award_year": 2021,
+      "title": "发现不了问题就是最大问题",
+      "award_category": "评论",
+      "learning_route": "COMMENTARY",
+      "related_strategy": "SYN2-0006",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-091",
+      "award_year": 2021,
+      "title": "'Cover-up' claims from US are all sound and fury（谎言：美国最新一轮阴谋",
+      "award_category": "评论",
+      "learning_route": "COMMENTARY",
+      "related_strategy": "SYN2-0006",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-092",
+      "award_year": 2021,
+      "title": "警惕“精致的形式主义”",
+      "award_category": "评论",
+      "learning_route": "COMMENTARY",
+      "related_strategy": "SYN2-0006",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-093",
+      "award_year": 2021,
+      "title": "青海“隐形首富”：祁连山非法采煤获利百亿至今未停",
+      "award_category": "通讯/深度/典型",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0017",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-094",
+      "award_year": 2021,
+      "title": "护送“钻石公主”号上的同胞回家",
+      "award_category": "通讯/深度/典型",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-095",
+      "award_year": 2021,
+      "title": "“半条被子的故事”有新篇",
+      "award_category": "通讯/深度/典型",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-096",
+      "award_year": 2021,
+      "title": "“总书记来过我们家”系列报道",
+      "award_category": "通讯/深度/典型",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-097",
+      "award_year": 2021,
+      "title": "统帅的深情牵挂",
+      "award_category": "通讯/深度/典型",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-098",
+      "award_year": 2021,
+      "title": "大山深处走出最美“古丽”",
+      "award_category": "通讯/深度/典型",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-099",
+      "award_year": 2021,
+      "title": "杨叔的脱贫日记",
+      "award_category": "通讯/深度/典型",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-100",
+      "award_year": 2021,
+      "title": "“燃灯校长”送1600多名女孩出深山",
+      "award_category": "副刊/报告文学",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-101",
+      "award_year": 2021,
+      "title": "巅峰见证——2020珠峰高程登顶测量",
+      "award_category": "融合/视听/互动",
+      "learning_route": "MULTIMEDIA_TEXTUAL",
+      "related_strategy": "SYN2-0011",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-102",
+      "award_year": 2021,
+      "title": "一张照片背后的这七年",
+      "award_category": "融合/视听/互动",
+      "learning_route": "MULTIMEDIA_TEXTUAL",
+      "related_strategy": "SYN2-0011",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-103",
+      "award_year": 2021,
+      "title": "长城瞭望",
+      "award_category": "新闻专栏",
+      "learning_route": "COLUMN",
+      "related_strategy": "SYN2-0010",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-104",
+      "award_year": 2021,
+      "title": "深读",
+      "award_category": "新闻专栏",
+      "learning_route": "COLUMN",
+      "related_strategy": "SYN2-0010",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-105",
+      "award_year": 2021,
+      "title": "文字通讯与深度-习近平领导中国战“疫”",
+      "award_category": "国际传播",
+      "learning_route": "INTERNATIONAL",
+      "related_strategy": "SYN2-0009",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-106",
+      "award_year": 2021,
+      "title": "电视新闻专题-抗美援朝保家卫国",
+      "award_category": "国际传播",
+      "learning_route": "INTERNATIONAL",
+      "related_strategy": "SYN2-0009",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-107",
+      "award_year": 2021,
+      "title": "文字评论-美在南海的军事挑衅注定徒劳无功",
+      "award_category": "国际传播",
+      "learning_route": "INTERNATIONAL",
+      "related_strategy": "SYN2-0009",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-108",
+      "award_year": 2021,
+      "title": "文字通讯与深度-“近观中国”之“大变局·中国治”系列报道",
+      "award_category": "国际传播",
+      "learning_route": "INTERNATIONAL",
+      "related_strategy": "SYN2-0009",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-109",
+      "award_year": 2021,
+      "title": "文字通讯与深度-习近平生态文明思想系列报道",
+      "award_category": "国际传播",
+      "learning_route": "INTERNATIONAL",
+      "related_strategy": "SYN2-0009",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-110",
+      "award_year": 2021,
+      "title": "积极回应时代挑战 加快构建全媒体传播格局",
+      "award_category": "新闻论文",
+      "learning_route": "JOURNALISM_THEORY",
+      "related_strategy": "RES-SYN2-0003",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-111",
+      "award_year": 2021,
+      "title": "理论自信·运用自觉·报道自如——论以中国特色社会主义政治经济学指导新时代经济报道的重要性",
+      "award_category": "新闻论文",
+      "learning_route": "JOURNALISM_THEORY",
+      "related_strategy": "RES-SYN2-0003",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-112",
+      "award_year": 2022,
+      "title": "中国人首次进入自己的空间站",
+      "award_category": "消息",
+      "learning_route": "HARD_NEWS",
+      "related_strategy": "SYN2-0005",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-113",
+      "award_year": 2022,
+      "title": "舍弃八亿收入，换来鸥翔水美",
+      "award_category": "消息",
+      "learning_route": "HARD_NEWS",
+      "related_strategy": "SYN2-0005",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-114",
+      "award_year": 2022,
+      "title": "没有共产党就没有中国人民的幸福生活",
+      "award_category": "评论",
+      "learning_route": "COMMENTARY",
+      "related_strategy": "SYN2-0006",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-115",
+      "award_year": 2022,
+      "title": "决不允许“鸡脚杆子上刮油”",
+      "award_category": "评论",
+      "learning_route": "COMMENTARY",
+      "related_strategy": "SYN2-0006",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-116",
+      "award_year": 2022,
+      "title": "砥柱人间是此峰 ——写在中国共产党成立100周年之际",
+      "award_category": "评论",
+      "learning_route": "COMMENTARY",
+      "related_strategy": "SYN2-0006",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-117",
+      "award_year": 2022,
+      "title": "英雄屹立喀喇昆仑",
+      "award_category": "通讯/深度/典型",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-118",
+      "award_year": 2022,
+      "title": "“生活在这样的国家，太幸福了”",
+      "award_category": "通讯/深度/典型",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-119",
+      "award_year": 2022,
+      "title": "煤炭问题调查",
+      "award_category": "通讯/深度/典型",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-120",
+      "award_year": 2022,
+      "title": "“祝融”轧下中国印",
+      "award_category": "通讯/深度/典型",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-121",
+      "award_year": 2022,
+      "title": "记者手记：美国大选认证“终章”突变骚乱时刻",
+      "award_category": "通讯/深度/典型",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-122",
+      "award_year": 2022,
+      "title": "习近平经济思想的生动实践系列述评",
+      "award_category": "系列报道",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-123",
+      "award_year": 2022,
+      "title": "习近平法治思想系列解读报道",
+      "award_category": "系列报道",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-124",
+      "award_year": 2022,
+      "title": "风卷红旗再出发",
+      "award_category": "副刊/报告文学",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-125",
+      "award_year": 2022,
+      "title": "国际观察",
+      "award_category": "新闻专栏",
+      "learning_route": "COLUMN",
+      "related_strategy": "SYN2-0010",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-126",
+      "award_year": 2022,
+      "title": "民生调查",
+      "award_category": "新闻专栏",
+      "learning_route": "COLUMN",
+      "related_strategy": "SYN2-0010",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-127",
+      "award_year": 2022,
+      "title": "全媒体传播体系建设的重要力量",
+      "award_category": "新闻业务研究",
+      "learning_route": "RESEARCH_ABSORB",
+      "related_strategy": "RES-SYN2-0001",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-128",
+      "award_year": 2022,
+      "title": "媒体融合视角下主流媒体的话语表达创新",
+      "award_category": "新闻业务研究",
+      "learning_route": "RESEARCH_ABSORB",
+      "related_strategy": "RES-SYN2-0001",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-129",
+      "award_year": 2022,
+      "title": "总书记心中的“国之大者”",
+      "award_category": "重大主题报道",
+      "learning_route": "GENERAL_REVIEW",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-130",
+      "award_year": 2022,
+      "title": "号角催征 ——解码《新华日报》老报纸里的百年初心",
+      "award_category": "重大主题报道",
+      "learning_route": "GENERAL_REVIEW",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-131",
+      "award_year": 2022,
+      "title": "《躺平不可取》等系列评论",
+      "award_category": "重大主题报道",
+      "learning_route": "GENERAL_REVIEW",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-132",
+      "award_year": 2022,
+      "title": "特稿：习近平带领百年大党奋进新征程",
+      "award_category": "国际传播",
+      "learning_route": "INTERNATIONAL",
+      "related_strategy": "SYN2-0009",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-133",
+      "award_year": 2022,
+      "title": "没有任何力量能够阻挡中国前进的步伐",
+      "award_category": "国际传播",
+      "learning_route": "INTERNATIONAL",
+      "related_strategy": "SYN2-0009",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-134",
+      "award_year": 2022,
+      "title": "“东西问”之“观中国”系列报道",
+      "award_category": "国际传播",
+      "learning_route": "INTERNATIONAL",
+      "related_strategy": "SYN2-0009",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-135",
+      "award_year": 2022,
+      "title": "焦裕禄精神的新时代回响",
+      "award_category": "通讯/深度/典型",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-136",
+      "award_year": 2023,
+      "title": "我军在台岛周边海空域成功举行实战化联合演训",
+      "award_category": "消息",
+      "learning_route": "HARD_NEWS",
+      "related_strategy": "SYN2-0005",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-137",
+      "award_year": 2023,
+      "title": "集中精力办好自己的事情",
+      "award_category": "评论",
+      "learning_route": "COMMENTARY",
+      "related_strategy": "SYN2-0006",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-138",
+      "award_year": 2023,
+      "title": "Xinhua Commentary： Wrong, wrong, and wrong again -- Some Wes",
+      "award_category": "评论",
+      "learning_route": "COMMENTARY",
+      "related_strategy": "SYN2-0006",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-139",
+      "award_year": 2023,
+      "title": "对“时时放心不下”来源的追问",
+      "award_category": "评论",
+      "learning_route": "COMMENTARY",
+      "related_strategy": "SYN2-0006",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-140",
+      "award_year": 2023,
+      "title": "致敬重庆 致敬人民",
+      "award_category": "评论",
+      "learning_route": "COMMENTARY",
+      "related_strategy": "SYN2-0006",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-141",
+      "award_year": 2023,
+      "title": "“小田变大田”引出“农田四变”",
+      "award_category": "通讯/深度/典型",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-142",
+      "award_year": 2023,
+      "title": "耕地问题调查",
+      "award_category": "通讯/深度/典型",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0017",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-143",
+      "award_year": 2023,
+      "title": "“外婆”的礼物",
+      "award_category": "通讯/深度/典型",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-144",
+      "award_year": 2023,
+      "title": "工伤认定如何“新题新解”",
+      "award_category": "系列报道",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-145",
+      "award_year": 2023,
+      "title": "乡村振兴蹲点记",
+      "award_category": "系列报道",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-146",
+      "award_year": 2023,
+      "title": "打造原创技术策源地系列报道",
+      "award_category": "系列报道",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-147",
+      "award_year": 2023,
+      "title": "播火者",
+      "award_category": "副刊/报告文学",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-148",
+      "award_year": 2023,
+      "title": "强军论坛",
+      "award_category": "新闻专栏",
+      "learning_route": "COLUMN",
+      "related_strategy": "SYN2-0010",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-149",
+      "award_year": 2023,
+      "title": "经济论坛",
+      "award_category": "新闻专栏",
+      "learning_route": "COLUMN",
+      "related_strategy": "SYN2-0010",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-150",
+      "award_year": 2023,
+      "title": "把彻底的理论讲彻底 把鲜活的思想讲鲜活——做深做实习近平经济思想宣传的探索与思考",
+      "award_category": "新闻业务研究",
+      "learning_route": "RESEARCH_ABSORB",
+      "related_strategy": "RES-SYN2-0001",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-151",
+      "award_year": 2023,
+      "title": "新闻舆论工作者要时刻心怀“国之大者”",
+      "award_category": "新闻业务研究",
+      "learning_route": "RESEARCH_ABSORB",
+      "related_strategy": "RES-SYN2-0001",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-152",
+      "award_year": 2023,
+      "title": "“奋进强国路·总书记这样引领中国式现代化”",
+      "award_category": "重大主题报道",
+      "learning_route": "GENERAL_REVIEW",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-153",
+      "award_year": 2023,
+      "title": "神山村三日",
+      "award_category": "重大主题报道",
+      "learning_route": "GENERAL_REVIEW",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-154",
+      "award_year": 2023,
+      "title": "北京2022年冬奥会和冬残奥会 官方特别报道",
+      "award_category": "重大主题报道",
+      "learning_route": "GENERAL_REVIEW",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-155",
+      "award_year": 2023,
+      "title": "特稿：新征程领路人习近平",
+      "award_category": "国际传播",
+      "learning_route": "INTERNATIONAL",
+      "related_strategy": "SYN2-0009",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-156",
+      "award_year": 2023,
+      "title": "习近平抵达利雅得出席首届中国－阿拉伯国家峰会、中国－海湾阿拉伯国家合作委员会峰会并对沙特进行国事访问",
+      "award_category": "国际传播",
+      "learning_route": "INTERNATIONAL",
+      "related_strategy": "SYN2-0009",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-157",
+      "award_year": 2023,
+      "title": "中国政府和中国人民实现祖国统一的决心坚如磐石",
+      "award_category": "国际传播",
+      "learning_route": "INTERNATIONAL",
+      "related_strategy": "SYN2-0009",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-158",
+      "award_year": 2023,
+      "title": "Visits of vision (习近平主席的海外足迹）",
+      "award_category": "国际传播",
+      "learning_route": "INTERNATIONAL",
+      "related_strategy": "SYN2-0009",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-159",
+      "award_year": 2023,
+      "title": "“七虎”竞南通",
+      "award_category": "通讯/深度/典型",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-160",
+      "award_year": 2024,
+      "title": "江苏发出第1000万户个体工商户营业执照 成为全国首个在册个体工商户总量破千万省份",
+      "award_category": "消息",
+      "learning_route": "HARD_NEWS",
+      "related_strategy": "SYN2-0005",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-161",
+      "award_year": 2024,
+      "title": "中美乐团上演“茉莉香飘《茉莉花》”",
+      "award_category": "消息",
+      "learning_route": "HARD_NEWS",
+      "related_strategy": "SYN2-0009",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-162",
+      "award_year": 2024,
+      "title": "“江西造”在沙特点亮中国品牌之光",
+      "award_category": "消息",
+      "learning_route": "HARD_NEWS",
+      "related_strategy": "SYN2-0005",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-163",
+      "award_year": 2024,
+      "title": "钟华论：民族复兴的领路人 亿万人民的主心骨",
+      "award_category": "评论",
+      "learning_route": "COMMENTARY",
+      "related_strategy": "SYN2-0006",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-164",
+      "award_year": 2024,
+      "title": "让大地赋我们无穷力量——写在全党大兴调查研究之际",
+      "award_category": "评论",
+      "learning_route": "COMMENTARY",
+      "related_strategy": "SYN2-0006",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-165",
+      "award_year": 2024,
+      "title": "年轻干部既要德配其位也要才配其位",
+      "award_category": "评论",
+      "learning_route": "COMMENTARY",
+      "related_strategy": "SYN2-0006",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-166",
+      "award_year": 2024,
+      "title": "经济随笔 丨 中央经济工作会议精神的深层逻辑",
+      "award_category": "评论",
+      "learning_route": "COMMENTARY",
+      "related_strategy": "SYN2-0006",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-167",
+      "award_year": 2024,
+      "title": "再造一个新广东",
+      "award_category": "评论",
+      "learning_route": "COMMENTARY",
+      "related_strategy": "SYN2-0006",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-168",
+      "award_year": 2024,
+      "title": "两名基层干部的“鸡毛信”",
+      "award_category": "通讯/深度/典型",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0015",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-169",
+      "award_year": 2024,
+      "title": "瞭望 · 治国理政纪事｜建设牢不可破的 北疆绿色长城",
+      "award_category": "通讯/深度/典型",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-170",
+      "award_year": 2024,
+      "title": "防止脱实向虚",
+      "award_category": "通讯/深度/典型",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-171",
+      "award_year": 2024,
+      "title": "“了不起的青春小店”系列报道",
+      "award_category": "系列报道",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-172",
+      "award_year": 2024,
+      "title": "歌声起太行",
+      "award_category": "副刊/报告文学",
+      "learning_route": "NARRATIVE_FEATURE",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-173",
+      "award_year": 2024,
+      "title": "“爆款长红”的探索与思考",
+      "award_category": "新闻业务研究",
+      "learning_route": "RESEARCH_ABSORB",
+      "related_strategy": "RES-SYN2-0001",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-174",
+      "award_year": 2024,
+      "title": "主力军全面挺进主战场 构建媒体深度融合新生态",
+      "award_category": "新闻业务研究",
+      "learning_route": "RESEARCH_ABSORB",
+      "related_strategy": "RES-SYN2-0001",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-175",
+      "award_year": 2024,
+      "title": "人民的选择——写在习近平同志全票当选国家主席、中央军委主席之际",
+      "award_category": "重大主题报道",
+      "learning_route": "GENERAL_REVIEW",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-176",
+      "award_year": 2024,
+      "title": "人民江山",
+      "award_category": "重大主题报道",
+      "learning_route": "GENERAL_REVIEW",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-177",
+      "award_year": 2024,
+      "title": "“全面深入学习贯彻习近平强军思想”系列评论员文章",
+      "award_category": "重大主题报道",
+      "learning_route": "GENERAL_REVIEW",
+      "related_strategy": "SYN2-0007",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-178",
+      "award_year": 2024,
+      "title": "“新华社五论中美关系”系列评论",
+      "award_category": "国际传播",
+      "learning_route": "INTERNATIONAL",
+      "related_strategy": "SYN2-0009",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-179",
+      "award_year": 2024,
+      "title": "Nation's export curbs on key semiconductor materials seen as",
+      "award_category": "国际传播",
+      "learning_route": "INTERNATIONAL",
+      "related_strategy": "SYN2-0009",
+      "relation_role": "category_route_only"
+    },
+    {
+      "article_id": "AWD-180",
+      "award_year": 2024,
+      "title": "“部分中小学生课间10分钟被约束现象调查”系列报道",
+      "award_category": "舆论监督报道",
+      "learning_route": "GENERAL_REVIEW",
+      "related_strategy": "SYN2-0008",
+      "relation_role": "category_route_only"
+    }
+  ],
+  "related_strategy_semantics": "Category routing only, not evidentiary support. Strategy evidence_scope and limitations take precedence."
+}
