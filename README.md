@@ -8,7 +8,7 @@ Release：alpha1.2
 
 ## 实现
 
-![](./Describe/design.svg)
+![](./Describe/Design.svg)
 
 >**相关书籍清单**
 >
