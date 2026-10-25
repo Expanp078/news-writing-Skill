@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500" role="img" aria-labelledby="title desc">
+  <title id="title">新闻稿写作流程</title>
+  <desc id="desc">两行展示新闻稿写作流程：材料、材料预检、分析报告、写作前准备、初稿、独立审阅、修订与终稿。</desc>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --ink: #20201e;
+      --muted: #77746c;
+      --line: #57544e;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --ink: #efede7;
+        --muted: #aaa79f;
+        --line: #c9c5bb;
+      }
+    }
+    text {
+      font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif;
+      fill: var(--ink);
+    }
+    .box { fill: none; stroke: var(--line); stroke-width: 1.4; }
+    .line { fill: none; stroke: var(--line); stroke-width: 1.4; }
+    .loop { fill: none; stroke: var(--line); stroke-width: 1.2; stroke-dasharray: 5 5; }
+    .title { font-size: 16px; font-weight: 500; }
+    .small { font-size: 11.5px; fill: var(--muted); }
+    .note { font-size: 11px; fill: var(--muted); }
+  </style>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 Z" fill="var(--line)"/>
+    </marker>
+  </defs>
+
+  <!-- 第一行 -->
+  <rect class="box" x="60" y="60" width="180" height="92"/>
+  <text class="title" x="150" y="96" text-anchor="middle">材料</text>
+  <text class="small" x="150" y="121" text-anchor="middle">事实 / 文件 / 采访</text>
+  <text class="small" x="150" y="140" text-anchor="middle">已有稿件 / 数据</text>
+
+  <path class="line" d="M 240 106 H 286" marker-end="url(#arrow)"/>
+
+  <rect class="box" x="290" y="60" width="180" height="92"/>
+  <text class="title" x="380" y="96" text-anchor="middle">材料预检</text>
+  <text class="small" x="380" y="121" text-anchor="middle">边界 / 风险</text>
+  <text class="small" x="380" y="140" text-anchor="middle">来源与材料截点</text>
+
+  <path class="line" d="M 470 106 H 516" marker-end="url(#arrow)"/>
+
+  <rect class="box" x="520" y="60" width="180" height="92"/>
+  <text class="title" x="610" y="96" text-anchor="middle">分析报告</text>
+  <text class="small" x="610" y="121" text-anchor="middle">材料地图 / 角度</text>
+  <text class="small" x="610" y="140" text-anchor="middle">claim 与证据边界</text>
+
+  <path class="line" d="M 700 106 H 746" marker-end="url(#arrow)"/>
+
+  <rect class="box" x="750" y="60" width="180" height="92"/>
+  <text class="title" x="840" y="96" text-anchor="middle">写前准备</text>
+  <text class="small" x="840" y="121" text-anchor="middle">中心问题 / 角度</text>
+  <text class="small" x="840" y="140" text-anchor="middle">结构与证据责任</text>
+
+  <!-- 行间连接 -->
+  <path class="line" d="M 840 152 V 220 H 150 V 296" marker-end="url(#arrow)"/>
+
+  <!-- 第二行 -->
+  <rect class="box" x="60" y="300" width="180" height="92"/>
+  <text class="title" x="150" y="336" text-anchor="middle">初稿</text>
+  <text class="small" x="150" y="361" text-anchor="middle">draft-v1</text>
+  <text class="small" x="150" y="380" text-anchor="middle">首屏承诺不越证据</text>
+
+  <path class="line" d="M 240 346 H 286" marker-end="url(#arrow)"/>
+
+  <rect class="box" x="290" y="300" width="180" height="92"/>
+  <text class="title" x="380" y="336" text-anchor="middle">独立审阅</text>
+  <text class="small" x="380" y="361" text-anchor="middle">全新上下文盲读</text>
+  <text class="small" x="380" y="380" text-anchor="middle">事实 / 结构 / 风险</text>
+
+  <path class="line" d="M 470 346 H 516" marker-end="url(#arrow)"/>
+
+  <rect class="box" x="520" y="300" width="180" height="92"/>
+  <text class="title" x="610" y="336" text-anchor="middle">修订</text>
+  <text class="small" x="610" y="361" text-anchor="middle">逐条处理意见</text>
+  <text class="small" x="610" y="380" text-anchor="middle">保留新版本与日志</text>
+
+  <path class="line" d="M 700 346 H 746" marker-end="url(#arrow)"/>
+
+  <rect class="box" x="750" y="300" width="180" height="92"/>
+  <text class="title" x="840" y="336" text-anchor="middle">终稿</text>
+  <text class="small" x="840" y="361" text-anchor="middle">无未决 P0 / P1</text>
+  <text class="small" x="840" y="380" text-anchor="middle">收敛后交付</text>
+
+  <path class="loop" d="M 610 392 V 440 H 380 V 394" marker-end="url(#arrow)"/>
+  <text class="note" x="495" y="462" text-anchor="middle">修订后回到独立审阅 · 至少 3 轮</text>
+</svg>

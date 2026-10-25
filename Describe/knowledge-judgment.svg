@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="800" viewBox="0 0 1440 800" role="img" aria-labelledby="title desc">
+  <title id="title">新闻稿知识库的判断与深入结构</title>
+  <desc id="desc">任务材料依次经过 L0 判断闸门、七类入口、任务路由和综合卡；需要时通过 READ_NEXT 下钻单书笔记，并在分析报告后调用经验层形成知识判断结论。</desc>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --ink: #20201e;
+      --muted: #77746c;
+      --line: #57544e;
+      --soft: #efede7;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --ink: #efede7;
+        --muted: #aaa79f;
+        --line: #c9c5bb;
+        --soft: #2a2926;
+      }
+    }
+    text {
+      font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif;
+      fill: var(--ink);
+    }
+    .box { fill: none; stroke: var(--line); stroke-width: 1.4; }
+    .soft { fill: var(--soft); stroke: var(--line); stroke-width: 1.2; }
+    .line { fill: none; stroke: var(--line); stroke-width: 1.35; }
+    .dashed { fill: none; stroke: var(--line); stroke-width: 1.15; stroke-dasharray: 5 5; }
+    .title { font-size: 16px; font-weight: 500; }
+    .label { font-size: 12px; fill: var(--muted); }
+    .small { font-size: 11.5px; fill: var(--muted); }
+    .mono { font-family: "SFMono-Regular", "Menlo", "Consolas", monospace; font-size: 11.5px; fill: var(--ink); }
+  </style>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 Z" fill="var(--line)"/>
+    </marker>
+  </defs>
+
+  <!-- 输入 -->
+  <rect class="box" x="560" y="36" width="320" height="62"/>
+  <text class="title" x="720" y="62" text-anchor="middle">任务材料</text>
+  <text class="small" x="720" y="83" text-anchor="middle">状态 / 时效 / 证据 / 风险 / 受众</text>
+
+  <path class="line" d="M 720 98 V 128" marker-end="url(#arrow)"/>
+
+  <!-- L0 -->
+  <rect class="box" x="440" y="132" width="560" height="88"/>
+  <text class="title" x="720" y="157" text-anchor="middle">L0 · 四道判断闸门</text>
+  <line class="line" x1="462" y1="174" x2="978" y2="174"/>
+  <text class="small" x="555" y="199" text-anchor="middle">事实可追溯</text>
+  <text class="small" x="685" y="199" text-anchor="middle">公共意义</text>
+  <text class="small" x="815" y="199" text-anchor="middle">责任边界</text>
+  <text class="small" x="938" y="199" text-anchor="middle">可理解传播</text>
+
+  <path class="line" d="M 720 220 V 252" marker-end="url(#arrow)"/>
+
+  <!-- Entries -->
+  <rect class="box" x="400" y="256" width="640" height="128"/>
+  <text class="title" x="720" y="283" text-anchor="middle">七类入口 · 任务路由</text>
+
+  <rect class="soft" x="445" y="300" width="70" height="36"/>
+  <text class="small" x="480" y="323" text-anchor="middle">E1 工况</text>
+  <rect class="soft" x="525" y="300" width="70" height="36"/>
+  <text class="small" x="560" y="323" text-anchor="middle">E2 事实</text>
+  <rect class="soft" x="605" y="300" width="70" height="36"/>
+  <text class="small" x="640" y="323" text-anchor="middle">E3 生产</text>
+  <rect class="soft" x="685" y="300" width="70" height="36"/>
+  <text class="small" x="720" y="323" text-anchor="middle">E4 叙事</text>
+  <rect class="soft" x="765" y="300" width="70" height="36"/>
+  <text class="small" x="800" y="323" text-anchor="middle">E5 传播</text>
+  <rect class="soft" x="845" y="300" width="70" height="36"/>
+  <text class="small" x="880" y="323" text-anchor="middle">E6 规范</text>
+  <rect class="soft" x="925" y="300" width="70" height="36"/>
+  <text class="small" x="960" y="323" text-anchor="middle">E7 诊断</text>
+
+  <text class="label" x="720" y="365" text-anchor="middle">选择 1 个入口 → 匹配 R01–R10</text>
+
+  <path class="line" d="M 720 384 V 416" marker-end="url(#arrow)"/>
+
+  <!-- Composite cards -->
+  <rect class="box" x="440" y="420" width="560" height="78"/>
+  <text class="title" x="720" y="447" text-anchor="middle">3–6 张综合卡</text>
+  <text class="mono" x="720" y="476" text-anchor="middle">SC01–SC12 · CALL_IF / DO / CHECK</text>
+
+  <path class="line" d="M 720 498 V 536" marker-end="url(#arrow)"/>
+
+  <!-- Deep-read decision -->
+  <rect class="box" x="540" y="540" width="360" height="54"/>
+  <text class="title" x="720" y="573" text-anchor="middle">是否命中 READ_NEXT？</text>
+
+  <!-- Direct path -->
+  <path class="line" d="M 720 594 V 662" marker-end="url(#arrow)"/>
+  <text class="label" x="734" y="630">否</text>
+
+  <!-- Deep path -->
+  <path class="line" d="M 900 567 H 1060" marker-end="url(#arrow)"/>
+  <text class="label" x="964" y="556">是</text>
+
+  <rect class="box" x="1060" y="330" width="320" height="272"/>
+  <text class="title" x="1220" y="359" text-anchor="middle">READ_NEXT · 深入</text>
+  <line class="line" x1="1082" y1="378" x2="1358" y2="378"/>
+  <text class="small" x="1082" y="406">精确词句 / 规则</text>
+  <text class="mono" x="1358" y="406" text-anchor="end">B11</text>
+  <text class="small" x="1082" y="434">低置信 OCR / EPUB 锚点</text>
+  <text class="mono" x="1358" y="434" text-anchor="end">对应单书</text>
+  <text class="small" x="1082" y="462">高风险主张 / 回应 / 隐私</text>
+  <text class="mono" x="1358" y="462" text-anchor="end">B04 / B06</text>
+  <text class="small" x="1082" y="490">案例 / 场景 / 叙事细节</text>
+  <text class="mono" x="1358" y="490" text-anchor="end">B07 / B10</text>
+  <line class="line" x1="1082" y1="510" x2="1358" y2="510"/>
+  <text class="small" x="1082" y="536">不能下钻</text>
+  <text class="mono" x="1358" y="536" text-anchor="end">降级 / 补证 / 未决</text>
+  <text class="label" x="1220" y="575" text-anchor="middle">只有触发条件成立才进入单书层</text>
+
+  <path class="line" d="M 1220 602 V 632 H 960 V 662" marker-end="url(#arrow)"/>
+
+  <!-- Experience layer -->
+  <rect class="dashed" x="64" y="366" width="286" height="194"/>
+  <text class="title" x="207" y="395" text-anchor="middle">经验层</text>
+  <line class="dashed" x1="86" y1="414" x2="328" y2="414"/>
+  <text class="small" x="86" y="442">20 条策略 · 15 条辨析</text>
+  <text class="small" x="86" y="468">分析报告完成后调用</text>
+  <text class="small" x="86" y="494">读取条件、反例与边界</text>
+  <text class="small" x="86" y="520">只提供方法，不作为事实来源</text>
+  <path class="dashed" d="M 440 459 H 350" marker-end="url(#arrow)"/>
+  <text class="label" x="394" y="448" text-anchor="middle">第二层</text>
+  <path class="dashed" d="M 207 560 V 630 H 500 V 662" marker-end="url(#arrow)"/>
+
+  <!-- Result -->
+  <rect class="box" x="500" y="666" width="440" height="78"/>
+  <text class="title" x="720" y="694" text-anchor="middle">知识判断结论</text>
+  <text class="small" x="720" y="722" text-anchor="middle">可写　/　降级　/　补证　/　blocked</text>
+</svg>
